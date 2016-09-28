@@ -13,6 +13,7 @@
 
 <?php
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
+	natcasesort($imgs);
 	foreach( $imgs as $img ) {
 		
 		if( substr($img,-3)=="jpg" ) {
