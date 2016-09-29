@@ -1,7 +1,7 @@
 <?php
 //comprobamos si ha ocurrido un error
 if ($_FILES["imagen"]["error"] > 0){
-	echo "ha ocurrido un error";
+	echo "Ha ocurrido un error.";
 } else {
 	//ahora vamos a verificar si el tipo de archivo es un tipo de imagen permitido.
 	//y que el tamano del archivo no exceda los 100kb
@@ -27,7 +27,13 @@ if ($_FILES["imagen"]["error"] > 0){
 				echo "Ocurrió un error al mover el archivo.";
 			}
 		} else {
-			echo $_FILES['imagen']['name'] . ", este archivo existe";
+			echo('La imagen ya existe, ¿quieres sobreescribirla?');
+			$resultado = move_uploaded_file($_FILES["imagen"]["tmp_name"], $ruta);
+			if ($resultado){
+				echo $_FILES['imagen']['name'] . ", imagen sobreescrita correctamente.";
+			} else {
+				echo "Ocurrió un error al mover el archivo.";
+			}
 		}
 	} else {
 		echo "Archivo no permitido, es un tipo de archivo prohibido o excede el tamaño de $limite_kb Kilobytes";
