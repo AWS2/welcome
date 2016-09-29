@@ -12,7 +12,7 @@ if ($_FILES["imagen"]["error"] > 0){
 		//esta es la ruta donde copiaremos la imagen
 		//recuerden que deben crear un directorio con este mismo nombre
 		//en el mismo lugar donde se encuentra el archivo subir.php
-		$ruta = "var/www/html/welcome/img/" . $_FILES['imagen']['name'];
+		$ruta = "./img/" . $_FILES['imagen']['name'];
 		//comprovamos si este archivo existe para no volverlo a copiar.
 		//pero si quieren pueden obviar esto si no es necesario.
 		//o pueden darle otro nombre para que no sobreescriba el actual.
