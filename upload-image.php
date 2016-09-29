@@ -1,5 +1,5 @@
 <?php
-//comprobamos si ha ocurrido un error
+//comprobamos si ha ocurrido un error.
 if ($_FILES["imagen"]["error"] > 0){
 	echo "ha ocurrido un error";
 } else {
