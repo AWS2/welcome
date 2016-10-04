@@ -13,7 +13,7 @@
 			if( $cnt == 0) {
 				echo "<tr>\n";
 			}
-			echo "<td style='border: 2px solid black; background-color: blue; padding: 20px'; >\n";
+			echo "<td style='border: 2px solid black; background-color: red; padding: 20px'; >\n";
 			echo "<a href='profile/$name.html'>\n";
 			echo "<img src='img/$img' width='130'><br/>\n";
 			echo $name."</a>\n";
