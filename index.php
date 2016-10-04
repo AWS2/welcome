@@ -1,7 +1,7 @@
 
 <h1>AWS2 Matrix World</h1>
 
-<table style="border: 2px solid black" cellspacing=0>
+<table cellspacing=0>
 
 <?php
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
@@ -13,7 +13,7 @@
 			if( $cnt == 0) {
 				echo "<tr>\n";
 			}
-			echo "<td style='border: 2px solid black; padding: 20px'; >\n";
+			echo "<td style='border: 2px solid black; background-color: blue; padding: 20px'; >\n";
 			echo "<a href='profile/$name.html'>\n";
 			echo "<img src='img/$img' width='130'><br/>\n";
 			echo $name."</a>\n";
