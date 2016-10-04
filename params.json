@@ -1,6 +1,6 @@
 {
   "name": "Welcome",
   "tagline": "",
-  "body": "# Bienvenido a el Proyecto de AWS2\r\n## En este espacio comentaremos los diferentes proyectos de los alumnos de nuestra clase.",
+  "body": "# Bienvenido a el Proyecto de AWS2\r\n## En este espacio comentaremos los diferentes proyectos de los alumnos de nuestra clase.\r\n\r\n* Display images in CSS-flexbox style.\r\n* Pages documentation.\r\n* Upload additional images.\r\n* Album creation: organised in subfolders under img/ \r\n* Image type improvement (extend to PNG, GIF, etc.)\r\n* Sort images (by creation date, file size, case-insensitive name, case-sensitive name, etc.)\r\n* Display images in CSS-flexbox style\r\n* Display image in HTML-table style\r\n* Display images in CSS-float style\r\n* Responsive design\r\n* Pop-up profile: clicking on an image will show a modal dialog with profile information\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
