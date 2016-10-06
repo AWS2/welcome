@@ -15,7 +15,7 @@
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
 	foreach( $imgs as $img ) {
 		
-		if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-3)=="gif" ) {
+		if( substr($img,-3)=="jpg" or substr($img,-3)=="JPG" or substr($img,-3)=="png" or substr($img,-3)=="PNG" or substr($img,-3)=="gif" or substr($img,-3)=="GIF" ) {
 			$name = substr($img,0,-4);
 			echo "<li>\n";
 			echo "<a href='profile/$name.html'>\n";
