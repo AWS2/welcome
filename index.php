@@ -6,7 +6,8 @@
 	<title>Document</title>
 </head>
 <body>
-<a href="/var/www/html/welcome/img/Feos/">Por aqui vamos a feos</a>
+	
+<a href="img/Feos">Por aqui vamos a la carpeta feos</a>
 	
 </body>
 </html>
