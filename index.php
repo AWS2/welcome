@@ -8,14 +8,34 @@
 	<input type="submit" name="subir" value="Subir"/>
 </form>
 
+<button id="sensitive">Ordenar (case sensitive)</button>
+
+<button id="insensitive">Ordenar (case insensitive)</button>
+
+<script type="text/javascript">
+    document.getElementById("sensitive").onclick = function () {	
+    	location.href = "index.php";
+    };
+</script>
+
+<script type="text/javascript">
+    document.getElementById("insensitive").onclick = function () {	
+    	location.href = "index.php?order=alpha";
+    };
+</script>
 
 <ul>
-
 <?php
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
-	natcasesort($imgs);
-	foreach( $imgs as $img ) {
-		
+	
+	if(isset($_GET['order'])){
+		if($_GET["order"]=="alpha"){
+			natcasesort($imgs);
+		}
+		//hacer aqui el otro if
+	}
+	
+	foreach( $imgs as $img ) {	
 		if( substr($img,-3)=="jpg" ) {
 			$name = substr($img,0,-4);
 			echo "<li>\n";
@@ -25,8 +45,7 @@
 			echo "<br /><br />\n";
 			echo "</li>\n\n";
 		}
-	}
-	
+	}	
 ?>
 
 </ul>
