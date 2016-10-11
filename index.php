@@ -3,12 +3,19 @@
 
 <table cellspacing=0>
 
+<form action="upload-image.php" method="POST" enctype="multipart/form-data">
+	<label for="imagen">Imagen:</label>
+	<input type="file" name="imagen" id="imagen" />
+	<input type="submit" name="subir" value="Subir"/>
+</form>
+
+
 <?php
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
 	$cnt = 0;
 	foreach( $imgs as $img ) {
 		
-		if( substr($img,-3)=="jpg" ) {
+		if( substr($img,-3)=="jpg" or substr($img,-3)=="JPG" or substr($img,-3)=="png" or substr($img,-3)=="PNG" or substr($img,-3)=="gif" or substr($img,-3)=="GIF" ) {
 			$name = substr($img,0,-4);
 			if( $cnt == 0) {
 				echo "<tr>\n";
