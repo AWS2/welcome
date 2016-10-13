@@ -12,6 +12,8 @@
 
 <button id="insensitive">Ordenar (case insensitive)</button>
 
+<button id="size">Ordenar por tamaño</button>
+
 <script type="text/javascript">
     document.getElementById("sensitive").onclick = function () {	
     	location.href = "index.php";
@@ -24,6 +26,12 @@
     };
 </script>
 
+<script type="text/javascript">
+    document.getElementById("size").onclick = function () {	
+    	location.href = "index.php?order=size";
+    };
+</script>
+
 <ul>
 <?php
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
@@ -32,7 +40,12 @@
 		if($_GET["order"]=="alpha"){
 			natcasesort($imgs);
 		}
-		//hacer aqui el otro if
+	}
+
+	if(isset($_GET['order'])){
+		if($_GET["order"]=="size"){
+			//size
+		}		
 	}
 	
 	foreach( $imgs as $img ) {	
