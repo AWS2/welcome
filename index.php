@@ -6,7 +6,7 @@
 	<title>Document</title>
 </head>
 <body>
-<h1>Prueba</h1>
+<h1>Seleccionala carpeta de Imagenes</h1>
 <FORM action='index.php' method='post'>
 <SELECT name="carpeta">
 
@@ -24,18 +24,20 @@
 		closedir($dir);
 ?>
 </SELECT>
+<INPUT type="submit" value="abrir carpeta"/><br />
 <BR />
-<INPUT type="submit" value="abrir carpeta" />
 <?php
-	if(isset($_POST["carpeta"])){
-			$carpeta = $_POST["carpeta"];
-			$final = "img/".$carpeta."/";
-			$images = glob($carpeta."*.jpg");
-				foreach($images as $image) {
-					echo '<img src="'.$image.'" /><br />';
-				}
-
-			}
+$ruta = "img/".$_POST["carpeta"]."/"; // Aqui indicamos ruta
+ $filehandle = opendir($ruta); // con opendir abrimos las carpeta que hemos seleccionado anteriormente
+  while ($file = readdir($filehandle)) {
+   if ($file != "." && $file != "..") {
+    $tamanyo = GetImageSize($ruta . $file);
+            ?>
+     <img src="<?php echo $ruta.$file ?>" width="150px"><br>    
+            <?php
+   } 
+  } 
+closedir($filehandle); // cerramos archivo
 ?>
 </body>
 </html>
