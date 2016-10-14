@@ -27,6 +27,7 @@
 <INPUT type="submit" value="abrir carpeta"/><br />
 <BR />
 <?php
+if(isset($_POST["carpeta"])){
 $ruta = "img/".$_POST["carpeta"]."/"; // Aqui indicamos ruta
  $filehandle = opendir($ruta); // con opendir abrimos las carpeta que hemos seleccionado anteriormente
   while ($file = readdir($filehandle)) {
@@ -37,7 +38,9 @@ $ruta = "img/".$_POST["carpeta"]."/"; // Aqui indicamos ruta
             <?php
    } 
   } 
+
 closedir($filehandle); // cerramos archivo
+}
 ?>
 </body>
 </html>
