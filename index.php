@@ -28,8 +28,9 @@
 <INPUT type="submit" value="abrir carpeta" />
 <?php
 	if(isset($_POST["carpeta"])){
-			$estilo = "img/".$_POST["carpeta"];
-			$images = glob($estilo."*.jpg");
+			$carpeta = $_POST["carpeta"];
+			$final = "img/".$carpeta."/";
+			$images = glob($carpeta."*.jpg");
 				foreach($images as $image) {
 					echo '<img src="'.$image.'" /><br />';
 				}
