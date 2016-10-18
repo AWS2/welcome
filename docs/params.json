@@ -1,0 +1,6 @@
+{
+  "name": "Aws2.GitHub.io",
+  "tagline": "",
+  "body": "#Bienvenido a el Proyecto de AWS2\r\n##En este espacio comentaremos los diferentes proyectos de los alumnos de nuestra clase.\r\n\r\n *   Display images in CSS-flexbox style: Mostrar imágenes en un estilo CSS en cajas flexibles a ellas.\r\n\r\n  *  Pages documentation. Una pequeña documentación sobre cada proyecto.\r\n\r\n   * Upload additional images: Subir imágenes adicionalmente.\r\n\r\n  * Album creation: organised in subfolders under img/ : Crear álbumes organizados en subcarpetas en la raíz img/\r\n\r\n   * Image type improvement (extend to PNG, GIF, etc.): Tipo de imagen\r\n\r\n   * Sort images (by creation date, file size, case-insensitive name, case-sensitive name, etc.)\r\n\r\n   * Display images in CSS-flexbox style\r\n\r\n   * Display image in HTML-table style\r\n\r\n   * Display images in CSS-float style\r\n\r\n   * Responsive design\r\n\r\n   * Pop-up profile: clicking on an image will show a modal dialog with profile information\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
