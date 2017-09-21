@@ -1,6 +1,6 @@
 
 <h1>El fabuloso mundo de AWS2</h1>
-
+<link rel="stylesheet" type="text/css" href="index.css">
 <ul>
 
 <?php
