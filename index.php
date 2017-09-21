@@ -1,5 +1,5 @@
 
-<h1>El fabuloso mundo de AWS2</h1>
+<h1><s>El fabuloso mundo de AWS2</s></h1>
 
 <ul>
 
