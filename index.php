@@ -1,5 +1,5 @@
 
-<h1>El fabuloso mundo de Jordi i Genis</h1>
+<h1>Galeria de Jordi i Genis</h1>
 
 <ul>
 
