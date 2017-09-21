@@ -1,4 +1,6 @@
-
+<head>
+<link rel="stylesheet" type="text/css" href="css_jg.css">
+</head>
 <h1>Galeria de Jordi i Genis</h1>
 
 <ul>
