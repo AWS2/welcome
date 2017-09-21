@@ -1,3 +1,9 @@
+<style>
+h1 {
+	font-size: 20px;
+	font-family:Helvetica;
+}
+</style>
 
 <h1>El fabuloso mundo de AWS2</h1>
 
