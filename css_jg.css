@@ -1,3 +1,18 @@
 body{
 	background-color: red;
 }
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+.enlaces a{
+	text-align: center;
+}
+
+div{
+	display: inline-block;
+	position: relative;
+	margin: 5px,5px,5px,5px;
+}
