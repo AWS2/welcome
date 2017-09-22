@@ -1,9 +1,15 @@
-
 <header align="center">
 <style>
-body{background-color:red;}
+	body{
+		background-color:#d0d3d4;
+	}
+	h1{
+		text-align: center;
+		text-decoration: underline;
+		font-family: arial;
+	}
 </style>
-<h1><u>El fabuloso mundo de AWS2</u></h1>
+<h1>EL FABULOSO MUNDO DE AWS2</h1>
 </header>
 
 <ul>
