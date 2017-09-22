@@ -1,7 +1,8 @@
 body{
-	background-color: red;
+	background-color: #FFCE98;
 }
 
+<<<<<<< HEAD
 img {
 	width: 100px;
 	height: 100px;
@@ -16,3 +17,37 @@ div{
 	position: relative;
 	margin: 5px,5px,5px,5px;
 }
+=======
+h1{
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+img {
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+}
+
+div { 
+
+	display: inline-block;
+	width: 170px;
+	height: 150px;
+	margin-bottom: -2px;
+	text-align: justify-all;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	text-align: center;
+}
+
+a {
+	font-size: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	margin-top: 4px;	
+}
+>>>>>>> 177ff8c790deaeafd36090d3b73a93c98c93f859
