@@ -25,8 +25,8 @@
 <h1>EL FABULOSO MUNDO DE AWS2</h1>
 <body>
 <h2>Integrantes: </h2>
-<ol>
-
+<table>
+<ul>
 <?php
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
 	foreach( $imgs as $img ) {
@@ -43,7 +43,7 @@
 	}
 	
 ?>
-
-</ol>
+</ul>
+</table>
 </body>
 </html>
