@@ -1,5 +1,8 @@
 
 <header align="center">
+<style>
+body{background-color:red;}
+</style>
 <h1><u>El fabuloso mundo de AWS2</u></h1>
 </header>
 
