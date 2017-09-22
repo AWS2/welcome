@@ -1,3 +1,21 @@
 .header h1{
     text-align: center;
+    font-style: italic;
+    
+}
+
+div{
+   background-color:#DCDCDC;
+   
+   
+    
+}
+
+a {
+	color: #D2691E;
+}
+
+ul {
+	background-color:#DCDCDC;
+	
 }
