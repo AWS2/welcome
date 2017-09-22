@@ -1,5 +1,9 @@
-<header align="center">
-<style>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>provaNivellHTML_basic</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
 	body{
 		background-color:#d0d3d4;
 	}
@@ -8,11 +12,15 @@
 		text-decoration: underline;
 		font-family: arial;
 	}
+	a{
+		text-decoration: none;
+		font-family: arial;
+	}
 </style>
+</head>
 <h1>EL FABULOSO MUNDO DE AWS2</h1>
-</header>
-
-<ul>
+<body>
+<ol>
 
 <?php
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
@@ -31,4 +39,6 @@
 	
 ?>
 
-</ul>
+</ol>
+</body>
+</html>
