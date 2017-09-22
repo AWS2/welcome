@@ -1,30 +1,16 @@
 body{
-	background-color: #FFCE98;
+	background-color: #FFCE98
 }
 
-<<<<<<< HEAD
-img {
-	width: 100px;
-	height: 100px;
-}
-
-.enlaces a{
-	text-align: center;
-}
-
-div{
-	display: inline-block;
-	position: relative;
-	margin: 5px,5px,5px,5px;
-}
-=======
 h1{
+	text-align: center;
 	font-style: italic;
 	font-size: 30px;
 	text-align: center;
 	margin-top: 20px;
-
+	background-color: white;
 }
+
 img {
 	width: 100px;
 	height: 100px;
@@ -32,7 +18,6 @@ img {
 }
 
 div { 
-
 	display: inline-block;
 	width: 170px;
 	height: 150px;
@@ -48,6 +33,6 @@ a {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
-	margin-top: 4px;	
+	margin-top: 6px;
+	text-align: left;
 }
->>>>>>> 177ff8c790deaeafd36090d3b73a93c98c93f859
