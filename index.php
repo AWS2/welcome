@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>provaNivellHTML_basic</title>
+    <title>EL FABULOSO MUNDO DE AWS2</title>
     <meta charset="UTF-8">
     <style type="text/css">
 	body{
@@ -24,6 +24,7 @@
 </head>
 <h1>EL FABULOSO MUNDO DE AWS2</h1>
 <body>
+<h2>Integrantes: </h2>
 <ol>
 
 <?php
