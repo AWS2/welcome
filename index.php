@@ -1,5 +1,5 @@
 <body>
-	<h1> Participamos en un concurso de diseño (sale mal) </h1>
+	<h1> PARTICIPAMOS en un CONCURSO de DISEÑO (SALE MAL) </h1>
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<ul>
 
