@@ -33,7 +33,7 @@ div {
 	text-align: center;
 }
 
-a {
+a {	
 	font-size: 10px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -41,3 +41,10 @@ a {
 	margin-top: 6px;
 	text-align: left;
 }
+
+div:hover{
+	background-color: silver;
+	font-style: italic;
+	font-weight: bold;
+}
+
