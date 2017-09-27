@@ -9,7 +9,7 @@
 <ul>
 <table>
     <?php
-        $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
+        $imgs = scandir("./img",SCANDIR_SORT_DESCENDING);
         foreach( $imgs as $img ) {
 
                 if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {

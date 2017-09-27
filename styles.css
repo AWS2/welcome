@@ -4,18 +4,106 @@
     
 }
 
-div{
-   background-color:#DCDCDC;
-   
-   
-    
+/*Cambiar color fondo*/
+
+html, body {
+    -webkit-animation: backgroundbody 10.5s cubic-bezier(1,0,0,1) infinite;
+    animation: backgroundbody 0.5s cubic-bezier(1,0,0,1) infinite;
 }
 
-a {
-	color: #D2691E;
+
+@-webkit-keyframes backgroundbody {
+    0% { background-color: #FAFAFA; }
+    33% { background-color: #FBFCFB; }
+    67% { background-color: #EEEFED; }
+    100% { background-color: #D8D9D7; }
+}
+
+@keyframes backgroundbody {
+    0% { background-color: #D8D9D7; }
+    33% { background-color: #EEEFED }
+    67% { background-color: #FBFCFB; }
+    100% { background-color: #FAFAFA; }
+}
+
+
+div{
+   background-color:#EBEFEA;
+    margin:0 20px;
+}
+
+tr{
+    display: inline;
+    margin: 10px;
 }
 
 ul {
-	background-color:#DCDCDC;
+	background-color:#EBEFEA;
+    margin:0 20px;
 	
+}
+/*Cambiar color ul*/
+
+ul {
+    -webkit-animation: ul 0.5s cubic-bezier(1,0,0,1) infinite;
+    animation: ul 0.5s cubic-bezier(1,0,0,1) infinite;
+}
+
+
+@-webkit-keyframes ul {
+    0% { background-color: #D8D9D7; }
+    33% { background-color: #EEEFED }
+    67% { background-color: #FBFCFB; }
+    100% { background-color: #FAFAFA; }
+}
+
+@keyframes ul {
+    0% { background-color: #FAFAFA; }
+    33% { background-color: #FBFCFB; }
+    67% { background-color: #EEEFED; }
+    100% { background-color: #D8D9D7; }
+}
+
+/*Cambiar color titulo!*/
+
+h1 {
+    -webkit-animation: h1color 0.5s cubic-bezier(1,0,0,1) infinite;
+    animation: h1color 0.5s cubic-bezier(1,0,0,1) infinite;
+}
+
+
+@-webkit-keyframes h1color {
+    0% { color: blue; }
+    33% { color: red; }
+    67% { color: black; }
+    100% { color: green; }
+}
+
+@keyframes h1color {
+    0% { color: green; }
+    33% { color: black }
+    67% { color: red; }
+    100% { color: blue; }
+}
+
+/*Cambiar color nombres!!!!*/
+h3 {
+    text-align: center;
+    -webkit-animation: h3color 0.5s cubic-bezier(1,0,0,1) infinite;
+    animation: h3color 0.5s cubic-bezier(1,0,0,1) infinite;
+}
+
+
+@-webkit-keyframes h3color {
+    0% { color: purple; }
+    33% { color: greenyellow; }
+    67% { color: red; }
+    100% { color: mediumslateblue; }
+}
+
+@keyframes h3color {
+    0% { color: mediumslateblue; }
+    33% { color: red; }
+    67% { color: greenyellow; }
+    100% { color: purple; }
 }
