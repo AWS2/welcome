@@ -5,25 +5,39 @@
     <meta charset="UTF-8">
     <style type="text/css">
 	body{
+		position: relative;
 		background-color:#d0d3d4;
 	}
+
 	h1{
 		text-align: center;
 		text-decoration: underline;
 		font-family: arial;
-
 	}
+	
+	h2{
+		padding-top: 20px;
+		text-align: center;
+	}
+
 	a{
+		position: relative;
 		text-decoration: none;
 		font-family: arial;
+		color:black;
+		background-color: white;
 	}
+
 	img{
-		 width: 100px;
+		margin-left: 40px;
+		margin-right: 40px;
+		position: center;
+		padding-top: 50px;
+		width: 100px;
 	}
 
 	div{
 		display: inline-block;
-		
 	}
 
 </style>
@@ -39,7 +53,7 @@
 			$name = substr($img,0,-4);
 			echo"<div>";	
 				echo "<a href='profile/$name.html'>";
-				echo "<img src='img/$img'><br/>";
+				echo "<img src='img/$img'><br>";
 				echo $name."</a>";
 				echo "<br /><br />";
 			echo"</div>";
