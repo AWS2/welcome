@@ -18,8 +18,8 @@
 						$name = substr($img,0,-4);
 						echo "<a href='profile/$name.html'>";
 						echo "<div class='contenido'>";
+						echo "<p class='descripcion'>".$name."</p>";
 						echo "<img src='img/$img' width='130'><br/>";
-						echo $name;
 						echo "</div></a>";
 					}
 
