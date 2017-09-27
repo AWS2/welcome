@@ -31,9 +31,14 @@
 <h1>EL FABULOSO MUNDO DE AWS2</h1>
 <body>
 <h2>Integrantes: </h2>
+<<<<<<< HEAD
 <ol>
 
 
+=======
+<table>
+<ul>
+>>>>>>> 440a7dc4350f66156788f100e042e46ba6c9aca4
 <?php
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
 	foreach( $imgs as $img ) {
@@ -51,6 +56,11 @@
 	}
 	
 ?>
+<<<<<<< HEAD
 </ol>
+=======
+</ul>
+</table>
+>>>>>>> 440a7dc4350f66156788f100e042e46ba6c9aca4
 </body>
 </html>
