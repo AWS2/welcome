@@ -1,0 +1,16 @@
+body.cool {
+  margin: auto;
+  height: 100%;
+  background-color: #81D4FA;
+  box-shadow: inset 0 0 30vw #000000;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+header.cool {
+  font-family: 'Lobster';
+  font-size: 1.5vw;
+  margin: auto;
+  padding: 1vw;
+  text-align: center;
+}
