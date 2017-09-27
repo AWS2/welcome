@@ -1,5 +1,6 @@
 body{
-	background-color: #FFCE98
+	background-color: #FFCE98;
+	margin: 0px 0px 0px 0px;
 }
 
 h1{
@@ -8,7 +9,10 @@ h1{
 	font-size: 30px;
 	text-align: center;
 	margin-top: 20px;
+	margin-left: 400px;
 	background-color: white;
+	border-radius: 50px;
+	width: 500px;
 }
 
 img {
