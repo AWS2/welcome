@@ -11,42 +11,21 @@
 		<header class="cool">
 			<h1>¡El Maravilloso Mundo de AWS!</h1>
 		</header>
-			<div class="content">
-				<div class="scroll">
-					<!-- <div id="ex3">
-        <img src="http://lorempixum.com/400/133"><p>Some Text</p>
-    </div>
-  -->
+		<div class="container">
 					<?php
                 $imgs = scandir("./img", SCANDIR_SORT_ASCENDING);
                 foreach ($imgs as $img) {
                     if (substr($img, -3)=="jpg" or substr($img, -3)=="png" or substr($img, -4)=="jpeg") {
                         $name = substr($img, 0, -4);
-                        echo "<a href='profile/$name.html'>";
-                        echo "<img src='img/$img' width='130'><br/>";
-                        echo $name."</a>";
-                        echo "<br /><br />";
+                        echo "<div style='margin: 2vw;'>";
+                        echo "<div class='stack twisted' style='width:10vw'>";
+                        echo "<img src='img/$img' style='width:10vw'>";
+                        echo "</div>";
+                        echo "<h2><a href='profile/$name.html'><p>" . $name ."</p></a></h2>";
+                        echo "</div>";
                     }
                 }
-                ?>
-				</div>
-				<div class="student-description">
-					
-				</div>
-				<?php
-        function curPageURL()
-        {
-            $pageURL = 'http';
-            $pageURL .= "://";
-            if ($_SERVER["SERVER_PORT"] != "80") {
-                $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
-            } else {
-                $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
-            }
-            return $pageURL;
-        }
-        ?>
-	</div>
-
+          ?>
+		</div>
 	</body>
 </html>
