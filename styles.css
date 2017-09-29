@@ -4,6 +4,10 @@
     
 }
 
+a{
+    padding: 25px;
+}
+
 /*Cambiar color fondo*/
 
 html, body {
@@ -32,9 +36,19 @@ div{
     margin:0 20px;
 }
 
+table{
+    padding-top: 50px;
+    margin-left: 3%;
+}
+
 tr{
     display: inline;
     margin: 10px;
+}
+
+td{
+    height: 175px;
+    width: 175px;
 }
 
 ul {
