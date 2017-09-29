@@ -24,9 +24,9 @@
 		margin-left: 40px;
 		margin-right: 40px;
 		position: center;
-		padding-top: 50px;
 		width: 150px;
 		height: 100px;
+		border: 2px solid blue;
 	}
 
 	div{
