@@ -18,10 +18,10 @@
                     if (substr($img, -3)=="jpg" or substr($img, -3)=="png" or substr($img, -4)=="jpeg") {
                         $name = substr($img, 0, -4);
                         echo "<div style='margin: 2vw;'>";
+												echo "<h2><a class='name' href='profile/$name.html'><p>" . $name ."</p></a></h2>";
                         echo "<div class='stack twisted' style='width:10vw'>";
                         echo "<img src='img/$img' style='width:10vw'>";
                         echo "</div>";
-                        echo "<h2><a href='profile/$name.html'><p>" . $name ."</p></a></h2>";
                         echo "</div>";
                     }
                 }
