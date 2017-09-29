@@ -1,0 +1,78 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	background-image: url(fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.caja {
+	width: 20%;
+	box-shadow: 0px 0px 10px #51C5CC;
+	float: left;
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	margin-left: 2.5%;
+	margin-bottom: 2.5%;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	tbackground-color: rgba(255, 255, 255, 0.8);
+	opacity: 0.8;
+	background-color: white;
+}
+
+.caja:hover {
+	transition: 0.5s;
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	opacity: 1;
+}
+
+a {
+	font-style: none;
+	color: black;
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 0.8em;
+}
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 10000;
+}
+h1 {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 4em;
+	box-shadow: 0px 0px 10px #51C5CC;
+	background-color: white;
+	width: 80%;
+	margin: 0 auto 1em auto;
+	font-family: 'Libre Barcode 39 Text', cursive;
+	font-weight: 400;
+}
+
+h1:hover {
+	color: #51C5CC;
+	transition: 0.5s;
+}
+
+ul {
+	margin: 0 auto;
+}
+
+#contenedor {
+	margin: 0 auto;
+	width: 80%;
+	padding-top: 14em;
+}
+
+img {
+	height: 150px;
+	margin-bottom: 1em;
+}
