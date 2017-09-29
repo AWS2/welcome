@@ -20,24 +20,19 @@
 		text-align: center;
 	}
 
-	a{
-		position: relative;
-		text-decoration: none;
-		font-family: arial;
-		color:black;
-		background-color: white;
-	}
-
 	img{
 		margin-left: 40px;
 		margin-right: 40px;
 		position: center;
 		padding-top: 50px;
-		width: 100px;
+		width: 150px;
+		height: 100px;
 	}
 
 	div{
 		display: inline-block;
+		padding: 10px 5px 5px 10px;
+		text-align: center;
 	}
 
 </style>
