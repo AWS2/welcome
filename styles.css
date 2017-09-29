@@ -107,3 +107,15 @@ h3 {
     67% { color: greenyellow; }
     100% { color: purple; }
 }
+
+td img:hover{
+  width:300px;
+}
+
+td img{
+	transition:width 1s;
+  -moz-transition:width 1s;
+  -ms-transition:width 1s;
+  -webkit-transition:width 1s;
+  -o-transition:width 1s;
+}

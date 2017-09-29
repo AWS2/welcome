@@ -18,7 +18,7 @@
                     $name = substr($img,0,-4);?>
                     <tr>
                         <td>
-                            <?php echo "<a href='profile/$name.html'><img src='img/$img' width='130'></a><br/>";
+                            <?php echo "<a href='profile/$name.html'><img  src='img/$img' width='130'></a><br/>";
                                   echo "<h3>";
                                   echo $name."</h3>";?>
                         </td>
