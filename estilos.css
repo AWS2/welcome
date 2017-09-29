@@ -1,5 +1,25 @@
-h1 {
-    text-align: center;
+
+h1{text-align: center;}
+body{background-color: #e4e4e4}
+.titulo{
+	background-color: white;
+	border-radius: 10px;
+	width: 90%;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#contenedorPrincipal{
+	width: 90%;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+  
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
 }
 
 body {
