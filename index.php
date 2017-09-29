@@ -8,7 +8,7 @@
 			foreach( $imgs as $img ) {
 				if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
 					$name = substr($img,0,-4);
-					echo "<div>";
+					echo "<div class='callout'>";
 					echo "<a class='enlaces' href='profile/$name.html'>";
 					echo "<img class='imagenes' src='img/$img' width='130'><br/>";
 					echo $name."</a>";
