@@ -19,8 +19,8 @@
 						$name = substr($img,0,strrpos($img, "."));
 						echo "<a href='profile/$name.html'>";
 						echo "<div class='contenido'>";
-						echo "<p class='descripcion'>".$name."</p>";
-						echo "<img src='img/$img' width='130'><br/>";
+                        echo "<img src='img/$img' width='130'><br/>";
+                        echo "<p class='descripcion'>".$name."</p>";
 						echo "</div></a>";
 					}
 				}
