@@ -1,6 +1,7 @@
 <body>
 	<h1> PARTICIPAMOS en un CONCURSO de DISEÑO (SALE MAL) </h1>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	
 	<ul>
 
 	<?php

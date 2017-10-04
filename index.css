@@ -1,5 +1,6 @@
 body{background-image: url('sakura.gif')}
-img{border-style: dashed;border-color: orange;}
+img{border-style: dashed;border-color: orange; -webkit-transition-property: -webkit-transform; -webkit-transition-duration: 0.5s; -webkit-transition-delay: 0s;}
+img:hover{-webkit-transform: rotate(360deg);}
 a{text-decoration: none; color: black; float: left; height: 55px; }
 a:hover{text-decoration: none; color: orange; float: left; height: 55px; }
-h1{font-family: "Verdana"; text-align: center; color: white; text-shadow: 2px 2px black}
+h1{font-family: "Verdana"; text-align: center; color: white; text-shadow: 3px 3px black}
