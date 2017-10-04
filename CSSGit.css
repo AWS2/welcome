@@ -1,0 +1,54 @@
+img{
+	display: none;
+	width: 20%;
+	width: 20%;
+	position: fixed;
+	left:50%;
+	top:50%;
+	margin-left:-150px;
+	margin-top: -20px;
+	border-radius: 5px;
+	border:5px solid black;
+}
+
+a:hover img{
+	display: block;
+}
+
+a{
+	display: inline-block;
+	margin: 4px;
+	padding: 2px;
+    animation-name: example;
+    animation-duration: 60s;
+    cursor: crosshair;
+    font: normal 30px impact;
+    text-decoration: none;
+}
+
+a:link, a:visited{
+	color: black;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    10%  {background-color: yellow;}
+    20%  {background-color: orange;}
+    30%  {background-color: snow;}
+    40%	 {background-color: grey;}
+    50%  {background-color: green;}
+    60%  {background-color: pink;}
+    70%  {background-color: brown;}
+    80%  {background-color: blueviolet;}
+    90%  {background-color: greenyellow;}
+    100% {background-color: tomato;}
+}
+
+div{
+	display: inline-block;
+	width: 5px;
+}
+
+h1{
+	text-align: center;
+}

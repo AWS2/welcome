@@ -3,7 +3,7 @@
 	<link href="CSSGit.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<h1>El fabuloso mundo de AWS2</h1>
+	<h1>¡Dispara al alumno!</h1>
 
 	<?php 
 
@@ -15,9 +15,7 @@
 				echo "<img src='img/$img' width='130'>";
 				echo $name."</a>";
 				echo "<div></div>";
-				;
 			}
 		}
 	?>
-
 </body>
