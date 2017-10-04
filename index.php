@@ -20,7 +20,7 @@
 						echo "<a href='profile/$name.html'>";
 						echo "<div class='contenido'>";
                         echo "<img src='img/$img' width='130'><br/>";
-                        echo "<p class='descripcion'>".$name."</p>";
+                        echo "<span class='descripcion'><span>".$name."</span></span>";
 						echo "</div></a>";
 					}
 				}
