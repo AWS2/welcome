@@ -3,7 +3,7 @@
 	<link href="CSSGit.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<h1>El fabuloso mundo de AWS2</h1>
+	<h1>El fabuloso mundo de AWSma</h1>
 
 	<?php 
 
