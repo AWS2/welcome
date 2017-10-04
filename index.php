@@ -5,7 +5,7 @@
     <h1>El epileptico mundo de AWS2</h1>
 </div>
 <img src="img/rana.gif" width="80" style="position: absolute; top: 2px; left: 3%;" />
-<img src="img/rana.gif" width="80" style="position: absolute; top: 2px; left: 93%;" />
+<img src="img/rana.gif" width="80" style="position: absolute; top: 2px; left: 90%;" />
 
 
 <ul>

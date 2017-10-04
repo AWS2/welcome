@@ -145,6 +145,12 @@ h3 {
 
 td img:hover{
   width:225px;
+  
+}
+
+td:hover{
+	font-size: 30px;
+	width: 225px;
 }
 
 td img{
@@ -154,3 +160,13 @@ td img{
   -webkit-transition:width 0.5s;
   -o-transition:width 0.5s;
 }
+
+td{
+	transition:font-size 0.5s;
+  -moz-transition:font-size 0.5s;
+  -ms-transition:font-size 0.5s;
+  -webkit-transition:font-size 0.5s;
+  -o-transition:font-size 0.5s;
+}
+
+
