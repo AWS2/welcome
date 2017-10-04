@@ -50,12 +50,14 @@ button {
 	box-shadow: 0px 5px 0px #111319;
 }
 
-a {
+p {
 	font-style: none;
 	text-decoration: none;
 	color: black;
 	font-family: 'Asap Condensed', sans-serif;
-	font-size: 1.3em;
+	font-size: 1.2em;
+	line-height: 0.5em;
+	margin:0;
 }
 
 </style>
@@ -72,9 +74,9 @@ a {
 		if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
 			$name = substr($img,0,-4);
 			echo "<div><img src='img/$img' width='130'><br />";
-			echo "<a href='profile/$name.html'>";
-			echo $name."</a><br><br>";
-			echo "<button>Mostrar página</button></div>";
+			echo "<p>";
+			echo $name."</p><br><br>";
+			echo "<a href='profile/$name.html'><button>Mostrar página</button></a></div>";
 		}
 
 
