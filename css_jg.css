@@ -1,6 +1,7 @@
 body{
 	background-color: #FFCE98;
 	border-color: 3px;
+	margin: 0px 0px 0px 0px;
 }
 
 h1{
@@ -9,7 +10,10 @@ h1{
 	font-size: 30px;
 	text-align: center;
 	margin-top: 20px;
+	margin-left: 400px;
 	background-color: white;
+	border-radius: 50px;
+	width: 500px;
 }
 
 img {
@@ -43,6 +47,9 @@ div {
 div:hover{
 	width: 170px;
 	height: 150px;
+	background-color: silver;
+	font-style: italic;
+	font-weight: bold;
 }
 
 a {
@@ -53,5 +60,3 @@ a {
 	margin-top: 6px;
 	text-align: left;
 }
-
-
