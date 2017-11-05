@@ -1,8 +1,26 @@
+.header h1{
+    text-align: center;
+    font-style: normal;
+    
+}
+
 body {
-	  background-color: #FF0000;
+  background-color: red;
+}
+
+tr{
+    display: inline;
+    margin: 20px;
+}
+
+    body {
+		background-color: red;
 	}
 
-h1 {
-		text-transform: uppercase;
-	
+	h1 {
+		color: yellow;
+		background-color: black;
+	}
+
+
 
