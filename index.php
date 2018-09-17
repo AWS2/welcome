@@ -1,7 +1,6 @@
 
 <body>
-	<h1> Concurso de estilo de Manuel_Red Hat</h1>
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<h1>Projecte Welcome</h1>
 	<ul>
 
 	<?php 
