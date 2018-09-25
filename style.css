@@ -5,4 +5,9 @@ body {
 img {
 	border-radius: 50%;
 	width: 130px;
+
+}
+
+img:hover {
+	
 }
