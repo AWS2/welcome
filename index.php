@@ -3,7 +3,7 @@
 	<title>Projecte Welcome 1</title>
 </head>
 
-<body id="cuerpo" background="fondoWelcome.png">
+<body id="cuerpo" background="fondoWelcome.gif">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -18,7 +18,7 @@ $(document).ready(function(){
 	<h1 align="center" id="encabezado">Projecte Welcome 1</h1>
 	<link rel="stylesheet" type="text/css" href="welcome.css" />
 
-	<ul id="alumnos">
+	<ul class="alumnos">
 
 	<?php 
 

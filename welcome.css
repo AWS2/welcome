@@ -25,6 +25,8 @@
 img.zoom {
     width: 160px;
     height: 160px;
+    border: solid black;
+    padding: 10px;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
