@@ -1,3 +1,39 @@
+#encabezado {
+	position: center;
+	width: all;
+	height: 50;
+	background-color: white;
+}
+
 #cuerpo {
 	background-color: #a8fffc;
+}
+
+#alumnos {
+    margin-left: 1cm;
+	margin-right: 1cm;
+	position: center;
+	height: all;
+	background-color: white;
+	border-radius: 5px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: left;
+	position: absolute;
+}
+
+img.zoom {
+    width: 160px;
+    height: 160px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
 }
