@@ -3,8 +3,8 @@
 	<title>Projecte Welcome 1</title>
 </head>
 
-<body>
-	<h1>Projecte Welcome 1</h1>
+<body id="cuerpo" background="fondoWelcome.png">
+	<h1 align="center">Projecte Welcome 1</h1>
 	<link rel="stylesheet" type="text/css" href="welcome.css" />
 
 	<ul>
@@ -17,8 +17,7 @@
 				$name = substr($img,0,-4);
 				echo "<a href='profile/$name.html'>";
 				echo "<img src='img/$img' width='130'>\n<br>";
-				echo $name."</a>\n<br>";
-				
+				echo $name."</a>";
 
 				echo "<div></div>";
 				;
