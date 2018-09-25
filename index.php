@@ -9,16 +9,15 @@
 		foreach( $imgs as $img ) {	
 			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
 				$name = substr($img,0,-4);
-				echo "<a href='profile/$name.html'>";
-				echo "<img src='img/$img'>";
-				echo $name."</a>";
-				
-
-				echo "<div></div>";
+				echo "<div>\n";
+			//	echo "	<a href='profile/$name.html'>\n";
+				echo "	<img src='img/$img' href='profile/$name.html'>";
+			//	echo $name."</a>\n";
+				echo "</div>\n";
 				;
 			}
 		}
 
 	?>
-
+		
 </body>

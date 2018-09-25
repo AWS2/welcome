@@ -1,8 +1,20 @@
 body {
-	background-color: lightyellow;
+	background-color:  #c4031d; 
+
 }
 
-img {
-	border-radius: 50%;
-	width: 60px;
+h1{
+	text-decoration: overline underline;
+	text-align: center;
+	font-size: 30px;
+	font-family: Courier;
+}
+
+img{
+	border-radius: 40%;
+	float: left; 
+	height: 100px;
+	width: 100px;
+	margin-right: 0.8%; 
+	margin-bottom: 0.8%;"
 }
