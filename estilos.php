@@ -4,9 +4,9 @@ h1{
 	color: red;
 }
 
-body{
-	background: black;
-}
+body { width: 100wh; height: 90vh; color: #fff; background: linear-gradient(-45deg, #9400ee , #00fdc7 , #fe4141, #00fdfd ); background-size: 400% 400%; -webkit-animation: Gradient 15s ease infinite; -moz-animation: Gradient 15s ease infinite; animation: Gradient 10s ease infinite; } 
+
+body { width: 100wh; height: 90vh; color: #fff; background: linear-gradient(-45deg, #9400ee , #00fdc7 , #fe4141, #00fdfd ); background-size: 400% 400%; -webkit-animation: Gradient 15s ease infinite; -moz-animation: Gradient 15s ease infinite; animation: Gradient 10s ease infinite; } @-webkit-keyframes Gradient { 0% { background-position: 0% 50% } 50% { background-position: 100% 50% } 100% { background-position: 0% 50% } } @-moz-keyframes Gradient { 0% { background-position: 0% 50% } 50% { background-position: 100% 50% } 100% { background-position: 0% 50% } } @keyframes Gradient { 0% { background-position: 0% 50% } 50% { background-position: 100% 50% } 100% { background-position: 0% 50% } } 
 
 
 img {
@@ -25,6 +25,8 @@ img:hover {
 -ms-transform: rotate(-7deg);
 transform: rotate(-7deg);
 }
+
+
 
 	
 
