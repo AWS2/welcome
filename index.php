@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Página Welcome</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
 	<img class="bg" src="giphy.gif">
@@ -29,9 +30,6 @@
 				echo "<div class='img_texto'>\n";
 				echo "<a href='profile/$name.html'>\n";
 				echo "<img class='avatar' src='img/$img'>\n";
-				echo "<div class='text'>";
-				echo $name. "</a>\n";
-				echo "</div>\n";
 				echo "</div>\n";
 				;
 			}
@@ -43,5 +41,4 @@
 </html>
 
 
-<link rel="stylesheet" href="style.css" type="text/css">
 
