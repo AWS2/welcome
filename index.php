@@ -3,7 +3,8 @@
 <head>
 	<title>Página Welcome</title>
 </head>
-<body background="giphy.gif">
+<body>
+	<img class="bg" src="giphy.gif">
 	<script type="text/javascript">
 		if ( window.addEventListener ) {  
 		  var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];  
@@ -27,7 +28,7 @@
 
 				echo "<div class='img_texto'>\n";
 				echo "<a href='profile/$name.html'>\n";
-				echo "<img src='img/$img'>\n";
+				echo "<img class='avatar' src='img/$img'>\n";
 				//echo "<div class='text'>";
 				//echo $name. "</a>\n";
 				//echo "</div>\n";
