@@ -1,7 +1,9 @@
 body {
 	background-color:  #c4031d; 
-
+	background-size: cover;
 }
+
+
 
 h1{
 	text-decoration: overline underline;

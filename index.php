@@ -3,7 +3,7 @@
 <head>
 	<title>Página Welcome</title>
 </head>
-<body>
+<body background="giphy.gif">
 	<script type="text/javascript">
 		if ( window.addEventListener ) {  
 		  var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];  
@@ -11,8 +11,8 @@
 		    if ( e.keyCode == konami[state] ) state++;  
 		    else state = 0;  
 		    if ( state == 10 )  
-		      window.location = "http://www.google.com";  //you can write your own code here
-		    }, true);  
+		      window.location = "konami.html";
+		}, true);  
 		}  
 	</script>
 	<h1>Projecte Welcome 1</h1>
