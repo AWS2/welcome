@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="estilos.php" />
+	<link rel="stylesheet" type="text/css" href="estilos.css" />
 	<title></title>
 </head>
 <body>
-	<h1 align="center">Projecte Welcome 1</h1>
+	<!--<h1 align="center">Projecte Welcome 1</h1>-->
+	<p><a id="titulo">Projecte Welcome 1</a><p>
+	<br><br><br><br><br><br><br><br><br>
 	<ul>
 
 	<?php 
@@ -16,7 +18,7 @@
 				$name = substr($img,0,-4);
 				echo "<a href='profile/$name.html'>\n";
 				echo "<img src='img/$img' width='350' height='300'>";
-				"</a>\n";
+				/*echo $name.*/"</a>\n";
 			}
 		}
 	?>
