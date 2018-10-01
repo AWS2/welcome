@@ -1,0 +1,63 @@
+ 
+body {
+	background-image: url(https://desivyprogramming.files.wordpress.com/2014/07/binary-code1.jpg);
+	background-attachment: fixed; 
+}
+
+ h1 {
+ 	font-family: sans-serif;
+ 	text-align: center;
+ 	color: #0066cc;
+ 	background-color: pink;
+ }
+
+ .header img {
+ 	width: 50px;
+ 	height: 50px;
+ 	float: right;
+ }
+
+ p {
+ 	margin-left: 30px;
+ 	font-family: sans-serif;
+ 	color: #0033cc;
+ 	font-weight: bold;
+ }
+
+.container {
+	display: flex;
+  	flex-wrap: wrap;
+  	align-content: flex-end;
+  	justify-content: center;
+  	font-family: sans-serif;
+	
+ }
+
+ .item {
+ 	width: 300px;
+ 	height: 300px;
+ 	text-align: center;
+	
+ }
+
+.container img:hover {
+	width: 170px;
+	height: 170px;
+}
+
+.container a:hover {
+	font-size: 32;
+}
+
+.container a {
+	text-decoration: none;
+	color: #0066cc;
+	font-weight: bold;
+}
+
+.container img {
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 10px;
+	border-color: #cc33ff;
+}
