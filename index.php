@@ -7,11 +7,11 @@
 	<img class="bg" src="giphy.gif">
 	<script type="text/javascript">
 		if ( window.addEventListener ) {  
-		  var state = 0, konami = [38,38,40,40,37,39,37,39,66,65];  
+		  var state = 0, konami = [38,38,40,40,37,39,37,39,66,65, 13];  
 		  window.addEventListener("keydown", function(e) {  
 		    if ( e.keyCode == konami[state] ) state++;  
 		    else state = 0;  
-		    if ( state == 10 )  
+		    if ( state == 11 )  
 		      window.location = "konami.html";
 		}, true);  
 		}  
@@ -29,9 +29,7 @@
 				echo "<div class='img_texto'>\n";
 				echo "<a href='profile/$name.html'>\n";
 				echo "<img class='avatar' src='img/$img'>\n";
-				echo "<div class='text'>";
-				echo $name. "</a>\n";
-				echo "</div>\n";
+				
 				echo "</div>\n";
 				;
 			}
