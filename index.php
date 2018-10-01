@@ -29,9 +29,9 @@
 				echo "<div class='img_texto'>\n";
 				echo "<a href='profile/$name.html'>\n";
 				echo "<img class='avatar' src='img/$img'>\n";
-				//echo "<div class='text'>";
-				//echo $name. "</a>\n";
-				//echo "</div>\n";
+				echo "<div class='text'>";
+				echo $name. "</a>\n";
+				echo "</div>\n";
 				echo "</div>\n";
 				;
 			}
