@@ -1,4 +1,9 @@
- div.animation1 {
+
+body{
+	background:url(trueno2.gif);
+}
+
+div.animation1 {
                 width:80%;
                 padding:1%;
                 margin:10px auto;
