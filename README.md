@@ -24,14 +24,14 @@ http://www.iesesteveterradas.cat/
 
 ## Code highlights
 ### PHP
-```
+```php
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
 ```
 	In this peace of code, first we assign to the *$imgs* variable the properties of the scan of the directory /img in an ascendent way.
 
 
-### CSSS
-```
+### CSS
+```css
 .avatar{border-radius: 40%;
 	float: left; 
 	height: 120px;
