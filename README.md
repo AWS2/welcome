@@ -1,25 +1,50 @@
 # welcome
 
-## First GIT project AWS2 M8
+## Componentes del grupo
 
-In this project you simply have to add 2 files for each student. One 
-for a picture of you (or whatever avatar you like) and a presentation 
-in HTML of you.
+- Cristian
+- Nil
 
-You are welcome to add any improvements to the PHP code if you feel 
-like doing it.
+## Enlace ET
+[Esteve terradas i l'Illa](http://www.iesesteveterradas.cat/)
+## Logo ET
+![Logo ET](/var/www/html/welcome/resources/etimg.jpeg "Logo ET")
+## Codigo
 
-## Folders and filenames
+El siguiente codigo es un fracmento del css:
 
-- `img` folder : your picture in JPG format. The filename will be used to 
-display your name. Choose it appropriately.
-- `profile` folder : your presentation in HTML. Same for the 
-*filename* (must be according to your picture).
+'''.imagenes{
+  display: flex;
+  flex-wrap:wrap;
+  padding-left: 2%;
+  border-radius: 2%;
+}'''
 
+El segundo div contiene una clase llamada imagenes, la cual contiene estas líneas de código en nuestro CSS.
 
-> IMPORTANT NOTE: **anyone who overwrites another person's file will be 
-qualified with ZERO** '0' in this task. So, please be nice.
+### Display:flex; 
+Permite mantener su forma del contenedor.
+### Flex-wrap:wrap; 
+La propiedad flex-wrap especifica si los artículos flexibles deben ajustarse o no.
+### padding-left:2%;
+El relleno de un elemento es el espacio entre su contenido y su borde.
+### border-radius:2%;
+La propiedad border-radius define el radio de las esquinas del elemento. 
 
+El siguiente codigo es una porcion del php:
 
-And if you want to add some more presentation here in the README file, 
-you may take a look to the [Markdown syntax](https://help.github.com/articles/markdown-basics/).
+'''if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
+				$name = substr($img,0,-4);
+				echo "<div class='Img'>\n";
+				echo "<br><a href='profile/$name.html' target='_blank'>\n";
+				echo "<img src='img/$img' >\n";//width='130'
+				echo "<br>".$name."</a>\n";
+				echo "</div>\n";
+				
+			}'''
+### 1r Linia:
+Es un if que mira que sean imagenes, mira si el final del archivo es un png,jpeg,jpg.
+### 2n Linia:
+Recorta el nombre del archivo para recojer todo menos la extencion.
+### 3r a 7a Linia:
+Generar la estructura con las variables en su posicion adecuada.
