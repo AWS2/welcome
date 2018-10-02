@@ -2,7 +2,11 @@
 
 ## First GIT project AWS2 M8
 
-Aquesta branca está creada per Josep Sort i Yaiza Cortés, membres de AWS2.
+Aquesta branca está creada per els següents membres de *AWS2*.:
+
+* **Josep Sort**
+* **Yaiza Cortés**
+
 
 ![alt text][logo]
 
@@ -10,7 +14,7 @@ Aquesta branca está creada per Josep Sort i Yaiza Cortés, membres de AWS2.
 {: width=20px}
 
 
-Som estudiants de l'Institut Esteve Terradas i Illa. 
+Som estudiants de l'*Institut Esteve Terradas i Illa*. 
 La seva web és:
 
 (http://www.iesesteveterradas.cat/)
