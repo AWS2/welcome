@@ -1,12 +1,39 @@
+/*
 body{
 	background:url(./br.jpg);
 }
+*/
+ div.animation1 {
+                width:80%;
+                padding:1%;
+                margin:10px auto;
+                height:100%;
+            }
+            .animation1{
+                background:red;
+                -webkit-animation-name: cambiarColorFondo2; 
+                -moz-animation-name: cambiarColorFondo2; 
+                animation-name: cambiarColorFondo2;
+                -webkit-animation-duration: 4s;
+                -moz-animation-duration: 4s;
+                animation-duration: 4s;
+                -webkit-animation-iteration-count: infinite;
+                -moz-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+            }
+            @keyframes cambiarColorFondo2 {   
+                from { background: red;}   
+            to   { background: blue;} 
+            }
+            @-webkit-keyframes cambiarColorFondo2 {   
+                from { background: red;}   
+            to   { background: blue;} 
+            }
+            @-moz-keyframes cambiarColorFondo2 {   
+                from { background: red;}   
+            to   { background: blue;}  
+            }
 
-h1{
-	color: green;
-	text-align: center;
-	font-size: 70px;
-}
 
 #contenedor{
 	width: 280px;

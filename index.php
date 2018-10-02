@@ -5,7 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-	<h1>Gente de AWS2</h1>
+        <section>
+            <div class="animation1"><h1 style="text-align: center">Gente de AWS2</h1></div>
+        </section>
 
 	<?php 
 
