@@ -4,7 +4,7 @@
 
 Aquesta branca está creada per els següents membres de *AWS2*.: 
 
-Aquí explicarem el nostre codi: [Link](codi)
+Aquí explicarem el nostre codi: [Link](#codi)
 
 * **Josep Sort**
 * **Yaiza Cortés**
