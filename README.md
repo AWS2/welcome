@@ -28,3 +28,13 @@
 	?>
 
 '''
+
+'''
+img:hover{
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;}
+}
+
+Crea el efecto de rotacion en las imagenes de 180º.
