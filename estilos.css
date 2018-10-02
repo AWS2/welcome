@@ -85,7 +85,10 @@ img:hover {
 	transform: rotate(-7deg);
 }
 
-
+#ex4{
+	float: left;
+	text-align: center;
+}
 
 	
 
