@@ -13,12 +13,14 @@
 
 El siguiente codigo es un fracmento del css:
 
-'''.imagenes{
+```
+.imagenes{
   display: flex;
   flex-wrap:wrap;
   padding-left: 2%;
   border-radius: 2%;
-}'''
+}
+```
 
 El segundo div contiene una clase llamada imagenes, la cual contiene estas líneas de código en nuestro CSS.
 
