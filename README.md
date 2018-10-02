@@ -1,21 +1,13 @@
-# welcome
+# GolosonesTeam
 
-##First GIT project AWS2 M8
+## Componentes del grupo
 
-In this project you simply have to add 2 files for each student. One 
-for a picture of you (or whatever avatar you like) and a presentation 
-in HTML of you.
-
-You are welcome to add any improvements to the PHP code if you feel 
-like doing it.
+* Kevin "La Flama"
+* Xus "El Diamante"
 
 ## Folders and filenames
 
-- `img` folder : your picture in JPG format. The filename will be used to 
-display your name. Choose it appropriately.
-- `profile` folder : your presentation in HTML. Same for the 
-*filename* (must be according to your picture).
-
+[Alt text](logoesteve.jpg?raw=true= "Esteve_Terradas")
 
 > IMPORTANT NOTE: **anyone who overwrites another person's file will be 
 qualified with ZERO** '0' in this task. So, please be nice.
