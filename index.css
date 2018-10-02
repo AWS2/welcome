@@ -1,27 +1,29 @@
-h1 {	font-size: 100;
-
-}
-
-body { background-image: url("https://img00.deviantart.net/a97d/i/2012/146/d/7/youtube_template_by_benji3o3-d5189aq.png");
+body {	background-image: url("Background.gif");
         background-size: 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
-}
-
-title { background-size: 100%;
 
 }
 
-.Titulo { 
+.Titulo { text-align: right;
           vertical-align: middle;
 
-  
-
 }
 
-.Images {   height: 100px;
-            width: 100px;
+.Images {   height: 140px;
+            width: 140px;
             border: solid 1px black;
+            -webkit-transition:all .9s ease;
+			-moz-transition: all .9s ease;
+			overflow: hidden;
+			border-radius: 25px;
+}
+
+.Images:hover{
+	-webkit-transform:scale(1.25);	
+	-moz-transform:scale(1.25);
+	transform: scale(1.25);
+	border-radius: 4px
 
 }
 
@@ -29,8 +31,5 @@ div {   text-align: center;
         display: inline-block;
         padding-left: 35px;
         padding-right: 35px;
-        
-
-        
 
 }
