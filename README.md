@@ -18,7 +18,8 @@ display your name. Choose it appropriately.
 
 
 ## Link to the Centre
-![](http://4.bp.blogspot.com/_O8rcaBdiO70/SwvL-vVUhxI/AAAAAAAAACY/17TY3jyzRrc/S150/log.jpg=100x) http://www.iesesteveterradas.cat/
+![](http://4.bp.blogspot.com/_O8rcaBdiO70/SwvL-vVUhxI/AAAAAAAAACY/17TY3jyzRrc/S150/log.jpg=30x) 
+http://www.iesesteveterradas.cat/
 
 
 ## Code highlights
@@ -30,10 +31,12 @@ display your name. Choose it appropriately.
 
 
 ### CSSS
->.avatar{border-radius: 40%;
+```
+.avatar{border-radius: 40%;
 	float: left; 
 	height: 120px;
 	width: 120px;
 	margin-right: 2%; 
 	margin-bottom: 2%;"
 }
+```
