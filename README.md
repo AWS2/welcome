@@ -33,15 +33,16 @@ La propiedad border-radius define el radio de las esquinas del elemento.
 
 El siguiente codigo es una porcion del php:
 
-'''if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
-				$name = substr($img,0,-4);
-				echo "<div class='Img'>\n";
-				echo "<br><a href='profile/$name.html' target='_blank'>\n";
-				echo "<img src='img/$img' >\n";//width='130'
-				echo "<br>".$name."</a>\n";
-				echo "</div>\n";
-				
-			}'''
+```
+if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
+	$name = substr($img,0,-4);
+	echo "<div class='Img'>\n";
+	echo "<br><a href='profile/$name.html' target='_blank'>\n";
+	echo "<img src='img/$img' >\n";//width='130'
+	echo "<br>".$name."</a>\n";
+	echo "</div>\n";				
+}
+```
 ### 1r Linia:
 Es un if que mira que sean imagenes, mira si el final del archivo es un png,jpeg,jpg.
 ### 2n Linia:
