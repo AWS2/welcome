@@ -15,7 +15,7 @@ Aquesta branca está creada per els següents membres de *AWS2*.:
 
 
 Som estudiants de l'*Institut Esteve Terradas i Illa*. 
-La seva web és:
+La seva [web][http://www.iesesteveterradas.cat/] és:
 
 (http://www.iesesteveterradas.cat/)
 
