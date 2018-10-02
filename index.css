@@ -1,1 +1,36 @@
-h1 {font-size: 100;}
+h1 {	font-size: 100;
+
+}
+
+body { background-image: url("https://img00.deviantart.net/a97d/i/2012/146/d/7/youtube_template_by_benji3o3-d5189aq.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+title { background-size: 100%;
+
+}
+
+.Titulo { 
+          vertical-align: middle;
+
+  
+
+}
+
+.Images {   height: 100px;
+            width: 100px;
+            border: solid 1px black;
+
+}
+
+div {   text-align: center;
+        display: inline-block;
+        padding-left: 35px;
+        padding-right: 35px;
+        
+
+        
+
+}
