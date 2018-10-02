@@ -12,9 +12,13 @@ display your name. Choose it appropriately.
 - `profile` folder : your presentation in HTML. Same for the 
 *filename* (must be according to your picture).
 - `konami` folder : do you know which is the Konami Code? Try executing it on the website!
+- `index.php` : the main file, where all the actions takes place. Pretty awesome, right?
+- `style.css` : the css file, where we put all the beauty in our files.
+
 
 ## Link to the Centre
 //logo// http://www.iesesteveterradas.cat/
+
 
 ## Code highlights
 ### PHP
