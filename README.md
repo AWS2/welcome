@@ -17,7 +17,7 @@ display your name. Choose it appropriately.
 
 
 ## Link to the Centre
-![](http://4.bp.blogspot.com/_O8rcaBdiO70/SwvL-vVUhxI/AAAAAAAAACY/17TY3jyzRrc/S150/log.jpg=30x30) 
+<img src="http://4.bp.blogspot.com/_O8rcaBdiO70/SwvL-vVUhxI/AAAAAAAAACY/17TY3jyzRrc/S150/log.jpg=30x30" width="30px">
 http://www.iesesteveterradas.cat/
 
 
