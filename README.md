@@ -40,4 +40,4 @@ In this peace of code, first we assign to the *$imgs* variable the properties of
 	margin-bottom: 2%;"
 }
 ```
-Here we make that images have the same size, the distance between them, round corners, and they place beside each other.
+Here we make the images have the same size, the distance between them, round corners, and they place beside each other.
