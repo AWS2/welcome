@@ -8,7 +8,7 @@
 ## Enlace ET
 [Esteve terradas i l'Illa](http://www.iesesteveterradas.cat/)
 ## Logo ET
-![Logo ET](/var/www/html/welcome/resources/etimg.jpeg "Logo ET")
+[![Logo ET](http://4.bp.blogspot.com/_O8rcaBdiO70/SwvL-vVUhxI/AAAAAAAAACY/17TY3jyzRrc/S150/log.jpg)](http://www.iesesteveterradas.cat/)
 ## Codigo
 
 El siguiente codigo es un fracmento del css:
