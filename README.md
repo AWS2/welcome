@@ -1,25 +1,57 @@
-# welcome
+# welcome to the TeamGofre's branch
 
-##First GIT project AWS2 M8
+## First GIT project AWS2 M8
 
-In this project you simply have to add 2 files for each student. One 
-for a picture of you (or whatever avatar you like) and a presentation 
-in HTML of you.
+Aquesta branca está creada per Josep Sort i Yaiza Cortés, membres de AWS2.
 
-You are welcome to add any improvements to the PHP code if you feel 
-like doing it.
+Som estudiants de l'Institut Esteve Terradas i Illa. 
+La seva web és:
 
-## Folders and filenames
-
-- `img` folder : your picture in JPG format. The filename will be used to 
-display your name. Choose it appropriately.
-- `profile` folder : your presentation in HTML. Same for the 
-*filename* (must be according to your picture).
+(http://www.iesesteveterradas.cat/)
 
 
-> IMPORTANT NOTE: **anyone who overwrites another person's file will be 
-qualified with ZERO** '0' in this task. So, please be nice.
+[logo]: http://wefiles.europeinyourlife.com/71/imagen_fichas/FICHA_14997/logo.jpg "Logo del Esteve Terrades"
 
 
-And if you want to add some more presentation here in the README file, 
-you may take a look to the [Markdown syntax](https://help.github.com/articles/markdown-basics/).
+## Codi
+
+Aquest codi de PHP de la nostra pàgina Welcome és un bucle foreach per fer un div per cada imatge on mostrarem per cadascuna la imatge i el seu títol, que será el nom que té la foto i aquest títol i la imatge serán un hyperlink que redirigeix a la pàgina de perfil de l'usuari que has clicat:
+
+''' php 
+
+<?php 
+
+		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
+		echo "<div class = 'container'>\n";
+		foreach( $imgs as $img ) {	
+			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
+				$name = substr($img,0,-4);
+				echo "<div class = 'item'>\n";
+				echo "<a href='profile/$name.html'>\n";
+				echo "<img src='img/$img' width='130' height='130'>\n";
+				echo "<br>";
+				echo $name."</a>\n";
+				
+
+				echo "</div>\n\n";
+
+				;
+			}
+		}
+						echo "</div>\n\n";
+	?>
+
+
+'''
+
+Aquest tros de codi CSS posa un efecte amb hover per fer la imatge més gran i crear un efecte de zoom:
+
+''' css
+
+.container img:hover {
+	width: 170px;
+	height: 170px;
+}
+
+
+'''
