@@ -1,6 +1,6 @@
 # welcome
 
-##First GIT project AWS2 M8
+## First GIT project AWS2 M8
 
 In this project you simply have to add 2 files for each student. One 
 for a picture of you (or whatever avatar you like) and a presentation 

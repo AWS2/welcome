@@ -41,5 +41,16 @@ img{
   margin: 1%;
   padding: 0.8%;
 
-
+}
+.Img:hover{
+  background-image: url("../resources/giphy.gif");
+  background-size:100%;
+}
+.Img>a{
+  text-align: center;
+}
+/*img:hover*/
+.Img>a>img:hover{
+  width: 100%;
+  box-shadow: 0px 0px 5px 10px green;
 }
