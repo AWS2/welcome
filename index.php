@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-	<h1>Projecte Welcome 1</h1>
+	<h1>Gente de AWS2</h1>
 
 	<?php 
 
