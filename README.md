@@ -17,7 +17,7 @@ La seva web és:
 
 Aquest codi de PHP de la nostra pàgina Welcome és un bucle foreach per fer un div per cada imatge on mostrarem per cadascuna la imatge i el seu títol, que será el nom que té la foto i aquest títol i la imatge serán un hyperlink que redirigeix a la pàgina de perfil de l'usuari que has clicat:
 
-'''php 
+```php 
 
 <?php 
 
@@ -42,11 +42,11 @@ Aquest codi de PHP de la nostra pàgina Welcome és un bucle foreach per fer un 
 	?>
 
 
-'''
+```
 
 Aquest tros de codi CSS posa un efecte amb hover per fer la imatge més gran i crear un efecte de zoom:
 
-'''css
+```css
 
 .container img:hover {
 	width: 170px;
@@ -54,4 +54,4 @@ Aquest tros de codi CSS posa un efecte amb hover per fer la imatge més gran i c
 }
 
 
-'''
+```
