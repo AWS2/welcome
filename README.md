@@ -12,20 +12,18 @@
 ## Code and Syntax Highlighting
 
 ```
-<
-	<?php 
-		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
-		foreach( $imgs as $img ) {	
-			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
-				$name = substr($img,0,-4);
-				echo "<a href='profile/$name.html'>";
-				echo "<img src='img/$img' width='160' height='160'  title='$name' class='zoom'";
-				;
-			}
+<?php 
+	$imgs = scandir("./img",SCANDIR_SORT_DESCENDING);
+	foreach( $imgs as $img ) {	
+		if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
+			$name = substr($img,0,-4);
+			echo "<a href='profile/$name.html'>";
+			echo "<img src='img/$img' width='160' height='160'  title='$name' class='zoom'";
+			;
 		}
-	?>
+	}
+?>
 ```
-
 ```
 img:hover{
 -webkit-transform: rotateY(180deg);
@@ -33,6 +31,5 @@ img:hover{
 transform: rotateY(180deg);
 transform-style: preserve-3d;}
 }
-
-Crea el efecto de rotacion en las imagenes de 180º.
 ```
+**Crea el efecto de rotacion en las imagenes de 180º.**
