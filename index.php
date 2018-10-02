@@ -2,17 +2,18 @@
 <html>
 <head>
 	<title>Página Welcome</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
 	<img class="bg" src="giphy.gif">
 	<script type="text/javascript">
 		if ( window.addEventListener ) {  
-		  var state = 0, konami = [38,38,40,40,37,39,37,39,66,65, 13];  
+		  var state = 0, konami = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13];  
 		  window.addEventListener("keydown", function(e) {  
 		    if ( e.keyCode == konami[state] ) state++;  
 		    else state = 0;  
 		    if ( state == 11 )  
-		      window.location = "konami.html";
+		      window.location = "konami/konami.html";
 		}, true);  
 		}  
 	</script>
@@ -29,7 +30,6 @@
 				echo "<div class='img_texto'>\n";
 				echo "<a href='profile/$name.html'>\n";
 				echo "<img class='avatar' src='img/$img'>\n";
-				
 				echo "</div>\n";
 				;
 			}
@@ -39,7 +39,3 @@
 		
 </body>
 </html>
-
-
-<link rel="stylesheet" href="style.css" type="text/css">
-

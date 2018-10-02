@@ -1,13 +1,9 @@
-# welcome
+# welcome to the TeamEnsalada branch!
 
-##First GIT project AWS2 M8
+## Group Members
+`Jose Manuel Lomero` - https://github.com/JoseLomero
+`Almudena Raya` - https://github.com/rayaalmudena
 
-In this project you simply have to add 2 files for each student. One 
-for a picture of you (or whatever avatar you like) and a presentation 
-in HTML of you.
-
-You are welcome to add any improvements to the PHP code if you feel 
-like doing it.
 
 ## Folders and filenames
 
@@ -15,11 +11,14 @@ like doing it.
 display your name. Choose it appropriately.
 - `profile` folder : your presentation in HTML. Same for the 
 *filename* (must be according to your picture).
+- `konami` folder : do you know which is the Konami Code? Try executing it on the website!
 
+## Link to the Centre
+//logo// http://www.iesesteveterradas.cat/
 
-> IMPORTANT NOTE: **anyone who overwrites another person's file will be 
-qualified with ZERO** '0' in this task. So, please be nice.
+## Code highlights
+### PHP
+--code--
 
-
-And if you want to add some more presentation here in the README file, 
-you may take a look to the [Markdown syntax](https://help.github.com/articles/markdown-basics/).
+### CSSS
+--code--
