@@ -9,9 +9,22 @@
 
 ![alt text](logoesteve.jpg)
 
-> IMPORTANT NOTE: **anyone who overwrites another person's file will be 
-qualified with ZERO** '0' in this task. So, please be nice.
+## Code and Syntax Highlighting
 
+'''
+<
+	<?php 
 
-And if you want to add some more presentation here in the README file, 
-you may take a look to the [Markdown syntax](https://help.github.com/articles/markdown-basics/).
+		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
+		foreach( $imgs as $img ) {	
+			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
+				$name = substr($img,0,-4);
+				echo "<a href='profile/$name.html'>";
+				echo "<img src='img/$img' width='160' height='160'  title='$name' class='zoom'";
+				;
+			}
+		}
+
+	?>
+
+'''
