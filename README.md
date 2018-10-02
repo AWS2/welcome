@@ -7,7 +7,7 @@
 
 ## Folders and filenames
 
-[Alt text](logoesteve.jpg?raw=true= "Esteve_Terradas")
+[alt text](logoesteve.jpg)
 
 > IMPORTANT NOTE: **anyone who overwrites another person's file will be 
 qualified with ZERO** '0' in this task. So, please be nice.
