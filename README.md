@@ -7,7 +7,7 @@ Aquesta branca está creada per Josep Sort i Yaiza Cortés, membres de AWS2.
 ![alt text][logo]
 
 [logo]: https://pbs.twimg.com/profile_images/478903857653620737/aNqCiRN7_400x400.jpeg "Logo del Esteve Terrades"
-{: width=20px}
+
 
 
 Som estudiants de l'Institut Esteve Terradas i Illa. 
