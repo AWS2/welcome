@@ -22,7 +22,11 @@ display your name. Choose it appropriately.
 
 ## Code highlights
 ### PHP
---code--
+```
+asdfasdf
+asdfasdfasdf
+asdfas code :)
+```
 
 ### CSSS
 >.avatar{border-radius: 40%;
