@@ -7,14 +7,13 @@
 
 ## Folders and filenames
 
-![alt text](logoesteve.jpg)
+![alt text](logoesteve.jpg "Esteve Terradas")
 
 ## Code and Syntax Highlighting
 
-'''
+```
 <
 	<?php 
-
 		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
 		foreach( $imgs as $img ) {	
 			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
@@ -24,12 +23,10 @@
 				;
 			}
 		}
-
 	?>
+```
 
-'''
-
-'''
+```
 img:hover{
 -webkit-transform: rotateY(180deg);
 -webkit-transform-style: preserve-3d;
@@ -38,3 +35,4 @@ transform-style: preserve-3d;}
 }
 
 Crea el efecto de rotacion en las imagenes de 180º.
+```
