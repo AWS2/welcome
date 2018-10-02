@@ -11,6 +11,7 @@
 
 ## Code and Syntax Highlighting
 
+**Code PHP:**
 ```
 <?php 
 	$imgs = scandir("./img",SCANDIR_SORT_DESCENDING);
@@ -24,6 +25,7 @@
 	}
 ?>
 ```
+**Code CSS:**
 ```
 img:hover{
 -webkit-transform: rotateY(180deg);
