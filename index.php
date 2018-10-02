@@ -19,7 +19,7 @@
 
 				echo "<div id='ex4'>";
 				echo "<a href='profile/$name.html'>\n";
-				echo "<img src='img/$img' width='300' height='300'><br>";
+				echo "<img src='img/$img' width='300' height='300'>";
 				echo $name."</a>\n";
 				echo "</div>";
 

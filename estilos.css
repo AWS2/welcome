@@ -88,6 +88,27 @@ img:hover {
 #ex4{
 	float: left;
 	text-align: center;
+	width: 300px;
+	height: 300px;
+	line-height: 0px;
+	color: transparent; font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	-webkit-transition: all 0.5px ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	margin-bottom: 70px;
+	margin-right: 20px;
+	margin-left: 50px;
+}
+#ex4:hover {
+	line-height: 133px;
+	color: #575858;
+}
+#ex4 img{ float: left;
+	margin: 20px;
 }
 
 	
