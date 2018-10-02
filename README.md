@@ -18,8 +18,7 @@ display your name. Choose it appropriately.
 
 
 ## Link to the Centre
-![](http://4.bp.blogspot.com/_O8rcaBdiO70/SwvL-vVUhxI/AAAAAAAAACY/17TY3jyzRrc/S150/log.jpg=30x30) 
-http://www.iesesteveterradas.cat/
+<img src="http://4.bp.blogspot.com/_O8rcaBdiO70/SwvL-vVUhxI/AAAAAAAAACY/17TY3jyzRrc/S150/log.jpg=30x30" width="50px"> http://www.iesesteveterradas.cat/
 
 
 ## Code highlights
@@ -27,12 +26,13 @@ http://www.iesesteveterradas.cat/
 ```php
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
 ```
-	In this peace of code, first we assign to the *$imgs* variable the properties of the scan of the directory /img in an ascendent way.
+In this peace of code, first we assign to the *$imgs* variable the properties of the scan of the directory /img in an ascendent way.
 
 
 ### CSS
 ```css
-.avatar{border-radius: 40%;
+.avatar{
+	border-radius: 40%;
 	float: left; 
 	height: 120px;
 	width: 120px;
@@ -40,3 +40,4 @@ http://www.iesesteveterradas.cat/
 	margin-bottom: 2%;"
 }
 ```
+Here we make the images have the same size, the distance between them, round corners, and they place beside each other.
