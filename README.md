@@ -26,12 +26,13 @@ display your name. Choose it appropriately.
 ```
 	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
 ```
-	In this peace of code, first we assign to the *$imgs* variable the properties of the scan of the directory /img in an ascendent way.
+In this peace of code, first we assign to the *$imgs* variable the properties of the scan of the directory /img in an ascendent way.
 
 
 ### CSSS
 ```
-.avatar{border-radius: 40%;
+.avatar{
+	border-radius: 40%;
 	float: left; 
 	height: 120px;
 	width: 120px;
@@ -39,3 +40,4 @@ display your name. Choose it appropriately.
 	margin-bottom: 2%;"
 }
 ```
+Here we make that images have the same size, the distance between them, round corners, and they place beside each other.
