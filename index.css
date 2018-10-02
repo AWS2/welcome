@@ -1,0 +1,64 @@
+body{
+	background:url(./br.jpg);
+}
+
+h1{
+	color: green;
+	text-align: center;
+	font-size: 70px;
+}
+
+#contenedor{
+	width: 280px;
+	margin: 0 auto;
+	padding-top: 150px;
+	float: left;
+}
+
+
+#contenedor-imagen:hover{
+	opacity: 0.5;
+
+
+}
+
+#contenedor-imagen img {
+	margin: 70px;
+	width: 210px;
+	height: 210px;
+	border: 5px solid #eee;
+	-webkit-animation: rotate 10s infinite ease-in-out;
+	-moz-animation: rotate 10s infinite ease-in-out;
+	-o-animation: rotate 10s infinite ease-in-out;
+	-ms-animation: rotate 10s infinite ease-in-out;
+}
+@-webkit-keyframes rotate{
+	0%{-webkit-transform:rotateZ(-360deg);
+	}
+	100%{-webkit-transform:rotateZ(0deg);
+	}
+}
+
+@-moz-keyframes rotate{
+	0%{-moz-transform:rotateZ(-360deg);
+	}
+	100%{-moz-transform:rotateZ(0deg);
+	}
+}
+
+@-o-keyframes rotate{
+	0%{-o-transform:rotateZ(-360deg);
+	}
+	100%{-o-transform:rotateZ(0deg);
+	}
+}
+
+@-ms-keyframes rotate{
+	0%{-ms-transform:rotateZ(-360deg);
+	}
+	100%{-ms-transform:rotateZ(0deg);
+	}
+}
+
+
+
