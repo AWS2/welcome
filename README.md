@@ -23,10 +23,10 @@ display your name. Choose it appropriately.
 ## Code highlights
 ### PHP
 ```
-asdfasdf
-asdfasdfasdf
-asdfas code :)
+	$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
 ```
+	In this peace of code, first we assign to the *$imgs* variable the properties of the scan of the directory /img in an ascendent way.
+
 
 ### CSSS
 --code--
