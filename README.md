@@ -4,13 +4,13 @@
 
 Aquesta branca está creada per Josep Sort i Yaiza Cortés, membres de AWS2.
 
+[logo]: http://wefiles.europeinyourlife.com/71/imagen_fichas/FICHA_14997/logo.jpg "Logo del Esteve Terrades"
+
+
 Som estudiants de l'Institut Esteve Terradas i Illa. 
 La seva web és:
 
 (http://www.iesesteveterradas.cat/)
-
-
-[logo]: http://wefiles.europeinyourlife.com/71/imagen_fichas/FICHA_14997/logo.jpg "Logo del Esteve Terrades"
 
 
 ## Codi
