@@ -1,8 +1,13 @@
-<title>Casa Tarradellas</title>
-<link rel="shortcut icon" href="chorizo.jpg" />
-<body>
+<html>
+<head>
+
+	<title>Eric & David - Projecte Welcome</title>
+	<link rel="shortcut icon" href="TitleIcon.gif" />
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<link rel="shortcut icon" type="image/x-icon" href="https://loading.io/spinners/gear-set/lg.triple-gears-loading-icon.gif"/>
+
+</head>
+<body>
+	
 	<img src="Title.png" class='Titulo'>
 	<ul>
 	<div class="container">
@@ -22,6 +27,7 @@
 
 				}
 			}
+
 ?>
 </body>
 </html>
