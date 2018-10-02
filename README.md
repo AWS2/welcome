@@ -2,7 +2,9 @@
 
 ## First GIT project AWS2 M8
 
-Aquesta branca está creada per els següents membres de *AWS2*.:
+Aquesta branca está creada per els següents membres de *AWS2*.: 
+
+Aquí explicarem el nostre codi: [Link](codi)
 
 * **Josep Sort**
 * **Yaiza Cortés**
@@ -19,6 +21,7 @@ La seva [web][http://www.iesesteveterradas.cat/] és:
 
 (http://www.iesesteveterradas.cat/)
 
+*** 
 
 ## Codi
 
