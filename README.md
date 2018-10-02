@@ -4,6 +4,8 @@
 
 Aquesta branca está creada per Josep Sort i Yaiza Cortés, membres de AWS2.
 
+![alt text][logo]
+
 [logo]: http://wefiles.europeinyourlife.com/71/imagen_fichas/FICHA_14997/logo.jpg "Logo del Esteve Terrades"
 
 
