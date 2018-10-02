@@ -110,6 +110,10 @@ img:hover {
 #ex4 img{ float: left;
 	margin: 20px;
 }
+p{
+	position: relative;
+	top: -50px;
+}
 
 	
 
