@@ -1,4 +1,4 @@
-# welcome
+# Welcome
 
 ## Componentes del grupo
 
