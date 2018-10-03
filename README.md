@@ -1,25 +1,84 @@
-# welcome
+### Miembros del grupo:
+*Jordi Martínez Mateos*
+*Jose Soto Moriano*
 
-##First GIT project AWS2 M8
+### Web del centro
+[Aquesta es la nostra pagina del centre: ](http://www.esteveterradas.cat/)
 
-In this project you simply have to add 2 files for each student. One 
-for a picture of you (or whatever avatar you like) and a presentation 
-in HTML of you.
+### Aqui esta nuestro logo:
 
-You are welcome to add any improvements to the PHP code if you feel 
-like doing it.
+__Logo__:
+![alt text](et.jpg)
 
-## Folders and filenames
+### Aqui esta un trozo de nuestro codigo php:
 
-- `img` folder : your picture in JPG format. The filename will be used to 
-display your name. Choose it appropriately.
-- `profile` folder : your presentation in HTML. Same for the 
-*filename* (must be according to your picture).
+<?php 
+
+		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
+		foreach( $imgs as $img ) {	
+			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
+				echo "<div id='contenedor'>";
+					echo "<div id='contenedor-imagen'>";
+							echo "<a href='profile/$name.html'>";
+							echo "<img style='float:left' src='img/$img' width='130'>";
+					echo "</div>";
+				echo "</div>";
+				echo "</div>";
+				;
+			}
+		}
+
+	?>
+
+### El nostre codi css, que fa que roti les imatges:
+
+#contenedor-imagen img {
+	margin: 70px;
+	width: 210px;
+	height: 210px;
+	border: 5px solid #eee;
+	-webkit-animation: rotate 10s infinite ease-in-out;
+	-moz-animation: rotate 10s infinite ease-in-out;
+	-o-animation: rotate 10s infinite ease-in-out;
+	-ms-animation: rotate 10s infinite ease-in-out;
+}
+@-webkit-keyframes rotate{
+	0%{-webkit-transform:rotateZ(-360deg);
+	}
+	100%{-webkit-transform:rotateZ(0deg);
+	}
+}
+
+@-moz-keyframes rotate{
+	0%{-moz-transform:rotateZ(-360deg);
+	}
+	100%{-moz-transform:rotateZ(0deg);
+	}
+}
+
+@-o-keyframes rotate{
+	0%{-o-transform:rotateZ(-360deg);
+	}
+	100%{-o-transform:rotateZ(0deg);
+	}
+}
+
+@-ms-keyframes rotate{
+	0%{-ms-transform:rotateZ(-360deg);
+	}
+	100%{-ms-transform:rotateZ(0deg);
+	}
+}
 
 
-> IMPORTANT NOTE: **anyone who overwrites another person's file will be 
-qualified with ZERO** '0' in this task. So, please be nice.
+### cursiva:
+*hola* o _hola_
 
+### negreta:
+**hola** o __hola__
 
-And if you want to add some more presentation here in the README file, 
-you may take a look to the [Markdown syntax](https://help.github.com/articles/markdown-basics/).
+### llistes:
+1. Llista ordenada
+···Llista desordenada···
+
+···Amb els tres punts es fa la llista desordenada, amb el 1., 2. etc, es fa ordenadament···
