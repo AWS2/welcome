@@ -91,7 +91,7 @@ img:hover {
 	width: 300px;
 	height: 300px;
 	line-height: 0px;
-	color: transparent; font-size: 20px;
+	color: transparent; font-size: 20px; 
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -104,15 +104,11 @@ img:hover {
 	margin-left: 50px;
 }
 #ex4:hover {
-	line-height: 133px;
+	line-height: 80px;
 	color: #575858;
 }
 #ex4 img{ float: left;
-	margin: 20px;
-}
-p{
-	position: relative;
-	top: -50px;
+	margin: 0 15px;
 }
 
 	
