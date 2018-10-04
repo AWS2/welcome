@@ -9,7 +9,7 @@
 
 ```
 ```
-![Texto alternativo](logo.png)
+![Texto alternativo](logo.jpg)
 ```
 ```
 [Esteve Terradas](http://www.iesesteveterradas.cat/)
