@@ -28,37 +28,37 @@ Este código es un conjunto de dos bucles for, el primero crearía un array con 
 ```php 
 
 <?php 
-				$people = [];
+		$people = [];
+		$x = 0;
+		$count = 1;
+		$sem = False;
+		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
+		$display = 'display:inline';
+		foreach( $imgs as $img ) {	
+			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
+				$name = substr($img,0,-4);
+				$person = array("name" => $name,"image" => $img);
+				$people[] = $person;
+			}
+		}
+		?><?
+		foreach($people as $value){
+			if($sem == False){
+				?><div id="<?=$count?>" class="interior" style="<?=$display?>";><?
+			}
+			if($x < 4){
+				?><a href="profile/<?=$value["name"]?>.html"><img src="img/<?=$value["image"]?>" height="300" width="200" alt=""></a><?
+				$x++;
+				$sem = True;
+			}else{
+				$display = 'display:none';
+				$count++;
 				$x = 0;
-				$count = 1;
 				$sem = False;
-				$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
-				$display = 'display:inline';
-				foreach( $imgs as $img ) {	
-					if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
-						$name = substr($img,0,-4);
-						$person = array("name" => $name,"image" => $img);
-						$people[] = $person;
-					}
-				}
-				?><?
-				foreach($people as $value){
-					if($sem == False){
-						?><div id="<?=$count?>" class="interior" style="<?=$display?>";><?
-					}
-					if($x < 4){
-						?><a href="profile/<?=$value["name"]?>.html"><img src="img/<?=$value["image"]?>" height="300" width="200" alt=""></a><?
-						$x++;
-						$sem = True;
-					}else{
-						$display = 'display:none';
-						$count++;
-						$x = 0;
-						$sem = False;
-						?></div><?
-					}
-				}
-			?>
+				?></div><?
+			}
+		}
+	?>
 
 
 ```
