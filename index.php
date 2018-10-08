@@ -3,7 +3,7 @@
 	<title>Projecte Welcome 1</title>
 </head>
 
-<body id="cuerpo" background="fondoWelcome.png">
+<body id="cuerpo" background="marioclouds.gif">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -27,7 +27,7 @@ $(document).ready(function(){
 			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
 				$name = substr($img,0,-4);
 				echo "<a href='profile/$name.html'>";
-				echo "<img src='img/$img' width='160' height='160'  title='$name' class='zoom'";
+				echo "<img src='img/$img' width='160' height='160'  title='$name' class='zoom'>";
 				;
 			}
 		}
