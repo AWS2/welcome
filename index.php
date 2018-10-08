@@ -24,7 +24,7 @@
 						?><div id="<?=$count?>" class="interior" style="<?=$display?>";><?
 					}
 					if($x < 4){
-						?><img src="img/<?=$value["image"]?>" height="300" width="200" alt=""><?
+						?><a href="profile/<?=$value["name"]?>.html"><img src="img/<?=$value["image"]?>" height="300" width="200" alt=""></a><?
 						$x++;
 						$sem = True;
 					}else{
