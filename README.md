@@ -2,8 +2,8 @@
 
 ## Componentes del grupo
 
-* **Kevin** "La Flama"
-* **Xus** "El Diamante"
+* **Kevin** "*La Flama*"
+* **Xus** "*El Diamante*"
 
 ## Folders and filenames
 
