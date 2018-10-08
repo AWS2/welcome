@@ -2,6 +2,15 @@
 
 (http://www.iesesteveterradas.cat/)
 
+[id]: /et.jpg
+
+*
+*
+*
+*
+*
+
+
 
 <code>
 	
