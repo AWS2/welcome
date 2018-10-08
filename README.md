@@ -7,7 +7,7 @@
 
 ## Folders and filenames
 
-![https://moodle.esteveterradas.cat/](logoesteve.jpg "Esteve Terradas" )
+[![alt text](logoesteve.jpg "Esteve Terradas" )](https://moodle.esteveterradas.cat/)
 
 ## Code and Syntax Highlighting
 
