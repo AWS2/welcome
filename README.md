@@ -6,6 +6,7 @@
   -[IES Esteve Terradas](http://www.iesesteveterradas.cat/).
   
 # Logo del centre:
+  ![alt text](https://pbs.twimg.com/profile_images/478903857653620737/aNqCiRN7_400x400.jpeg).
 
 # welcome
 
