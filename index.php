@@ -2,7 +2,7 @@
 <head>
 	<link href="CSSGit.css" rel="stylesheet" type="text/css">
 </head>
-<body >
+<body bgcolor="#228B22">
 	<h1 style='text-align: center'>El fabuloso mundo de AWS2</h1>
 
 	<?php 
