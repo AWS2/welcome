@@ -1,3 +1,12 @@
+
+# Nom dels components del grup: 
+   -Sergi Coma Corcuera.
+
+# Enllaç al centre (Esteve Terradas):
+  -[IES Esteve Terradas](http://www.iesesteveterradas.cat/).
+  
+# Logo del centre:
+
 # welcome
 
 ##First GIT project AWS2 M8
