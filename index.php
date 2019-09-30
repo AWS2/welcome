@@ -1,76 +1,42 @@
-<html>
-	<head></head>
-	<link rel="stylesheet" href="index.css">
-	<body>
-		<div id="main">
-			<h1>Que Viene el toro</h1>
-			<?php 
-				$people = [];
-				$x = 0;
-				$count = 1;
-				$sem = False;
-				$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
-				$display = 'display:inline';
-				foreach( $imgs as $img ) {	
-					if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
-						$name = substr($img,0,-4);
-						$person = array("name" => $name,"image" => $img);
-						$people[] = $person;
-					}
-				}
-				?><?
-				foreach($people as $value){
-					if($sem == False){
-						?><div id="<?=$count?>" class="interior" style="<?=$display?>";><?
-					}
-					if($x < 4){
-						?><a href="profile/<?=$value["name"]?>.html"><img src="img/<?=$value["image"]?>" height="300" width="200" alt=""></a><?
-						$x++;
-						$sem = True;
-					}else{
-						$display = 'display:none';
-						$count++;
-						$x = 0;
-						$sem = False;
-						?></div><?
-					}
-				}
-			?>
-			
-		</br>
-		</div>
-			<div id=pie>
-				<img src="derecha.png" onclick="atras()" id="espejo"class="boton">
-				<img src="derecha.png" onclick="adelante()"  class="boton">
-			</div>
-		</div>
-		<div id="sliderImages">
-			<img id="si_1" src="nedstark.png" alt="" />
-			</div>
-			<script>
-				var num=1;
-				function adelante() {
-					if(num<12){
-						document.getElementById(num).style.display = "none";
-						num++;
-						document.getElementById(num).style.display = "inline";
-					}else if (num==12) {
-						document.getElementById(num).style.display = "none";
-						num = 1;
-						document.getElementById(num).style.display = "inline";
-					}
-				}
-				function atras() {
-					if(num==1){
-						document.getElementById(num).style.display = "none";
-						num=12;
-						document.getElementById(num).style.display = "inline";
-					}else if (num>1) {
-						document.getElementById(num).style.display = "none";
-						num--;
-						document.getElementById(num).style.display = "inline";
-					}
-				}
-			</script>
-	</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href="style.css" type="text/css">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creating an Image Gallery From Folder using PHP</title>
+<style type="text/css">
+
+</style>
+</head>
+
+<body>
+
+<?php
+$folder_path = 'img/'; //image's folder path
+
+$num_files = glob($folder_path . "*.{JPG,jpg,gif,png,bmp}", GLOB_BRACE);
+
+$folder = opendir($folder_path);
+ 
+if($num_files > 0)
+{
+ while(false !== ($file = readdir($folder))) 
+ {
+  $file_path = $folder_path.$file;
+  $extension = strtolower(pathinfo($file ,PATHINFO_EXTENSION));
+  if($extension=='jpg' || $extension =='png' || $extension == 'gif' || $extension == 'bmp') 
+  {
+   ?>
+            <a href="<?php echo $file_path; ?>"><img src="<?php echo $file_path; ?>"  height="250" /></a>
+            <?php
+  }
+ }
+}
+else
+{
+ echo "the folder was empty !";
+}
+closedir($folder);
+?>
+</body>
 </html>
