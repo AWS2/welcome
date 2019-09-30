@@ -4,10 +4,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
- <div class="header">
-  <h1>Projecte Welcome 1</h1>
-</div> 
-
 <body>
 	<header>
 	<h1>Projecte Welcome 1</h1>
