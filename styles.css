@@ -1,23 +1,14 @@
-body {
-  background-color: orange;
-}
 
-#imagenes{
-	display: inline-block;
-}
 
-img{
-	height: 150px;
-	width: 150px;
-}
+
 
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 body {
-	background-color: black;
+	background-color: #876e69;
 }
 
-.title {
+.container {
 	font-family: "Montserrat";
 	text-align: center;
 	color: #FFF;
@@ -40,23 +31,15 @@ h1 {
 	line-height: .75;
 	margin: 10px 0;
 }
-/* styling my button */
-
-.white-mode {
-	text-decoration: none;
-	padding: 7px 10px;
-	background-color: #122;
-	border-radius: 3px;
-	color: #FFF;
-	transition: .35s ease-in-out;
-	position: absolute;
-	left: 15px;
-	bottom: 15px;
-	font-family: "Montserrat";
+img{
+	height: 150px;
+	width: 150px;
 }
 
-.white-mode:hover {
-	background-color: #FFF;
-	color: #122;
+div{
+	display: inline-block;
+	margin: 30px;
 }
-
+a{
+	color: white;
+}
