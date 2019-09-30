@@ -1,4 +1,5 @@
 # welcome
+####Components Equip: Ruben Hernandez y Joel Jiménez
 
 ##First GIT project AWS2 M8
 
