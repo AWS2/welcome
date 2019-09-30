@@ -1,11 +1,12 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body>	
+	<div id="container"></div>
 	<h1>Projecte Welcome 1</h1>
-	<div id="container">
-		<ul>
 
+		<ul>
+		<div class="inner">
 		<?php
 
 			$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
