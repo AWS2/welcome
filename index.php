@@ -17,11 +17,12 @@
 				$name = substr($img,0,-4);
 				echo "<div class='polaroid'>";
 				echo "<a href='profile/$name.html'>";
-				echo "<div class='container'><img src='img/$img' width='150'>";
-				echo "<p>$name</p></div></a>";
+				echo "<div class='container'>";
+				echo "<img src='img/$img'>";
+				echo "<p>$name</p></div></a></div>";
 				
 
-				echo "<div></div>\n";
+				echo "\n";
 				;
 			}
 		}
