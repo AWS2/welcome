@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 <head>
 	<title>Welcome</title>
@@ -11,6 +12,18 @@
 <body>
 	
 	<ul>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+
+<body>
+	<h1>Projecte Welcome 1</h1>
+	
+>>>>>>> c9310901fc25afcf9b3b614f5bb76a3759574c83
 
 	<?php 
 
@@ -21,12 +34,18 @@
 				echo "<div>";
 
 				$name = substr($img,0,-4);
+				echo "<div class='polaroid'>";
 				echo "<a href='profile/$name.html'>";
-				echo "<img src='img/$img' width='130'>";
-				echo $name."</a>";
+				echo "<div class='container'>";
+				echo "<img src='img/$img'>";
+				echo "<p>$name</p></div></a></div>";
 				
 
+<<<<<<< HEAD
 				echo "</div>";
+=======
+				echo "\n";
+>>>>>>> c9310901fc25afcf9b3b614f5bb76a3759574c83
 				;
 			}
 		}
@@ -34,4 +53,9 @@
 	?>
 
 </body>
+<<<<<<< HEAD
 </html>
+=======
+
+</html>
+>>>>>>> c9310901fc25afcf9b3b614f5bb76a3759574c83
