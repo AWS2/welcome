@@ -7,6 +7,11 @@ body {
 }
 
 img{
-	height: 150;
+	height: 150px;
 	width: 150px;
+}
+
+div {
+  display: inline-flex;
+  margin: 5px;
 }
