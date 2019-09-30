@@ -1,3 +1,12 @@
 body {
   background-color: orange;
 }
+
+#imagenes{
+	display: inline-block;
+}
+
+img{
+	height: 150;
+	width: 150px;
+}
