@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
 <body>
 	<h1>Projecte Welcome 1</h1>
@@ -22,3 +28,5 @@
 	?>
 
 </body>
+
+</html>
