@@ -1,4 +1,7 @@
 
+<head>
+	<link rel="stylesheet" type="text/css" href="ferryrafa.css"/>
+</head>
 <body>
 	<link rel="stylesheet" href="ferryrafa.css">
 	<h1>Projecte Welcome 1</h1>
