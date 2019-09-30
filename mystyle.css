@@ -1,0 +1,25 @@
+.header {
+	background-color: grey;
+	text-align: center;
+
+}
+
+body {
+	background-color: #a09795;
+}
+
+div {
+	background-color: green;
+	margin: 5px;
+	
+}
+
+a {
+	color: white;
+	position: relative;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+}
