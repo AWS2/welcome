@@ -6,8 +6,9 @@
 </head>
 
 <body>
+	<header>
 	<h1>Projecte Welcome 1</h1>
-	
+	</header>
 
 	<?php 
 
