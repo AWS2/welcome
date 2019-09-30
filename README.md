@@ -1,25 +1,85 @@
-# welcome
+# welcome to the Rubens branch
 
-##First GIT project AWS2 M8
+## First GIT project AWS2 M8
 
-In this project you simply have to add 2 files for each student. One 
-for a picture of you (or whatever avatar you like) and a presentation 
-in HTML of you.
+Aquí explicamos nuestro código: [Link](#codi)
 
-You are welcome to add any improvements to the PHP code if you feel 
-like doing it.
-
-## Folders and filenames
-
-- `img` folder : your picture in JPG format. The filename will be used to 
-display your name. Choose it appropriately.
-- `profile` folder : your presentation in HTML. Same for the 
-*filename* (must be according to your picture).
+* **Rubén del Olmo**
+* **Rubén García**
 
 
-> IMPORTANT NOTE: **anyone who overwrites another person's file will be 
-qualified with ZERO** '0' in this task. So, please be nice.
+![alt text][logo]
+
+[logo]: https://pbs.twimg.com/profile_images/478903857653620737/aNqCiRN7_400x400.jpeg "Logo del Esteve Terrades"
 
 
-And if you want to add some more presentation here in the README file, 
-you may take a look to the [Markdown syntax](https://help.github.com/articles/markdown-basics/).
+
+ Somos estudiantes de el instituto Esteve Terradas i Illa*. 
+Su web [web][http://www.iesesteveterradas.cat/] és:
+
+(http://www.iesesteveterradas.cat/)
+
+*** 
+
+## Codi
+
+Este código es un conjunto de dos bucles for, el primero crearía un array con las imágenes y los nombres a quienes pertenecen estas imágenes. El segundo bucle se encargaría de crear los diferentes contenedores div, en los cuáles se incluirán cuatro imágenes cada uno.
+
+```php 
+
+<?php 
+		$people = [];
+		$x = 0;
+		$count = 1;
+		$sem = False;
+		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
+		$display = 'display:inline';
+		foreach( $imgs as $img ) {	
+			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
+				$name = substr($img,0,-4);
+				$person = array("name" => $name,"image" => $img);
+				$people[] = $person;
+			}
+		}
+		?><?
+		foreach($people as $value){
+			if($sem == False){
+				?><div id="<?=$count?>" class="interior" style="<?=$display?>";><?
+			}
+			if($x < 4){
+				?><a href="profile/<?=$value["name"]?>.html"><img src="img/<?=$value["image"]?>" height="300" width="200" alt=""></a><?
+				$x++;
+				$sem = True;
+			}else{
+				$display = 'display:none';
+				$count++;
+				$x = 0;
+				$sem = False;
+				?></div><?
+			}
+		}
+	?>
+
+
+```
+
+En este trozo de código podemos ver cómo se pone el fondo de la página y el tamaño de las imágenes.
+
+```css
+
+body{
+    background-image: url(nieve.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-left: 300px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+```

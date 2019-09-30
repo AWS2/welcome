@@ -1,0 +1,60 @@
+body{
+    background-image: url(nieve.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-left: 300px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#espejo{
+    -moz-transform: scaleX(-1); /* Firefox */
+-o-transform: scaleX(-1); /* Opera */
+-webkit-transform: scaleX(-1); /* Chrome y Safari */
+transform: scaleX(-1); /* w3org */
+}
+#main{
+    margin-top: 100px;
+    margin-left:200px;
+        
+}
+#fiz{
+    width: 25px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.5;
+}
+.boton{
+    width: 100px;
+    height: 100px;
+}
+#pie{
+    width: 42%;
+    margin: 0 auto;
+}
+
+
+#sliderImages {
+ width : 60%;
+ height: 300px;
+ overflow: hidden;
+ position: relative;
+ animation: slide 5s infinite;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+}
+
+#sliderImages img {
+ float: left;
+}
+
+@keyframes slide {
+   0%   {left:0px; top:20%; transform: rotate(0deg);}
+   50%  {left: 20%; top:20%; transform: rotate(180deg)}
+   100% {left:100%; top:20%; transform: rotate(360deg)}
+}
