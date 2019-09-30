@@ -23,3 +23,9 @@ qualified with ZERO** '0' in this task. So, please be nice.
 
 And if you want to add some more presentation here in the README file, 
 you may take a look to the [Markdown syntax](https://help.github.com/articles/markdown-basics/).
+
+<p>Equipo Macarrones</p>
+<p>Roger</p>
+<img src="img/Roger.jpg" width="312" height="150">
+<p>Marc Bryan</p>
+<img src="img/marcbryan.jpg" width="355" height="200">
