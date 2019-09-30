@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 <html>
 <head>
 	<title>Welcome</title>
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
  <div class="header">
@@ -11,19 +10,6 @@
 
 <body>
 	
-	<ul>
-=======
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title></title>
-</head>
-
-<body>
-	<h1>Projecte Welcome 1</h1>
-	
->>>>>>> c9310901fc25afcf9b3b614f5bb76a3759574c83
 
 	<?php 
 
@@ -41,11 +27,11 @@
 				echo "<p>$name</p></div></a></div>";
 				
 
-<<<<<<< HEAD
+
 				echo "</div>";
-=======
+
 				echo "\n";
->>>>>>> c9310901fc25afcf9b3b614f5bb76a3759574c83
+
 				;
 			}
 		}
@@ -53,9 +39,9 @@
 	?>
 
 </body>
-<<<<<<< HEAD
-</html>
-=======
 
 </html>
->>>>>>> c9310901fc25afcf9b3b614f5bb76a3759574c83
+
+
+</html>
+
