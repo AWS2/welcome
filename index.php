@@ -5,9 +5,9 @@
 </head>
 
 <body>
-	<header>
+	<div class="header">
 	<h1>Projecte Welcome 1</h1>
-	</header>
+	</div>
 	
 	<div class="containerImg">
 	<?php 
