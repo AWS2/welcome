@@ -9,7 +9,7 @@
 	<h1>Projecte Welcome 1</h1>
 	</header>
 	
-
+	<div class="containerImg">
 	<?php 
 
 		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
@@ -36,7 +36,7 @@
 		}
 
 	?>
-
+	</div>
 </body>
 
 </html>

@@ -9,33 +9,39 @@ body{
 	background-color: #a09795;
 }
 
+.containerImg{
+  margin: auto;
+  width: 90%;
+}
+
+
 div.polaroid {
 	float: left;
-  	width: 20%;
-  	background-color: white;
-  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  	margin: 15px;
+  width: 20%;
+  height: 40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+}
+
+div.polaroid:hover {
+  background: green;
 }
 
 div.container {
   	text-align: center;
-  	padding: 5%;
   	color: black;
-}
-div.container:hover {
-	background: green;
+
 }
 
 a:link{
 	text-decoration: none;
 }
 
-img{
-height: 100px;
-width: auto;
-  background: transparent no-repeat center;
-  background-size: cover;
-
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+img{ 
+  max-width:100%;
+  max-height:110px;
+  width: auto;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
