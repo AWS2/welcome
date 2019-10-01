@@ -1,0 +1,48 @@
+body{
+  background-color: #EEE;
+}
+
+.cabeza{
+  text-align: center;
+  font-family: serif;
+  font-size: 30px;
+}
+hr {
+  border:none;
+  height: 20px;
+  width: 90%;
+	height: 50px;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px;
+  margin-bottom: 50px;
+}
+
+.caja{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 10px;
+  margin-bottom: 60px;
+}
+.caja:hover{
+	background-color: #ED4722;
+	box-shadow: 0px 0px 5px 3px red;
+	opacity: 0.9;
+  border-radius: 100px;
+}
+
+.caja img{
+  border-radius: 100px;
+  margin-bottom: -20px;
+}
+.caja a{
+  text-align: center;
+  color: #EEE;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: serif;
+}
+.caja a:hover{
+  color: #ED4722;
+}
