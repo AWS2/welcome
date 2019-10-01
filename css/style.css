@@ -1,0 +1,28 @@
+body{
+	background: black;
+	}
+h1{
+	text-align: center;
+	color:green;
+	}
+a{
+	width: 140px; 
+	height: 140px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: baseline;
+	margin-bottom:30px;	
+	color:green;
+	}
+img{
+	width: 120px; height: 120px;
+	}
+
+div{
+	display: inline-grid;
+	height: 30px;
+	margin-left: 5px;
+	}
+
+
+
