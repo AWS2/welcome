@@ -1,28 +1,31 @@
-body{
-	background: black;
-	}
-h1{
-	text-align: center;
-	color:green;
-	}
-a{
-	width: 140px; 
-	height: 140px;
-	display: inline-block;
-	text-align: center;
-	vertical-align: baseline;
-	margin-bottom:30px;	
-	color:green;
-	}
-img{
-	width: 120px; height: 120px;
-	}
+body
+{
+ background: black;
+}
+img {
+	float: left;
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 9px;
+  width: 90px;
+  height: 90px;
+}
+
+img:hover {
+  box-shadow: 0 0 1px 1px rgba(0, 100, 200, 1);
+}
+
+a {
+  color: yellow;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center
+}
 
 div{
-	display: inline-grid;
-	height: 30px;
-	margin-left: 5px;
-	}
+	  height: 30px;
 
-
-
+}
