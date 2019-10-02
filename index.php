@@ -5,6 +5,7 @@
 </head>
 <body>
 	<div class="cabeza">
+		<img src="./ETINDER.png" alt="">
 		<h3>Alumnos AWS!!!</h3><hr>
 	</div>
 

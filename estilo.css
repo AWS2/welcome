@@ -7,6 +7,13 @@ body{
   font-family: serif;
   font-size: 30px;
 }
+.cabeza img{
+  height: 250px;
+  width: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: -50px;
+}
 hr {
   border:none;
   height: 20px;
