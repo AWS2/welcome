@@ -65,4 +65,31 @@ a {
 	color: white;
 	text-align: center;
 	line-height: 10;
+=======
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	background-color: #CFB3CD;
+
+}
+
+#container {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.content {
+	position: relative;
+	padding: 4px;
+	border: 2px solid #266DD3;
+	float: left;
+	height: 100%;
+	width: 180px;
+	background-color: #344055;
+	border-radius: 50%;
 }
