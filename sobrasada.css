@@ -37,3 +37,32 @@ body {
 	background-color: #344055;
 	border-radius: 50%;
 }
+
+.content img {
+	border-radius: 50%;
+	padding: 5%;
+	width: 90%;
+	height: 90%;
+}
+
+a {
+	margin: 20px;
+	height: 175px;
+}
+
+.author {
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: rgba(0, 0, 0, 0);
+	height: 100%;
+	width: 100%;
+}
+
+.author:hover {
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	text-align: center;
+	line-height: 10;
+}
