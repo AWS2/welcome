@@ -1,0 +1,92 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: coral;
+}
+
+.titulo {
+    background-color: red;
+    border-radius: 10px;
+    width: 90%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contenedorPrincipal {
+    width: 90%;
+    margin: 0 auto;
+    
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+body {
+    background-color: coral;
+}
+
+#contenedorPrincipal {
+    width: 90%;
+    margin: 0 auto;
+   
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.contenido {
+    position: relative;
+    padding: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    height: 100%;
+    width: 180px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+a {
+    margin: 15px;
+    height: 150px;
+}
+
+.contenido img {
+    padding: 5%;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+}
+
+.descripcion {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.descripcion:hover {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.descripcion > span{
+    position: absolute;
+    padding-top: 20px;
+    left: 0px;
+    width: 100%;
+}
