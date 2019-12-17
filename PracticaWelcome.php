@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="ex1.css"/>
+		<link rel="stylesheet" type="text/css" href="PracticaWelcome.css"/>
 
 	</head>
     <body>
