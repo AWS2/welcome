@@ -1,4 +1,9 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Projecte Welcome 1</title>
+</head>
 <body>
 	<h1>Projecte Welcome 1</h1>
 	<ul>
@@ -22,3 +27,5 @@
 	?>
 
 </body>
+</html>
+
