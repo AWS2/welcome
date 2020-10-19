@@ -20,8 +20,10 @@
 				$name = substr($img,0,-4);
 				echo "<div class='col-lg-3 row'>";
 				echo "<div class='col-lg-8 m-auto d-flex flex-column'>";
-				echo "<a class='m-auto' href='profile/$name.html'><img src='img/$img' width='130'></a>";
-				echo "<p class='m-auto'>$name</p>";
+				echo "<div class='m-auto'>";
+				echo "<a href='profile/$name.html'><img src='img/$img' width='130'></a>";
+				echo "<p>$name</p>";
+				echo "</div>";
 				echo "</div>";
 				echo "</div>";
 			}
