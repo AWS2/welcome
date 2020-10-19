@@ -2,5 +2,16 @@ body {
     background-image: url(../background.gif);
     background-repeat: no-repeat;
     background-size: 100%;
-    position: fixed;
+    position: absolute;
+}
+
+.hi, h1 {
+    font-size: 2.5rem;
+    color: white !important;
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+    text-decoration-color: white !important;
 }
