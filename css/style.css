@@ -10,12 +10,20 @@ body {
     color: white !important;
 }
 
-a {
+p {
     color: white !important;
     text-decoration: none !important;
     text-decoration-color: white !important;
+    align-content: center !important;
 }
 
 .row {
     margin: 0 !important;
+}
+
+.pic-name {
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 1px;
 }
