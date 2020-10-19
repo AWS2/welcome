@@ -15,3 +15,7 @@ a {
     text-decoration: none !important;
     text-decoration-color: white !important;
 }
+
+.row {
+    margin: 0 !important;
+}
