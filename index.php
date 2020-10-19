@@ -19,8 +19,9 @@
 			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
 				$name = substr($img,0,-4);
 				echo "<div class='col-lg-3 row'>";
-				echo "<div class='col-lg-8 m-auto'>";
-				echo "<a class='' href='profile/$name.html'><img src='img/$img' width='130'>$name.</a>";
+				echo "<div class='col-lg-8 m-auto d-flex flex-column'>";
+				echo "<a class='m-auto' href='profile/$name.html'><img src='img/$img' width='130'></a>";
+				echo "<p class='m-auto'>$name</p>";
 				echo "</div>";
 				echo "</div>";
 			}
