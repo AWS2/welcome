@@ -20,7 +20,7 @@
 					<div class='card' style='width: 18rem; display: grid; float: left; padding: 10px;'>
 						<img class='card-img-top' src='img/$img' alt='Card image cap' style='height: 270px;'>
 						<div class='card-body' style='text-align: center;'>
-							<a href='profile/$name.html' target='_blank' class='btn btn-primary'>$name</a>
+							<a href='profile/$name.html' class='btn btn-primary'>$name</a>
 						</div>
 					</div>
 				"
