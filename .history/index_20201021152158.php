@@ -17,8 +17,8 @@
 			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
 				$name = substr($img,0,-4);
 				echo "
-					<div class='card' style='width: 18rem; display:flex; float: left;'>
-						<img class='card-img-top' src='img/$img' alt='Card image cap' style='height: 18rem'>
+					<div class='card' style='width: 18rem;'>
+						<img class='card-img-top' src='img/$img' alt='Card image cap'>
 						<div class='card-body'>
 							<a href='profile/$name.html' class='btn btn-primary'>$name</a>
 						</div>
