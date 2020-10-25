@@ -1,0 +1,44 @@
+body {
+    background-color: #414B56;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+    font-family: 'PT Serif', serif;
+
+}
+
+.general {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+    justify-content: center;
+}
+
+
+.titulo {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.tamaño {
+    width: 15%;
+    border: black solid;
+    border-radius: 3px;
+    margin: 1rem;
+}
+
+.decor1 {
+    background-color: black;
+    text-align: center;
+}
+
+.decor2 {
+    text-align: center;
+    background-color: grey;
+    
+
+}
