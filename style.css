@@ -1,6 +1,33 @@
+body{
+	background-color: black;
+}
+}
+
+#titulo{
+	background-color: black;
+}
+
 h1{
 	text-align: center;
+	color: white;
 }
-a{
-	display: table-caption;
+#body{
+	background-color: red;
+}
+#cuerpo{
+	display:flex;
+	flex-direction: row;
+  	flex-wrap:wrap;
+  	align-content:flex-start;
+  	height: auto;
+  	width: 1400px;
+  	margin-left: 17%;
+}	
+
+.cuerpo2{
+	width: 200px;
+	height: 200px;
+	margin-top: 100px;
+	display: flex;
+	margin-right: 15px;
 }
