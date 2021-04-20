@@ -1,17 +1,16 @@
 body{
-	background-color: black;
+    background-color: gray;
 }
-
 #titulo{
-	background-color: black;
+    background-color: black;
 }
 
 h1{
-	text-align: center;
-	color: white;
+    text-align: center;
+    color: white;
 }
 #body{
-	background-color: red;
+    background-color: gray;
 }
 #cuerpo{
 	display:flex;
