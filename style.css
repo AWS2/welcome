@@ -7,7 +7,7 @@ body {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-	
+    margin: 20px;
 }
 .subcontenedor {
     display: flex;
@@ -20,7 +20,6 @@ body {
 .subcontenedor:hover img{
     width: 160px;
     transition: 0.5s;
-	
 }
 a {
     text-decoration: none;
