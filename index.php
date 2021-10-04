@@ -1,8 +1,10 @@
-
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
 <body>
 	<h1>Projecte Welcome 1</h1>
-	<ul>
-
+	
+	<div class="flex-container">
 	<?php 
 
 		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
@@ -11,14 +13,12 @@
 				$name = substr($img,0,-4);
 				echo "<a href='profile/$name.html'>";
 				echo "<img src='img/$img' width='130'>";
-				echo $name."</a>";
+				echo "<p>".$name."</p></a>";
+			
 				
-
-				echo "<div></div>";
-				;
 			}
 		}
 
 	?>
-
+	</div>
 </body>
