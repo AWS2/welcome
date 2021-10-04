@@ -1,5 +1,14 @@
+:root{
+	--principal: #b7d7e8;
+	--secundario: #cfe0e8;
+}
+
+body {
+	background-color: var(--principal);
+}
+
 p {
-	background-color: cyan;
+	background-color: var(--secundario);
 	padding: 1em 0;
 	border-radius: 5px;
 	font-weight: bold;
@@ -25,7 +34,9 @@ a {
 h1 {
 	text-align: center;
 	text-transform: uppercase;
-	margin: 2em 0 2em 0;
+	padding: 2em 0;
+	margin-bottom: 2em;
+	background-color: var(--secundario);
 }
 
 .imagen{
