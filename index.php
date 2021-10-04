@@ -2,7 +2,7 @@
 <body>
 	<h1>Projecte Welcome 1</h1>
 	<ul>
-
+	<link rel="stylesheet" href="hola.css" type="text/css">
 	<?php 
 
 		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
