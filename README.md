@@ -1,5 +1,7 @@
 # welcome
 
+# BRANCH OF GUILLEM AND MARTI 
+
 ##First GIT project AWS2 M8
 
 In this project you simply have to add 2 files for each student. One 
