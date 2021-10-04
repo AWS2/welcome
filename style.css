@@ -1,16 +1,27 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
 .contenedor {
-	display: flex;
-	flex-wrap: wrap;
-	text-align: center;
-	vertical-align: bottom;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+	
 }
 .subcontenedor {
-	align-content: center;
-	display: flex;
-	flex-direction: column;
-	margin:  5px;
-	padding: 5px;
-	border: 2px solid black;
-	vertical-align: sub;
-	height: auto;                 
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    vertical-align: bottom;
+    height: auto;
+    justify-content: center;
+}
+.subcontenedor:hover img{
+    width: 160px;
+    transition: 0.5s;
+	
+}
+a {
+    text-decoration: none;
 }
