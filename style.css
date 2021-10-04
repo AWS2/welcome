@@ -1,0 +1,34 @@
+.container{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.marco{
+    flex: 1 1 25%;
+    text-align: center;
+}
+
+.flex{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+.flex img{
+    border-radius: 15px;
+}
+
+.name{
+    margin-top: 5px;
+    color:white;
+    text-decoration: none;
+}
