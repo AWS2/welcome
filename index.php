@@ -1,7 +1,8 @@
 
 <body>
 	<h1>Projecte Welcome 1</h1>
-	<ul>
+	<div id="content">
+	<link rel="stylesheet" href="stylesheet.css">
 
 	<?php 
 
