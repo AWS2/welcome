@@ -1,9 +1,13 @@
-
+<!DOCTYPE HTML>
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel=stylesheet href="/jail.css"/>
 <body>
 	<h1>Projecte Welcome 1</h1>
 	<ul>
 
 	<?php 
+
 
 		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
 		foreach( $imgs as $img ) {	
@@ -22,3 +26,4 @@
 	?>
 
 </body>
+</html>
