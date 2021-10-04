@@ -1,3 +1,29 @@
+p {
+	background-color: red;
+	padding: 1em 0;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+
+img {
+    width: 300px;
+    height: 300px; 
+    object-fit: contain;
+    overflow: 'hidden',
+	backgroundSize : 'contain',
+}
+
+a {
+	text-align: center;
+	text-decoration: none;
+	color:  black;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
 
 .imagen{
 	margin: 0 4em;
