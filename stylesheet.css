@@ -3,3 +3,13 @@ img{
   margin-bottom: -20px;
 }
 
+body{
+  background-color: cadetblue;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+h1{
+  color:white;
+}
