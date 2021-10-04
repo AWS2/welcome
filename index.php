@@ -2,7 +2,7 @@
 	<link rel="stylesheet" type="text/css" href="indexStyle.css">
 </head>
 <body>
-	<h1>Projecte Welcome 1</h1>
+	<h1>Projecte Bananas 1</h1>
 	
 	<ul>
 

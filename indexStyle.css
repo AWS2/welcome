@@ -3,6 +3,9 @@ h1 {
 	font-family: FreeMono;
 	text-decoration: underline;
 	font-size: 65px;
+	background-color: #aeff00;
+	width: 60%;
+	margin: auto;
 }
 div {
 
@@ -19,5 +22,7 @@ div {
 
 }
 body {
+	background-image: url("banana.png");
 	margin-left: 4%;
+	background-size: 80px;
 }
