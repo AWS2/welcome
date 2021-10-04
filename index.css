@@ -1,5 +1,5 @@
 p {
-	background-color: red;
+	background-color: cyan;
 	padding: 1em 0;
 	border-radius: 5px;
 	font-weight: bold;
@@ -9,24 +9,27 @@ p {
 img {
     width: 300px;
     height: 300px; 
-    object-fit: contain;
-    overflow: 'hidden',
-	backgroundSize : 'contain',
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: 'hidden';
+	backgroundSize : 'contain';
 }
 
 a {
 	text-align: center;
 	text-decoration: none;
 	color:  black;
+
 }
 
 h1 {
 	text-align: center;
 	text-transform: uppercase;
+	margin: 2em 0 2em 0;
 }
 
 .imagen{
-	margin: 0 4em;
+	margin: 0 4em 2em 4em ;
 }
 .flex-container {
 	display:  flex;
