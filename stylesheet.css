@@ -5,6 +5,7 @@ h1 {
 #content {
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: center;
 
 }
 
@@ -14,7 +15,15 @@ a{
 	flex-direction: column;
 	text-align: center;
 	margin: 10px;
+	text-decoration: none;
+	color: black;
+	border: 2px solid;
+	text-align: center;
+	background-color: lightcyan;
+
+
 }
 body {	
-	background-color: ;
+	font-family: courier new;
+	background-color: darkcyan;
 }
