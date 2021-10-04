@@ -1,0 +1,14 @@
+.header h1{
+    text-align: center;
+    font-style: normal;
+    
+}
+
+body {
+  background-color: yellow;
+}
+
+ h1 {
+    color: yellow;
+    background-color: black;
+}
