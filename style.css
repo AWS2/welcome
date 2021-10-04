@@ -1,0 +1,16 @@
+.contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	vertical-align: bottom;
+}
+.subcontenedor {
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	margin:  5px;
+	padding: 5px;
+	border: 2px solid black;
+	vertical-align: sub;
+	height: auto;                 
+}
