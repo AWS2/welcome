@@ -9,9 +9,12 @@ h1 {
 }
 
 
-
-body {
-	
-	
+a{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px;
+}
+body {	
 	background-color: ;
 }
