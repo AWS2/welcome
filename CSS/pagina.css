@@ -18,3 +18,11 @@ a ,a:hover{
   text-align: center;
   padding: 1%;
 }
+img{
+  width: 20%;
+  height: 30%;
+  border-radius: 20%;
+  display: block;
+  margin: auto;
+  padding: 2%;
+}
