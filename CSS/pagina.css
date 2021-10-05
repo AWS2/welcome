@@ -10,3 +10,11 @@ h1 ,footer{
   text-shadow: 1px 1px 20px violet,0px 0px 1px white, 0px 0px 2px white;
   font-size: 50px;
 }
+a ,a:hover{
+  color: black;
+  display: block;
+  text-shadow: 1px 1px 20px violet,0px 0px 1px white, 0px 0px 2px white;
+  margin: auto;
+  text-align: center;
+  padding: 1%;
+}
