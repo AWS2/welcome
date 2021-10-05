@@ -1,5 +1,8 @@
-
+<html>
+<link href="jao.css" rel="stylesheet" type="text/css" media="all">
+</html>
 <body>
+
 	<h1>Projecte Welcome 1</h1>
 	<ul>
 
