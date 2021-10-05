@@ -4,6 +4,8 @@ background-color :red;
 
 
 div {
-  border: 10px solid blue;
+  padding: 20px;
+  border: 1px solid white;
   display: inline-block;
 }
+
