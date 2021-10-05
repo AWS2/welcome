@@ -1,3 +1,9 @@
 body {
 background-color :red;
 }
+
+
+div {
+  border: 10px solid blue;
+  display: inline-block;
+}
