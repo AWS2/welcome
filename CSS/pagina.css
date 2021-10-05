@@ -3,3 +3,10 @@ body {
     background-color: black;
     font-family: "Helvetica", Sans-Serif;
 }
+h1 ,footer{
+  color: black;
+  text-align: center;
+  margin: auto;
+  text-shadow: 1px 1px 20px violet,0px 0px 1px white, 0px 0px 2px white;
+  font-size: 50px;
+}
