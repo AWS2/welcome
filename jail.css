@@ -1,11 +1,14 @@
 body {
+text-align: center;
 background-color :grey;
 }
 
 
 div {
+  font-family: Vegur, Vrdana, sans-serif;
   padding: 20px;
   border: 1px solid white;
+  margin: 6px;
   display: inline-block;
 }
 
