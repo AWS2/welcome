@@ -3,7 +3,7 @@
 </html>
 <body>
 
-	<h1>Projecte Welcome 1</h1>
+	<h1>Projecte JAO</h1>
 	<ul>
 
 	<?php 
