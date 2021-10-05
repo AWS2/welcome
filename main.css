@@ -1,0 +1,18 @@
+h1 {
+ 	font-size: 48px;
+	font-weight: bold;
+	padding: 45px;
+	background-color: black;
+	color: white;
+}
+
+
+body {
+	background-color: #dafaff;
+}
+
+img {
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 65px;
+}
