@@ -1,7 +1,14 @@
-#header{
-    align-items: center;
+body{
+    background-color: lightblue;
+}
+#container{
+    display: flex;
+    align-content: flex-start;
+}
+.nameTxTView{
+    font-size: 2em;
 }
 
-img{
+.imgView{
     size: 10em;
 }
