@@ -1,10 +1,16 @@
 body {
     background-image: url("./img/perrokfc.png");
     background-color: grey;
+    text-align: center;
 }
 
 h1 {
     text-align: center;
-    color: blue;
+    color: rgb(255, 0, 200);
     text-shadow: 1cm;
+}
+
+img{
+    display: block;
+    margin: auto;
 }
