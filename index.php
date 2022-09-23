@@ -1,4 +1,6 @@
-
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
 <body>
 	<h1>Projecte Welcome 1</h1>
 	<ul>

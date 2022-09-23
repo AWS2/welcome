@@ -1,0 +1,16 @@
+body{
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: antiquewhite;
+}
+
+h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
