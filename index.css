@@ -1,8 +1,12 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
 h1{
     color: black;
-    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
 }
 ul{
     color: gray;
-    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
 }
