@@ -1,4 +1,8 @@
 
+<head>
+    <link rel="stylesheet" href ="cssAlbertSergio.css">
+</head>
+
 <body>
 	<h1>Projecte Welcome 1</h1>
 	<ul>
