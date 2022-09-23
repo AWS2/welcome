@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="index.css">
 <body>
 	<h1>Projecte Welcome 1</h1>
 	<ul>
