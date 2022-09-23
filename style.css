@@ -1,0 +1,12 @@
+body {
+    color: black;
+    background-color: purple; 
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+}
+
+h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif
+    color: black;
+}
