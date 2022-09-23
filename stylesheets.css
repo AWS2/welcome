@@ -3,7 +3,8 @@ body{
 }
 #container{
     display: flex;
-    align-content: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 .nameTxTView{
     font-size: 2em;
