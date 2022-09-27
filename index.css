@@ -1,11 +1,25 @@
 html body {
     /*background-color: green;*/
+    background-image: url("fondo1.gif");
 }
 
 html body div {
     width: 150px;
     height: 150px;
     float: left;
+}
+
+html body div a {
+    color: yellow;
+}
+
+html h1 {
+    font-size: 2cm;
+    font-family: Impact;
+    font-style: oblique;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    color: gold;
+    text-align: center;
 }
 
 html body div a img {
