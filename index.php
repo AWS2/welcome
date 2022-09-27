@@ -1,5 +1,8 @@
+<head>
+<link rel="stylesheet" href="estilo.css">
+</head>
 <body>
-    <h1>Projecte Welcome 1</h1>
+    <h1>Welcome JeanPau</h1>
     <table>
     <tr>
     <?php
@@ -16,9 +19,9 @@
             }else if (substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-5);
             }
-            echo "<td><a href='profile/$name.html'>";
-            echo "<img src='img/$img' width='130'>";
-            echo $name."</a></td>";
+            echo "<td><div class='profile'><img src='img/$img' width='130'>";
+            echo "<button onclick='window.location.href = \"profile/$name.html\"'>";
+            echo $name."</button></div></td>";
             $cont +=1;
         }
     ?>
