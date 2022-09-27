@@ -13,7 +13,7 @@ If you have PHP installed in your system, you can start the PHP embedded mini se
 
     $ php -S 0.0.0.0:8080
 
-Then you will be able to see the website in ``http://localhost:8080``
+Then you will be able to see the website in http://localhost:8080
 
 
 ## First GIT project
