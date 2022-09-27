@@ -29,12 +29,13 @@ h1 {
 }
 
 p {
-    color: #F90B6D;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 40px;
-    margin: 0 0 16px;
+    text-align: left; 
+font-family: Comic Sans MS; 
+font-weight:bold; 
+font-size: 30px; 
+color: #DEFFFE; 
+text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+
 }
 
 .row:after {
