@@ -2,3 +2,15 @@ body{
     background-color: lightblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+img:hover{
+border-radius:50%;
+filter: saturate(180%);
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #ec731e;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+}
+
+.contenedor-cosis {
+display: flex;
+flex-wrap: wrap;
+}

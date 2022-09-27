@@ -1,7 +1,9 @@
 <body>
 	<h1>Projecte Welcome 1</h1>
+    <p> No somos diseñadores lo siento :( </p>
 	<ul>
 	<link rel="stylesheet" href="index.css" type="text/css">
+    <div class="contenedor-cosis">
 	<?php 
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
         foreach( $imgs as $img ) {
@@ -18,6 +20,6 @@
             echo "<div></div>";
         }
     ?>
-
+    </div>
 </body>
 
