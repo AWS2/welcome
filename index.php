@@ -1,7 +1,7 @@
 <body>
 	<h1>Projecte Welcome 1</h1>
 	<ul>
-
+	<link rel="stylesheet" href="index.css" type="text/css">
 	<?php 
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
         foreach( $imgs as $img ) {
