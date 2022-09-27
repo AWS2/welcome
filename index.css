@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    color: #ffffff;
+    color: #DEFFFE;
     font-family: 'Raleway', sans-serif;
     font-size: 62px;
     font-weight: 800;
@@ -11,9 +11,10 @@ h1 {
     margin: 0 0 24px;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+
 }
 
-/* Style the video: 100% width and height to cover the entire window */
 #myVideo {
     position: fixed;
     right: 0;
@@ -21,7 +22,7 @@ h1 {
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
-  }
+}
 
 .column {
     float: left;
@@ -29,12 +30,16 @@ h1 {
 }
 
 p {
-    text-align: left; 
-font-family: Comic Sans MS; 
-font-weight:bold; 
-font-size: 30px; 
-color: #DEFFFE; 
-text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #DEFFFE;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+    6px 6px #414D68,
+    7px 7px #414D68,
+    8px 8px #414D68,
+    9px 9px #414D68;
 
 }
 
@@ -42,4 +47,20 @@ text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 
     content: "";
     display: table;
     clear: both;
+}
+
+#tv {
+    border: darkcyan 1px solid;
+    position: relative;
+    margin-bottom: 2vh;
+    width: 250px;
+    height: 250px;
+    background: white;
+    color: white;
+    box-shadow: 15px 15px rgba(252, 252, 252, 0.137);
+    transition: all .4s ease;
+}
+
+#tv:hover {
+    box-shadow: 10px 10px rgba(0, 0, 0, .25);
 }
