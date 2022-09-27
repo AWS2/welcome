@@ -1,0 +1,14 @@
+html body {
+    /*background-color: green;*/
+}
+
+html body div {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+html body div a img {
+    max-width: 130px;
+    max-height: 130px;
+}
