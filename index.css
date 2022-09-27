@@ -1,0 +1,19 @@
+body {
+    background-color: red;
+}
+
+h1 {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
