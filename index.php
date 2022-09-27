@@ -1,10 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
 
 <body>
-    <link href="index.css" rel="stylesheet" type="text/css">
-	<h1>Projecte Welcome 1</h1>
-	<ul>
+    <h1>Projecte Welcome 1</h1>
+    <ul>
 
-	<?php 
+    <?php 
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
         foreach( $imgs as $img ) {
             if( $img=="." || $img==".." )
@@ -22,3 +29,7 @@
     ?>
 
 </body>
+
+
+</html>
+
