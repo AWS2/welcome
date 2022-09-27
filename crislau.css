@@ -4,12 +4,18 @@ img{
 }
 
 body{
-  background-color: cadetblue;
+  background-image: linear-gradient(to left,pink,orange);
+  
 }
 a{
-  color:white;
-  text-decoration: none;
+  color:black;
+  text-decoration: underline;
+
 }
 h1{
+  font-family: cursive;
+  font-size: xx-large;	
   color:white;
+  text-shadow: 7px 4px 5px black;
+
 }
