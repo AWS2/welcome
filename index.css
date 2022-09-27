@@ -3,11 +3,15 @@ body {
 }
 
 h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
   color: orange;
   text-align: center;
 }
 
 p {
+  animation-duration: 3s;
+  animation-name: slidein;
   font-family: verdana;
   font-size: 20px;
 }
