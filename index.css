@@ -3,17 +3,42 @@ body {
 }
 
 h1 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
     text-align: center;
+    text-transform: uppercase;
 }
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
 
 .column {
     float: left;
     width: 25%;
-  }
-  
+}
 
-  .row:after {
+p {
+    color: #F90B6D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0 0 16px;
+}
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
