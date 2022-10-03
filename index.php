@@ -1,3 +1,6 @@
+<header>
+<link rel="stylesheet" href="styles.css">
+</header>
 <body>
 	<h1>Projecte Welcome 1</h1>
 	<ul>
@@ -12,10 +15,13 @@
             }else if (substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-5);
             }
-            echo "<a href='profile/$name.html'>";
+            echo "<div class = 'perfil'>";
             echo "<img src='img/$img' width='130'>";
+            echo "<div class= 'link'>";
+            echo "<a href='profile/$name.html'>";
             echo $name."</a>";
-            echo "<div></div>";
+            echo "</div>"
+            echo "</div>";
         }
     ?>
 
