@@ -28,9 +28,12 @@
                     $imagen = $name.".jpeg";
                     echo substr($html,0,-5)." 3";
                     echo "<br>";
+                }else{
+                    $imagen = " ";
                 }
                 
             }
+            echo "<div><img src='./img/$imagen'> width='' alt='$name'>";
         }
         // $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
         // foreach( $imgs as $img ) {
