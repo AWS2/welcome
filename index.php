@@ -1,4 +1,3 @@
-Paumafe — hoy a las 11:05
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,20 +18,18 @@ Paumafe — hoy a las 11:05
                 $name = substr($html,0,-5);
                 if(in_array($name.".png",scandir("./img",SCANDIR_SORT_ASCENDING))){
                     $imagen = $name.".png";
-                   //echo substr($html,0,-5)." 1";
-                    //echo "<br>";
+
                 }else if(in_array($name.".jpg",scandir("./img",SCANDIR_SORT_ASCENDING))){
                     $imagen = $name.".jpg";
-                    //echo substr($html,0,-5)." 2";
-                    //echo "<br>";
+
                 }else if(in_array($name.".jpeg",scandir("./img",SCANDIR_SORT_ASCENDING))){
                     $imagen = $name.".jpeg";
-                    //echo substr($html,0,-5)." 3";
-                    //echo "<br>";
+
+                }else{
+                    $imagen="";
                 }
-                echo "<div><a href='profile/$name.html'>";
-                echo "<img src='img/$imagen' width='130'>";
-                echo $name."</a>";
+                echo "<div> <img src='img/$imagen' width='130' alt='$name'>";
+                echo "<a href='profile/$name.html'>$name</a>";
                 echo "</div>\n";
 
             }
