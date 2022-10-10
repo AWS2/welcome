@@ -12,3 +12,19 @@ ul {
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+
+body {
+    background-color: #91E89A;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+a:visited {
+    color: purple;
+}
