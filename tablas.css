@@ -1,6 +1,9 @@
 body {
     background-color: rgb(180, 180, 180);
 }
+h1 {
+    text-align: center;
+}
 table {
     background-color: rgb(228, 154, 101);
     border: 3px solid rgb(204, 10, 204);
@@ -9,9 +12,7 @@ table {
     width: 750px;     
     text-align:center;
     border-collapse: collapse;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    
 }
 .celdas { 
     border: 2px solid rgb(255, 238, 0);
