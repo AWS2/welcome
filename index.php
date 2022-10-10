@@ -38,6 +38,7 @@
                         echo $name."</a>";
                         echo "</li>";
                         echo "</div>";
+                        echo "\n";
 
 
                     }
@@ -50,6 +51,7 @@
                         echo $name."</a>";
                         echo "</li>";
                         echo "</div>";
+                        echo "\n"
 
 
                     }
