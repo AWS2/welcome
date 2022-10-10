@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfiles Esteve Terradas</title>
     <style>
+
+        body{
+            background-color: #3366FF;
+        }
+
         table {
             text-align: center;
             margin: auto;
@@ -13,11 +18,13 @@
             white-space:nowrap;
             text-overflow: ellipsis;
             width: 75%;
+            background-color: white;
         }
         th {
             margin: auto;
             color: #FFF;
             background-color: #000080;
+            border-radius: 10px 10px 0px 0px;
         }
 
         td{
@@ -25,6 +32,11 @@
             white-space:nowrap;
             text-overflow: ellipsis;
             width: 25%;
+        }
+
+        footer{
+            text-align:center;
+            padding-top:5px;
         }
 
 
@@ -38,24 +50,26 @@
 	<?php
         $numero = 1;
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
-        $profiles = scandir("./profiles",SCANDIR_SORT_ASCENDING);
+        $profiles = scandir("./profile",SCANDIR_SORT_ASCENDING);
+        $imgFormat = ["jpg", "jpeg", "png"];
         echo "<tr>";
-        foreach( $imgs as $img ) {
+
+        
+
+        foreach( $profiles as $prof ) {
             if($numero %3 == 0){
                 echo "</tr>";
             }
             $numero += 1;
-            if( $img=="." || $img==".." )
+            if( $prof=="." || $prof==".." ){
                 continue;
-            if( substr($img,-3)=="jpg" or substr($img,-3)=="png"){
-                $name = substr($img,0,-4);
-            }else if (substr($img,-4)=="jpeg") {
-                $name = substr($img,0,-5);
+            }if (substr($prof,-4)=="html") {
+                $name = substr($prof,0,-5);
             }
             echo "<td>";
-            echo "\n<br><a href='profile/$name.html'>";
-            echo "<img src='img/$img' width='130'></a>";
-            echo "\n<br><a href='profile/$name.html'>".$name."</a>";
+            echo "\n<br><a href='profile/$prof'>";
+            echo "<img src='img/$name.jpg' width='130'></a>";
+            echo "\n<br><a href='profile/$prof'>".$name."</a>";
             echo "</td>";
         }
 
@@ -67,4 +81,3 @@
 <footer> Esteve Terradas - Iker González - Xavi Martínez</footer>
 
 </html>
-
