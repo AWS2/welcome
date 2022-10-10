@@ -8,19 +8,33 @@
 
     <style>
         table{
-            width: 70%;
+            width: 40%;
             margin: 0 auto; 
             border-spacing: 10px;
-            border: solid black;
+            background-color: #BEEDAA;
         }
         td{
-            border: solid black;
             text-align: center;
+            background-color: #A8BCA1;
+        }
+        h1, h2{
+            text-align: center;
+        }
+        body{
+            background-color: #94AE89;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: blue;
         }
     </style>
 </head>
 <body>
 	<h1>Projecte Welcome 1</h1>
+    <h2> Modificat per Alex Larios i Raúl García</h2>
     <table>
 	<?php 
         $profiles = scandir("./profile",SCANDIR_SORT_ASCENDING);
@@ -38,8 +52,8 @@
                         $image = $name.".".$extension;
                     }
                 }
-                echo "<td><img src='img/$image' alt='Foto de $name' width='130'></td>\n";
-                echo "<td><a href='profile/$name.html'>$name</td>\n";
+                echo "<td><a href='profile/$name.html' target='_blank'><img src='img/$image' alt='Foto de $name' width='130'></a></td>\n";
+                echo "<td><a href='profile/$name.html' target='_blank'>$name</td>\n";
                 echo "</tr>\n";
             }           
         }
