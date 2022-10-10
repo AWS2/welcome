@@ -40,7 +40,7 @@
                 
                 echo "<article>\n         ";
                 echo "<a href='profile/$name.html'>";
-                echo "<img src='img/$imgName' width='130'>";
+                echo "<img src='img/$imgName' width='130'><br>";
                 echo $name."</a>\n      ";
                 echo "</article>\n          ";
             }

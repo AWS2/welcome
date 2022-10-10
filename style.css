@@ -1,7 +1,34 @@
 body{
     background-color: burlywood;
 }
+h1{
+    text-align: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+article{
+    margin-top: 30px;
+    background-color: rgb(193, 125, 37);
+    width: 250px;
+}
+
+article img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    
+}
 
 a{
     text-decoration: none;
+    font-size: 20px;
+    color: black;
 }
