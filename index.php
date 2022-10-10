@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="tablas.css" rel="stylesheet" type="text/css">
-    <title>Projecte Welcome 1</title>
+    <title>Perfiles</title>
 </head>
 <body>
 	<h1>Projecte Welcome 1</h1>
