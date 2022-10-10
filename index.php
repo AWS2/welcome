@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -16,7 +15,7 @@
         echo "<table >";
         foreach( $imgs as $img ) {
             if($i % 3 == 0){
-                echo "<tr class='tg-0pky'></tr>";   
+                echo "<tr class='celdas'></tr>";   
             }
             $i++;
             if( $img=="." || $img==".." )
@@ -26,14 +25,13 @@
             }else if(substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-5);
             }
-            echo "<td class='tg-0pky'>";
+            echo "<td class='celdas'>";
             echo "<a href='profile/$name.html'><br>";
             echo "<img src='img/$img' width='130'></a><br>";
             echo "<a href='profile/$name.html'>".$name."</a>";
             echo "</td>";
         }
         echo "</table>";
-        
     ?>
 </body>
 </html>

@@ -9,8 +9,10 @@ table {
     width: 750px;     
     text-align:center;
     border-collapse: collapse;
-    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
-.tg-0pky { 
+.celdas { 
     border: 2px solid rgb(255, 238, 0);
 }
