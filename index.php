@@ -1,29 +1,65 @@
-<header>
-<link rel="stylesheet" href="styles.css">
-</header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Welcome</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
 <body>
-	<h1>Projecte Welcome 1</h1>
-	<ul>
+    <header>
+        <h1><strong><u>Projecte Welcome 1</u></strong></h1>
+    </header>
+    <div class="Container">
+        <ul>
+        <?php 
+            $pags = scandir("./profile",SCANDIR_SORT_ASCENDING);
+            $imags = scandir("./img",SCANDIR_SORT_ASCENDING);
 
-	<?php 
-        $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
-        foreach( $imgs as $img ) {
-            if( $img=="." || $img==".." )
-                continue;
-            if( substr($img,-3)=="jpg" or substr($img,-3)=="png"){
-                $name = substr($img,0,-4);
-            }else if (substr($img,-4)=="jpeg") {
-                $name = substr($img,0,-5);
-            }
-            echo "<div class = 'perfil'>";
-            echo "<img src='img/$img' width='130'>";
-            echo "<div class= 'link'>";
-            echo "<a href='profile/$name.html'>";
-            echo $name."</a>";
-            echo "</div>"
-            echo "</div>";
-        }
-    ?>
+            foreach( $pags as $pag ) {
+                if( $pag=="." || $pag==".." ){
+                    continue;
+                }
+                elseif( substr($pag,-4)=="html" ){
+                    $name = substr($pag,0,-5);
+                }
 
+                foreach ($imags as $imag) {
+                    if( $pag=="." || $pag==".." ){
+                        continue;
+                    }
+                    elseif ($name === substr($imag,0,-4)){
+                        echo "<div class='subcontainer'>";
+                        echo "<li>";
+                        echo "<a href='profile/$name.html'>";
+                        echo "<img alt='$name' src='img/$imag'>";
+                        echo $name."</a>";
+                        echo "</li>";
+                        echo "</div>";
+
+
+                    }
+
+                    elseif($name === substr($imag,0,-5)){
+                        echo "<div class='subcontainer'>";
+                        echo "<li>";
+                        echo "<a href='profile/$name.html'>";
+                        echo "<img alt='$name' src='img/$imag'>";
+                        echo $name."</a>";
+                        echo "</li>";
+                        echo "</div>";
+
+
+                    }
+
+                    }
+                }
+
+        ?>
+        </ul>
+    </div>
 </body>
+</html>
 

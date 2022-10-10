@@ -1,18 +1,53 @@
-a:hover{
-    color: pink;
-    background-color: aquamarine;
+body{
+    background-color: rgb(167, 214, 236);
+    margin: 0px;
+    text-align: center;
+}
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aquamarine;
+    text-shadow: 3px 3px #0026ff;
 }
 img{
+    margin: auto;
+    display: block;
+    align-self: center;
     object-fit:contain;
+    width: 300px;
+    height: 250px;
 }
-div.perfil {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-  }
-  
-div.link {
+.Container{
+    display: flex;
+    width: auto;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+}
+.subcontainer{
+    margin: 1%;
+    width: 30%;
+    float: left;
+    justify-content: center;
+    transition: transform .2s;
+}
+
+a{  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    display: block;
     text-align: center;
-    padding: 10px 20px;
+    margin: auto;
+    text-decoration: none;
+    color: aquamarine;
+    text-shadow: 3px 3px #0026ff;
+}
+a:hover{
+    color: black;
+    text-shadow: none;
+
+}
+.subcontainer:hover{
+    transform: scale(1.1);
+    background-color: aquamarine;
 }
