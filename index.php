@@ -12,15 +12,15 @@
         <?php 
                 
             $htmls = scandir("./profile",SCANDIR_SORT_ASCENDING);
+            $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
+
             foreach( $htmls as $html ) {
                 if( $html=="." || $html==".." )
                     continue;
                 if( substr($html,-4)=="html"){
                     $name = substr($html,0,-5);
                 }
-
-                $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
-
+                $imageValidator = false;
                 foreach( $imgs as $img ) {
                     if( $img=="." || $img==".." )
                         continue;
@@ -31,6 +31,9 @@
                     }
                     if ($name == $name2){
                         $imgName = $img;
+                        $imageValidator = true;
+                    }else if ($imageValidator==false){
+                        $imgName = "usuario.png";
                     }
                 }
                 
