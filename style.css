@@ -1,5 +1,5 @@
 body{
-    background-color: burlywood;
+    background-color: rgb(103, 228, 233);
 }
 h1{
     text-align: center;
@@ -16,7 +16,8 @@ section{
 
 article{
     margin-top: 30px;
-    background-color: rgb(193, 125, 37);
+    background-color: rgba(37, 193, 66, 0.3);
+    border-radius: 10%;
     width: 250px;
 }
 
@@ -24,11 +25,13 @@ article img{
     width: 200px;
     height: 200px;
     margin-top: 20px;
-    
+    border-radius: 100%;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0,0.5);
 }
 
 a{
     text-decoration: none;
     font-size: 20px;
     color: black;
+    font-weight: bolder;
 }
