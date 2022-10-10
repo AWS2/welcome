@@ -23,8 +23,8 @@
                 $name = substr($img,0,-5);
             }
             
-            if($i % 2 == 0){
-                echo "<table cellspacing="10" cellpadding="10">";
+            if($i % 3 == 0){    
+                echo "<table cellspacing='10' cellpadding='10'>";
                 echo    "<tr>";
                 echo        "<a href='profile/$name.html'>";
                 echo            "<img src='img/$img' alt='Logo del perfil' width='130'>";
