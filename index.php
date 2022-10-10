@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Projecte Welcome 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,8 +27,8 @@
                         $image = $name.".".$extension;
                     }
                 }
-                echo "<td><a href='profile/$name.html' target='_blank'><img src='img/$image' alt='Foto de $name' width='130'></a></td>\n";
-                echo "<td><a href='profile/$name.html' target='_blank'>$name</td>\n";
+                echo "<td><a href='profile/$name.html' target='_blank'><img src='img/$image' alt='Foto de $name' width='130'></td>\n";
+                echo "<td><a href='profile/$name.html' target='_blank'>$name</a></td>\n";
                 echo "</tr>\n";
             }           
         }
