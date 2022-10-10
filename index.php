@@ -27,7 +27,7 @@
                         $image = $name.".".$extension;
                     }
                 }
-                echo "<td><a href='profile/$name.html' target='_blank'><img src='img/$image' alt='Foto de $name' width='130'></td>\n";
+                echo "<td><a href='profile/$name.html' target='_blank'><img src='img/$image' alt='Foto de $name' width='130'></a></td>\n";
                 echo "<td><a href='profile/$name.html' target='_blank'>$name</a></td>\n";
                 echo "</tr>\n";
             }           
@@ -35,5 +35,4 @@
     ?>
     </table>
 </body>
-
 </html>
