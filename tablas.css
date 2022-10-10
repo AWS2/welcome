@@ -6,14 +6,13 @@ h1 {
 }
 table {
     background-color: rgb(228, 154, 101);
-    border: 3px solid rgb(204, 10, 204);
+    border: 6px solid rgb(204, 10, 204);
     table-layout: fixed;
     margin: auto;     
     width: 750px;     
     text-align:center;
     border-collapse: collapse;
-    
 }
 .celdas { 
-    border: 2px solid rgb(255, 238, 0);
+    border: 4px solid rgb(255, 238, 0);
 }

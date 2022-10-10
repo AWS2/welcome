@@ -25,11 +25,11 @@
             }else if(substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-5);
             }
-            echo "<td class='celdas'>";
-            echo "<a href='profile/$name.html'><br>";
-            echo "<img src='img/$img' width='130'></a><br>";
-            echo "<a href='profile/$name.html'>".$name."</a>";
-            echo "</td>";
+            echo "<td class='celdas'>\n";
+            echo "<a href='profile/$name.html'><br>\n";
+            echo "<img src='img/$img' width='130'></a><br>\n";
+            echo "<a href='profile/$name.html'>".$name."</a>\n";
+            echo "</td>\n";
         }
         echo "</table>";
     ?>
