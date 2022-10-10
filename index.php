@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projecte Welcome 1</title>
@@ -26,7 +27,7 @@
                     $imagen = $name.".jpeg";
 
                 }else{
-                    $imagen="";
+                    $imagen="noimage.jpg";
                 }
                 echo "<div> <img src='img/$imagen' width='130' alt='$name'>";
                 echo "<a href='profile/$name.html'>$name</a>";

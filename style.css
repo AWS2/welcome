@@ -1,0 +1,14 @@
+div {
+    margin: 5%;
+
+}
+img {
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
