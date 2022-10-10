@@ -5,34 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="tablas.css" rel="stylesheet" type="text/css">
     <title>Perfiles</title>
 </head>
 <body>
 	<h1>Projecte Welcome 1</h1>
-	<ul>
-
 	<?php 
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
         $i++;
+        echo "<table class='tg-0pky'>";
         foreach( $imgs as $img ) {
+            if($i % 3 == 0){
+                echo "<tr></tr>";   
+            }
+            $i++;
             if( $img=="." || $img==".." )
                 continue;
             if( substr($img,-3)=="jpg" or substr($img,-3)=="png"){
                 $name = substr($img,0,-4);
-            }else if (substr($img,-4)=="jpeg") {
+            }else if(substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-5);
             }
-            
-            if($i % 3 == 0){    
-                echo "<table cellspacing='10' cellpadding='10'>";
-                echo    "<tr>";
-                echo        "<a href='profile/$name.html'>";
-                echo            "<img src='img/$img' alt='Logo del perfil' width='130'>";
-                echo        $name."</a>";
-                echo    "</tr>";
-                echo "</table>";
-            }
+            echo "<td>";
+            echo "<a href='profile/$name.html'><br>";
+            echo "<img src='img/$img' width='130'></a>";
+            echo "<a href='profile/$name.html'>".$name."</a>";
+            echo "</td>";
         }
+        echo "</table>";
+        
     ?>
 </body>
 </html>
