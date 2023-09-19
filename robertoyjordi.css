@@ -5,3 +5,12 @@ ul {
     grid-gap: 10px;
 }
 
+body {
+    background-color: #ff0000;
+    position: absolute;
+  }
+
+h1{
+    font-size: 100;
+    font-style: italic;
+}
