@@ -1,0 +1,33 @@
+h1 { 
+    text-align: center;
+}
+
+img {
+    width: 280px;
+    height: 280px;
+    background-color: #eeeeee;
+    border: 10px ridge #FFC6AC;
+  }
+
+div {
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 240, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    border: 1px solid rgba(0, 240, 255, 0.73);
+  }
+
+
+
+
+
+
+
+
+
+
+
+

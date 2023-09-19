@@ -1,7 +1,10 @@
+<head>
+<link rel="stylesheet" href="cssDaniJoel.css">
+</head>
 <body>
 	<h1>Projecte Welcome 1</h1>
 	<ul>
-
+    <div>
 	<?php 
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
         foreach( $imgs as $img ) {
@@ -15,8 +18,8 @@
             echo "<a href='profile/$name.html'>";
             echo "<img src='img/$img' width='130'>";
             echo $name."</a>";
-            echo "<div></div>";
+            //echo "<div></div>";
         }
     ?>
-
+    </div>
 </body>
