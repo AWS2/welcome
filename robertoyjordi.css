@@ -1,3 +1,14 @@
+body {
+    background-color: #ff0000;
+    position: absolute;
+  }
+
+h1{
+    font-size: 100;
+    font-style: italic;
+}
+
+
 ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
