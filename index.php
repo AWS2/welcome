@@ -1,3 +1,6 @@
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
 <body>
 	<h1>Projecte Welcome 1</h1>
     <style>
