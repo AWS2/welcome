@@ -1,16 +1,5 @@
 <body>
 	<h1>Projecte Welcome 1</h1>
-    <style>
-        a{
-            padding-top: 50px;
-            padding-right: 30px;
-            padding-bottom: 50px;
-            padding-left: 80px;
-        }
-        img{
-            border-radius: 50%;
-        }
-    </style>
 	<ul>
 	<?php 
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
