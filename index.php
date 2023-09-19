@@ -1,4 +1,11 @@
+<html>
+<head>
+    <title>Cristian Alex CSS</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
 <body>
+    
 	<h1>Projecte Welcome 1</h1>
 	<ul>
 
@@ -20,3 +27,4 @@
     ?>
 
 </body>
+</html>
