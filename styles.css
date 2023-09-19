@@ -1,6 +1,26 @@
 
-
 body{
 	background-color: blue ;
+	font-size: 16;
+	font-style: italic;
+	font-family: Arial, serif;
 
+
+}
+
+img{
+	border: thick dashed purple;
+	width: 100px;
+	height: 100px;
+}
+
+a{
+	color: white;
+}
+
+ul {
+	display: flex;
+	align-items: flex-start;
+	align-content: space-between;
+	flex-flow: column wrap;
 }
