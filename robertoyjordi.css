@@ -5,3 +5,9 @@ ul {
     grid-gap: 10px;
 }
 
+li {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-flow: column;
+}
