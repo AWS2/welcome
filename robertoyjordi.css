@@ -16,14 +16,8 @@ ul {
     grid-gap: 10px;
 }
 
-li {
-    height: 100px;
-    width: 100px;
-    display: flex;
-    flex-flow: column;
-}
-
 img{
-    border: 1px solid green;
-    border-image-slice: 50%;
+    border-image: linear-gradient(#e14343, #dfe228) 30;
+    border-width: 4px;
+    border-style: solid;
 }
