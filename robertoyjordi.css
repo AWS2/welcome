@@ -1,0 +1,7 @@
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 5vw);
+    grid-gap: 10px;
+}
+
