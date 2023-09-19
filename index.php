@@ -1,3 +1,6 @@
+<head>
+    <link rel="stylesheet" href="estilopagina.css">
+</head>
 <body>
 	<h1>Projecte Welcome 1</h1>
 	<ul>
@@ -18,5 +21,4 @@
             echo "<div></div>";
         }
     ?>
-
 </body>
