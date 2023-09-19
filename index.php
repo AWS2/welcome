@@ -1,7 +1,15 @@
+
 <body>
 	<h1>Projecte Welcome 1</h1>
 	<ul>
-
+    <style>
+        a{
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+    </style>
 	<?php 
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
         foreach( $imgs as $img ) {
