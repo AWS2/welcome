@@ -16,21 +16,9 @@ ul {
     grid-gap: 10px;
 }
 
-<<<<<<< HEAD
-body {
-    background-color: #ff0000;
-    position: absolute;
-  }
-
-h1{
-    font-size: 100;
-    font-style: italic;
-}
-=======
 li {
     height: 100px;
     width: 100px;
     display: flex;
     flex-flow: column;
 }
->>>>>>> 00173a106e2995461f0bdf7ab699a8be436572c5
