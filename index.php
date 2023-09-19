@@ -1,5 +1,9 @@
 <body>
 	<h1>Projecte Welcome 1</h1>
+	
+	<style>
+	<?php include 'indexstyle.css'; ?>
+	</style>
 	<ul>
 
 	<?php 
