@@ -1,6 +1,6 @@
 
 body{
-	background-color: blue ;
+	background-color: cyan ;
 	font-size: 16;
 	font-style: italic;
 	font-family: Arial, serif;
@@ -18,9 +18,28 @@ a{
 	color: white;
 }
 
-ul {
-	display: flex;
-	align-items: flex-start;
-	align-content: space-between;
-	flex-flow: column wrap;
-}
+div{
+	background-color:#EBEFEA;
+	 margin:0 20px;
+ }
+ 
+ table{
+	 padding-top: 50px;
+	 margin-left: 3%;
+ }
+ 
+ tr{
+	 display: inline;
+	 margin: 10px;
+ }
+ 
+ td{
+	 height: 175px;
+	 width: 175px;
+ }
+ 
+ ul {
+	 background-color:#EBEFEA;
+	 margin:0 20px;
+	 
+ }
