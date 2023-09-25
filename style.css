@@ -1,4 +1,40 @@
 body {
 	text-align: center;
-	background-color: aquamarine;
+	background-color: rgb(40, 235, 82);
 }
+
+a {
+    display: inline-block;
+    padding: 50px 30px 50px 80px;
+    text-decoration: none;
+    color: #333; 
+}
+
+
+img {
+    border-radius: 50%;
+    max-width: 130px;
+}
+
+
+h1 {
+    text-align: center;
+	display: inline-block;
+	padding-top: 50px;
+    text-decoration: none;
+    color: red; 
+    font-size: 80px;
+
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+ul li {
+    margin-bottom: 10px; 
+}
+
