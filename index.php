@@ -1,7 +1,7 @@
 <body>
-	<h1>Projecte Welcome 1</h1>
-	<ul>
-	<?php 
+        <h1>Projecte Welcome 1</h1>
+        <ul>
+        <?php
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
         foreach( $imgs as $img ) {
             if( $img=="." || $img==".." )
@@ -15,7 +15,7 @@
             echo "<img src='img/$img' width='130'>";
             echo $name."</a>";
             echo "<div></div>";
-            
+
         }
     ?>
     </il>
