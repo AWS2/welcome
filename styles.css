@@ -28,11 +28,16 @@ th {
     height: auto;
     display: block;
     margin: 0 auto;
+    border: 2px solid #ccc;
+    padding: 10px;
+    transition: border 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .tableImage:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
+    border: 2px solid #3498db;
+    transform: scale(1.05);
 }
 
 .tableName {
