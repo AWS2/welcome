@@ -1,75 +1,70 @@
-/* Estilos para el cuerpo de la página */
+/* Colores de fondo */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
+  background-color: #FF5733; /* Rojo */
 }
 
-/* Encabezado */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+.header {
+  background-color: #3498db; /* Azul */
 }
 
-/* Título principal */
+.navbar {
+  background-color: #27ae60; /* Verde esmeralda */
+}
+
+.content {
+  background-color: #f1c40f; /* Amarillo */
+}
+
+.sidebar {
+  background-color: #9b59b6; /* Morado */
+}
+
+.footer {
+  background-color: #e74c3c; /* Rojo oscuro */
+}
+
+/* Colores de texto */
 h1 {
-  font-size: 36px;
+  color: #e74c3c; /* Rojo oscuro */
 }
 
-/* Menú de navegación */
-nav {
-  background-color: #444;
-  padding: 10px;
+h2 {
+  color: #3498db; /* Azul */
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+p {
+  color: #27ae60; /* Verde esmeralda */
 }
 
-nav li {
-  display: inline;
-  margin-right: 20px;
+a {
+  color: #f1c40f; /* Amarillo */
 }
 
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
+/* Botones */
+.button-primary {
+  background-color: #3498db; /* Azul */
+  color: #fff; /* Blanco */
 }
 
-/* Contenedor principal */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
+.button-secondary {
+  background-color: #e74c3c; /* Rojo oscuro */
+  color: #fff; /* Blanco */
 }
 
-/* Pie de página */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
+.button-success {
+  background-color: #27ae60; /* Verde esmeralda */
+  color: #fff; /* Blanco */
 }
 
-/* Estilos para la orla de los alumnos (personalízalos según tus necesidades) */
-.orla {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas igualmente espaciadas */
-  gap: 20px; /* Espacio entre elementos */
+.button-warning {
+  background-color: #f1c40f; /* Amarillo */
+  color: #333; /* Texto oscuro */
 }
 
-.alumno {
-  border: 2px solid #333;
-  padding: 10px;
-  text-align: center;
+.button-info {
+  background-color: #3498db; /* Azul */
+  color: #fff; /* Blanco */
 }
 
-/* Estilos adicionales según sea necesario */
+/* Otra personalización según sea necesario */
 
