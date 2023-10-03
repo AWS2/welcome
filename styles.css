@@ -1,0 +1,40 @@
+/* Estilo para el título */
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Estilo básico para el contenedor de imágenes */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilo para las imágenes y animación de rotación */
+img {
+  margin: 10px;
+  border-radius: 10px;
+  transition: all 1s ease-in-out;
+}
+
+img:hover {
+  transform: rotate(360deg);
+}
+
+/* Estilo para el nombre del archivo */
+a {
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
+  display: block;
+  margin: 5px;
+  color: black;
+}
+
+li {
+  text-align: center;
+}
