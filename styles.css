@@ -25,14 +25,15 @@ img:hover {
   transform: rotate(360deg);
 }
 
-/* Estilo para el nombre del archivo */
-a {
+/* Estilo modificado para el nombre del archivo */
+li div {
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.2em; /* Tamaño de fuente aumentado */
   text-align: center;
   display: block;
   margin: 5px;
-  color: black;
+  color: #008CBA; /* Color cambiado a un tono de azul */
+  font-weight: bold; /* Texto en negrita */
 }
 
 li {
