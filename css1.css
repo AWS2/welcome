@@ -1,0 +1,10 @@
+/* Establece el color de fondo */
+body {
+    background-color: #f0f0f0; /* Puedes cambiar este valor al color que desees */
+}
+
+/* Establece el tamaño máximo para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
