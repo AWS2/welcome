@@ -1,0 +1,35 @@
+.title{
+    text-align: center;
+    background-color: aliceblue;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.tableImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.tableImage:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.tableName {
+    font-weight: bold;
+}
