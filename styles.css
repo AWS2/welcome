@@ -1,6 +1,7 @@
 .title{
     text-align: center; color: whitesmoke;
     background-color: rgb(195, 15, 211);    
+    border-radius: 3px;
 }
 table {
     width: 100%;
@@ -11,13 +12,15 @@ table {
 }
 
 th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
+    border: 5px solid #ccc;
+    border-color: black;
+    padding: 20px;
     text-align: center;
+    background-color: wheat;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: violet;
 }
 
 .tableImage {
@@ -34,4 +37,10 @@ th {
 
 .tableName {
     font-weight: bold;
+}
+
+.textaligne{
+    text-align: center;
+    color:blueviolet;
+    
 }
