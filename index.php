@@ -4,7 +4,9 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <h1>Projecte Welcome 1</h1>
+  <div class="titol">
+  	<h1>Welcome 2: Los_chupacharcos</h1>
+  </div>
   <ul>
     <?php
     $imgs = scandir("./img", SCANDIR_SORT_ASCENDING);
