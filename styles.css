@@ -6,6 +6,9 @@ body {
 
 #title {
     color: yellow;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .grid-container {
@@ -14,10 +17,15 @@ body {
     grid-gap: 20px;
     margin: 0 auto;
     max-width: 800px;
+    padding: 20px;
 }
 
 .grid-item {
     text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .grid-row {
