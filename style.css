@@ -1,0 +1,29 @@
+/* Estilo para la tabla */
+table {
+  width: 80%; /* Ajusta el ancho de la tabla según tus necesidades */
+  border-collapse: collapse;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para las celdas de encabezado */
+th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Estilo para las celdas de datos */
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Estilo para filas impares */
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
