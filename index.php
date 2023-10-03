@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <body>
         <h1>Projecte Welcome 1</h1>
         <ul>
@@ -23,7 +22,7 @@
 </body>
 =======
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="prueba.css">
 </head>
 <body>	
 	<div id="container"></div>
