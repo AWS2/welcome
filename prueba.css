@@ -1,0 +1,75 @@
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Título principal */
+h1 {
+  font-size: 36px;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #444;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para la orla de los alumnos (personalízalos según tus necesidades) */
+.orla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas igualmente espaciadas */
+  gap: 20px; /* Espacio entre elementos */
+}
+
+.alumno {
+  border: 2px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos adicionales según sea necesario */
+
