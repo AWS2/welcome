@@ -1,11 +1,13 @@
 .title{
-    text-align: center;
-    background-color: aliceblue;
+    text-align: center; color: whitesmoke;
+    background-color: rgb(195, 15, 211);    
 }
 table {
     width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+    border-collapse:  collapse;
+    margin-bottom: 90px;
+    color: white;
+
 }
 
 th, td {
