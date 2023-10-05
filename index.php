@@ -18,18 +18,28 @@
             grid-template-columns: 1fr 1fr 1fr;
             list-style-type: none;
         }
+        div {
+            height: 300px;
+            width: 300px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            background-color: white;
+            margin: 20px;
+
+        }
         ul li {
-        display:inline-block;
+            display:inline-block;
         }
         img {
-            height: 100%;
+            height: 80%;
             width: 100%;
-            z-index: -1;
+            z-index: 2;
             position: sticky;
             top: 1px;
         }
         a {
-            z-index: 10;
+            z-index: 3;
         }
     </style>
 </head>
@@ -46,7 +56,9 @@
             }else if (substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-5);
             }
-            echo "<li><a href='profile/$name.html'><img src='img/$img'></a><a href='profile/$name.html'>$name</a></li>";
+            echo "<div>\n";
+            echo "  <li><a href='profile/$name.html'><img src='img/$img'></a><a href='profile/$name.html'>$name</a></li>\n";
+            echo "</div>\n";
 
         }
         ?>
