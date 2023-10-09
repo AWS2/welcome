@@ -15,8 +15,8 @@
             justify-content: space-between;
         }
         li {
-            width: calc(25% - 20px); /* Establece el ancho de cada elemento de la lista (25% - margen) */
-            margin-bottom: 20px; /* Espacio entre filas */
+            width: calc(25% - 20px); 
+            margin-bottom: 20px; 
             text-align: center;
         }
         img {
