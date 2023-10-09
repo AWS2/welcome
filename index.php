@@ -9,13 +9,19 @@
             background-color: grey;
             margin-left: 10%;
             margin-right: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             
         }
         h1 {
             text-align: center;
         }
         ul {
-            columns: 4;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;    
         }
         li {
             margin-bottom: 10px;
@@ -25,6 +31,10 @@
             align-items: center;
             width: 130px;
             overflow: hidden;
+        }
+        a {
+            text-decoration: none;
+            
         }
 
     </style>
