@@ -1,45 +1,51 @@
-body{
-    background-color: wheat;
+body {
+  background-color: #2A3439;
+  text-align: center; /* Añadido para centrar el texto en el body */
 }
-h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-/* Style.css */
 
-/* Create a grid layout with four columns */
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  border-radius: 5px; 
+}
+
 ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Four equal-width columns */
-    grid-gap: 20px; /* Adjust the gap between columns */
-    list-style-type: none; /* Remove list bullets */
-    text-align: center; /* Center-align list items */
-  }
-  
-  /* Style for each list item */
-  li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center; /* Center-align the content */
-  }
-  
-  /* Style for the image inside each list item */
-  li img {
-    max-width: 100%; /* Ensure images don't exceed their container width */
-  }
-  
-  /* Style for the anchor (link) inside each list item */
-  li a {
-    text-decoration: none; /* Remove underlines from links */
-    color: #333; /* Change link color */
-    display: block; /* Make the entire list item clickable */
-    padding: 10px; /* Add padding to improve clickability */
-  }
-  
-  /* Add hover effect to links */
-  li a:hover {
-    background-color: #f0f0f0; /* Change background color on hover */
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li img {
+  max-width: 100%;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+
+li .name {
+  margin-top: 10px;
+}
+
+li a:hover {
+  background-color: #999999;
+  border-radius: 5px;
+}

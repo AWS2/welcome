@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Projects</title>
 </head>
 <body>
 	<h1>Projecte Welcome 1</h1>
@@ -20,7 +21,7 @@
                 $name = substr($img,0,-5);
             }
             echo "<li><a href='profile/$name.html'>";
-            echo "<img src='img/$img' width='130'>";
+            echo "<img src='img/$img' width='130'> <br>";
             echo $name."</a>";
             echo "</li>";
             
