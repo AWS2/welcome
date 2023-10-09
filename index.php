@@ -69,13 +69,13 @@
             }else if (substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-5);
             }
-            echo "<li>";
-            echo "<div class='container'>";
-            echo "<a href='profile/$name.html'>";
+            echo "<li>\n";
+            echo "\t<div class='container'>\n";
+            echo "\t\t<a href='profile/$name.html'>";
             echo "<img src='img/$img' alt='img alumnes'>";
-            echo $name."</a>";
-            echo "</div>";
-            echo "</li>";
+            echo $name."</a>\n";
+            echo "\t</div>\n";
+            echo "</li>\n";
         }
     ?>
     </ul>
