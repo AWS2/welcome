@@ -1,0 +1,46 @@
+
+body {
+
+    background-color: aquamarine;
+}
+
+h1 {
+    color: #0b0e11; 
+    font-size: 28px; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    list-style: none;
+    padding: 0;
+    background-color: #1fe3f1; 
+}
+
+ul li {
+    flex: 1; 
+    margin: 10px; 
+    text-align: center;
+    background-color: white; 
+    padding: 10px; 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); 
+    box-sizing: border-box; 
+}
+
+
+ img {
+    width: 130px;
+    display: block; 
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; 
+    display: block; 
+}
+
+
