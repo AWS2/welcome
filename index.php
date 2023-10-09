@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <style>
         body {
@@ -21,6 +22,7 @@
             justify-items: center;
             float: left;
             margin: 10px;
+            margin-bottom: 40px;
             padding: 15px;
             padding-left: 30px;
             padding-right: 30px;
