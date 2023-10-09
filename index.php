@@ -39,7 +39,7 @@
             margin-top: 30px;
             display:flex;
             width: calc((80vw/3) - 30px);
-            height: 250px;
+            height: 15vw;
             background-color: rgba(0,255,255,0.3);
             box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
             vertical-align:bottom;
