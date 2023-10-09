@@ -9,34 +9,28 @@
             background-color: grey;
             margin-left: 10%;
             margin-right: 10%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
             
         }
         h1 {
             text-align: center;
         }
         ul {
-            justify-content: space-between;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;    
+            columns: 4;
         }
         li {
             margin-bottom: 10px;
             display: flex;
+            flex-direction: column;
             align-items: center;
             list-style-type: none;
             align-items: center;
             width: 130px;
             overflow: hidden;
         }
+
         a {
             text-decoration: none;
-            
         }
-
     </style>
 </head>
 <body>
