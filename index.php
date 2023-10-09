@@ -1,5 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice Imagenes</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+            background-color:grey;
+        }
+        h1{
+            text-align:center;
+
+        }
+        ul{
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            list-style: none;
+            justify-content:center;
+        }
+        img{
+            width:50%;
+            margin:auto;
+        }
+        div{
+            width:300px;
+            height:300px;
+            text-align:center;
+            border:1px solid black;
+            border-radius: 5px;
+            font-size:20px;
+            display:flex;
+        }
+        a{
+            display:flex;
+            flex-direction:column;
+            margin:auto;
+            width:100%
+        }
+    </style>
+</head>
 <body>
-        <h1>Projecte Welcome 1</h1>
+<h1>Projecte Welcome 1</h1>
         <ul>
         <?php
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
@@ -11,12 +55,12 @@
             }else if (substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-5);
             }
-            echo "<a href='profile/$name.html'>";
-            echo "<img src='img/$img' width='130'>";
-            echo $name."</a>";
-            echo "<div></div>";
+            echo "<li><div><a href='profile/$name.html'>";
+            echo "<img src='img/$img'>";
+            echo $name."</a></div></li>\n";
 
         }
     ?>
-    </il>
+
 </body>
+</html>
