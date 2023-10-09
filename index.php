@@ -50,7 +50,7 @@
             echo "<a href='profile/$name.html'>";
             echo "<img src='img/$img' width='130' height='130'>";
             echo "<br>".$name ."</a>\n";
-            echo "<li>";
+            echo "</li>";
         }
         ?>
     </ul>
