@@ -21,6 +21,10 @@
             list-style: none;
             justify-content:center;
         }
+        li{
+            overflow:scroll;
+
+        }
         img{
             width:50%;
             margin:auto;
