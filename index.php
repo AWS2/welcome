@@ -17,8 +17,11 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             list-style-type: none;
+            place-items: center;
+            margin: 0;
+            padding: 0;
         }
-        div {
+        .imageDiv {
             height: 300px;
             width: 300px;
             overflow: hidden;
@@ -26,20 +29,31 @@
             border-radius: 10px;
             background-color: white;
             margin: 20px;
+            align-items: center;
+            align-content: center;
 
         }
         ul li {
             display:inline-block;
+            align-content: center;
         }
         img {
             height: 80%;
             width: 100%;
             z-index: 2;
-            position: sticky;
-            top: 1px;
         }
         a {
             z-index: 3;
+            text-decoration: none;
+            color: black;
+        }
+        h3 {
+            text-align: center;
+            align-content: center;
+        }
+        h1 {
+            text-align: center;
+            align-content: center;
         }
     </style>
 </head>
@@ -56,9 +70,7 @@
             }else if (substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-5);
             }
-            echo "<div>\n";
-            echo "  <li><a href='profile/$name.html'><img src='img/$img'></a><a href='profile/$name.html'>$name</a></li>\n";
-            echo "</div>\n";
+            echo "  <li><div class='imageDiv'><a href='profile/$name.html'><img src='img/$img'></a><h3><a href='profile/$name.html'>$name</a></h3></div></li>\n";
 
         }
         ?>
