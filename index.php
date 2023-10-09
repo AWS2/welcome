@@ -24,10 +24,9 @@
             list-style-type: none;
             align-items: center;
             width: 130px;
-        }
-        a {
             overflow: hidden;
         }
+
     </style>
 </head>
 <body>
