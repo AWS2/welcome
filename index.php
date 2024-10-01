@@ -27,6 +27,10 @@
 			background-color: #17a2b8;
 		}
 
+		body.dark-mode a {
+			color: #ffffff;
+		}
+
 		header {
 			background-color: #f2f2f2;
 			padding: 1rem;
@@ -48,6 +52,7 @@
 		th,
 		td {
 			border: 1px solid black;
+			border-collapse: collapse;
 		}
 
 		table {
@@ -59,14 +64,15 @@
 		}
 
 		td>a {
-			font-size: 24px;
+			font-size: 20px;
 			text-decoration: none;
+			color: #000000;
 			display: block;
 			text-align: center;
 		}
 
 		td>a>img {
-			width: 200px;
+			width: 50%;
 			display: block;
 			margin: 0 auto;
 		}
@@ -126,6 +132,11 @@
 
 		darkModeToggle.addEventListener('click', () => {
 			body.classList.toggle('dark-mode');
+			if(darkModeToggle.innerHTML == "Cambiar a Modo Oscuro"){
+				darkModeToggle.innerHTML = "Cambiar a Modo Claro";
+			}else{
+				darkModeToggle.innerHTML = "Cambiar a Modo Oscuro";
+			}
 		});
 	</script>
 </body>
