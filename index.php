@@ -126,7 +126,7 @@
 		<p><cite>Lista de Perfiles</cite> creado por Iván Díaz Sánchez. Curso 2024-2025</p>
 	</footer>
 
-	<script>
+	<script type="text/javascript">
 		const darkModeToggle = document.getElementById('dark-mode-toggle');
 		const body = document.body;
 
