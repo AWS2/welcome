@@ -1,4 +1,56 @@
-.float 
-{
-float: left; 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(148,187,233);
+    background: linear-gradient(117deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 39%, rgba(200,174,238,1) 100%); 
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+    width: 690px;
+    background: rgb(148,187,233);
+    background: linear-gradient(312deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 39%, rgba(200,174,238,1) 100%); 
+    border-radius: 20px;
+}
+
+ul a {
+    width: 200px;
+    height: 200px;
+    color: black;
+    text-decoration: none;
+}
+
+ul a img {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+ul a p {
+    height: 20px;
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+    border-radius: 20px;
 }
