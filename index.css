@@ -2,3 +2,40 @@
 {
 float: left; 
 }
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+table {
+    border: 5px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout : fixed;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+    height: 400px;
+    background-color: azure;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+img {
+    margin-bottom: 30px;
+}
