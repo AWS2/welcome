@@ -1,4 +1,45 @@
-.float 
-{
-float: left; 
+
+body {
+    background-color: #B4EDD2;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: #87677B;/* #9A7AA0;*/
+    margin-bottom: 100px;
+    text-decoration:underline;
+    
+
+}
+
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;/*ajustar objetos horizontalmente*/
+    align-items:center; /* alinea todos los elementos en este caso centrado
+    pero da mas posivilidades*/
+
+}
+
+
+
+
+.item {
+    margin: 20px 1px;
+    width: 40%;
+    text-align: center;
+    
+    
+
+}
+img {
+    width: 350px;
+    height: auto;
+}
+
+a {
+    text-decoration: no;
 }
