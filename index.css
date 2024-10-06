@@ -7,7 +7,7 @@ h1 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
-    color: #87677B;/* #9A7AA0;*/
+    color: #8D94BA/*#9A7AA0/*#474247*/;
     margin-bottom: 100px;
     text-decoration:underline;
     
@@ -19,8 +19,9 @@ h1 {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;/*ajustar objetos horizontalmente*/
-    align-items:center; /* alinea todos los elementos en este caso centrado
+    /*align-items:center;  alinea todos los elementos en este caso centrado
     pero da mas posivilidades*/
+    align-items:normal/*alinea por los objetos del todo*/
 
 }
 
@@ -28,18 +29,22 @@ h1 {
 
 
 .item {
-    margin: 20px 1px;
-    width: 40%;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 20px 80px;
+    padding: 2%;
+    width: 20%;
     text-align: center;
+    
     
     
 
 }
 img {
-    width: 350px;
-    height: auto;
+    width: 250px;
+    height: 150px;
 }
 
 a {
-    text-decoration: no;
+    text-decoration:none;
 }
