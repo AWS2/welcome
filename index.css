@@ -54,3 +54,7 @@ ul a p {
     background-color: rgb(199, 199, 199);
     border-radius: 20px;
 }
+
+ul a p:hover {
+    background-color: rgb(155, 122, 155);
+}
