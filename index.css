@@ -3,6 +3,10 @@
 * {
     font-family: "Zen Loop", cursive;
 }
+
+ul{
+    font-size: 100px;
+}
 .float 
 {
 float: left; 
