@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
 
-
+* {
+    font-family: "Zen Loop", cursive;
+}
 .float 
 {
 float: left; 
