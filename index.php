@@ -1,4 +1,14 @@
-<body>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta author="Gracia Clemente, AWS2">
+        <title>Projecte Welcome 1</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+
+    <body>
         <h1>Projecte Welcome 1</h1>
         <ul>
         <?php
@@ -17,6 +27,7 @@
             echo "<div></div>";
 
         }
-    ?>
-    </il>
-</body>
+        ?>
+        </ul>
+    </body>
+</html>
