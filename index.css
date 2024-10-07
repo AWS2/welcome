@@ -4,15 +4,23 @@ table {
     font-size: 0.9em;
     background-color: #f3f3f3;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
+    border-spacing: 5px 1rem;
 
+}
+a {
+    font-family: sans-serif;
+    color: rgb(43, 43, 43);
+}
 tr {
     display: inline-block;
     font-family: sans-serif;
     text-align: center;
+
 }
 
 td {
     display: block;
-    padding: 25px 25px;
+    padding: 5px 25px;
+    margin: 10px 10px;
+    
 }

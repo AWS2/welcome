@@ -24,9 +24,13 @@
             }else if (substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-5);
             }
-            echo "<tr><td><a href='profile/$name.html'>";
-            echo "<img src='img/$img' alt='foto de perfil' width='130'></a></td>";
-            echo "<td><a href='profile/$name.html'>".$name."</a></td></tr>";
+            echo "
+                <tr>
+                    <td><a href='profile/$name.html'><img src='img/$img' alt='foto de perfil' width='130'></a></td>"
+                    ;
+            echo "
+                    <td><a href='profile/$name.html'>".$name."</a></td>
+                </tr>";
         }
         echo '</table>';
     ?>
