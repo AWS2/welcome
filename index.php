@@ -9,7 +9,7 @@
 
 <body>
     <div class="title">
-        <h1>WELCOME</h1>
+        <h1>PROJECTE WELCOME 1</h1>
     </div>
 
     <div class="container">
