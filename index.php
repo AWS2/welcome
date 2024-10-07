@@ -35,8 +35,9 @@
 
 			echo "<td>";
 			echo "<a href='profile/$name.html'>";
-			echo "<img src='img/$img'><br>";
-			echo "$name</a>";
+			echo "<img src='img/$img' alt='Imagen de $name'><br>";
+			echo "<p>$name</p>";
+			echo "</a>";
 			echo "</td>";
 
 			if ($i == 3) {
