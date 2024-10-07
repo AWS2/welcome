@@ -4,81 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
 	<title>Projecte Welcome 1</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #ffffff;
-			color: #333333;
-			transition: background-color 0.3s, color 0.3s;
-		}
-
-		/* Dark mode styles */
-		body.dark-mode {
-			background-color: #333333;
-			color: #ffffff;
-		}
-
-		body.dark-mode header {
-			background-color: #1a1a1a;
-		}
-
-		body.dark-mode button {
-			background-color: #17a2b8;
-		}
-
-		body.dark-mode a {
-			color: #ffffff;
-		}
-
-		header {
-			background-color: #f2f2f2;
-			padding: 1rem;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-		}
-
-		button {
-			background-color: #007bff;
-			color: #ffffff;
-			border: none;
-			padding: 0.5rem 1rem;
-			border-radius: 4px;
-			cursor: pointer;
-		}
-
-		table,
-		th,
-		td {
-			border: 1px solid black;
-			border-collapse: collapse;
-		}
-
-		table {
-			width: 100%;
-		}
-
-		td {
-			width: 25%;
-		}
-
-		td>a {
-			font-size: 20px;
-			text-decoration: none;
-			color: #000000;
-			display: block;
-			text-align: center;
-		}
-
-		td>a>img {
-			width: 50%;
-			display: block;
-			margin: 0 auto;
-		}
-
-		
-	</style>
 </head>
 
 <body>
