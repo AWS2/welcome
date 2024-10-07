@@ -10,31 +10,41 @@ h1{
     font-size: 70px;
     text-shadow:15px 15px 13px rgba(0, 0, 0, 0.8);
 }
+
 table{
     width: 90%;
     margin: auto;
 }
+    table div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    tr{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
-tr{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+    td{
+        display: flex;
+        background-color: rgb(144, 58, 214);
+        width: 33%;
+        margin: 0% 3% 3%;
+        padding: 3%;
+        img{
+            border-radius: 33% ;
+            width: 50%;
+            
+        }border-radius: 5%;
+        box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.5);
+    }
 
-td{
-    display: flex;
-    background-color: rgb(144, 58, 214);
-    width: 33%;
-    margin: 0% 3% 3%;
-    padding: 3%;
-    border-radius: 5%;
-    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.5);
+img{
+    border-radius: 33% ;
+    width: 50%;
+    
 }
 
 a{
@@ -49,13 +59,8 @@ a{
     word-break: break-word;
     white-space: normal;
 }
-a:hover{
-    color: aliceblue;
-    text-shadow:0px 0px 10px rgba(0, 0, 0);
-}
+    a:hover{
+        color: aliceblue;
+        text-shadow:0px 0px 10px rgba(0, 0, 0);
+    }
 
-img{
-    border-radius: 33% ;
-    width: 50%;
-    
-}
