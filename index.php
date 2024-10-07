@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Projecte Welcome 1</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="templates/style.css">
+    <meta charset="UTF-8">
+    <title>Projecte Welcome 1</title>
+    <link rel="stylesheet" type="text/css" href="templates/style.css">
 </head>
-<body style="margin: 100px 230px; background-color: #EBF3F1;">
-	<div class="title" style="text-align:center; margin-bottom: 5%;">
-		<h1 style="font-family: oswald; text-shadow: 2px 2px 6px #8FA0FC, 2px 2px 5px #00f;">PROJECTE WELCOME 1</h1>
-	</div>	
-	<?php 
+<body>
+    <div class="title">
+        <h1>WELCOME</h1>
+    </div>
 
-		$imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
-		foreach( $imgs as $img ) {	
-			if( substr($img,-3)=="jpg" or substr($img,-3)=="png" or substr($img,-4)=="jpeg") {
-				$name = substr($img,0,-4);
-				echo "
-					<div class='card' style='width: 18rem; display: grid; float: left; padding: 10px;'>
-						<img class='card-img-top' src='img/$img' alt='Card image cap' style='height: 270px;'>
-						<div class='card-body' style='text-align: center;'>
-							<a href='profile/$name.html' target='_blank' class='btn btn-primary'>$name</a>
-						</div>
-					</div>
-				"
-				;
-			}
-		}
-	?>
+    <div class="container">
+        <table class="custom-table">
+            <tr>
+            <?php
+                $imgs = scandir("./img", SCANDIR_SORT_ASCENDING);
+                $counter = 0; 
+
+                foreach ($imgs as $img) {
+                    if (substr($img, -3) == "jpg" || substr($img, -3) == "png" || substr($img, -4) == "jpeg") {
+                        $name = substr($img, 0, -4);
+                        if ($counter % 3 == 0 && $counter != 0) { 
+                            echo "</tr><tr>";
+                        }
+                        echo "
+                            <td class='custom-cell'>
+                                <img src='img/$img' alt='$name' class='image'>
+                                <p class='image-name'>$name</p>
+                                <a href='profile/$name.html' target='_blank' class='custom-button'>View Profile</a>
+                            </td>
+                        ";
+                        $counter++;
+                    }
+                }
+            ?>
+            </tr>
+        </table>
+    </div>
+
 </body>
 <footer>
-	<p style="clear: both; padding-top: 20px; text-align: right; font-weight: bold">Style created by: Iker Cayero and Silvia De La Cruz</p>
+    <p>Style created by: Gerard Sanchez</p>
 </footer>
 </html>
