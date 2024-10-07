@@ -12,6 +12,8 @@
         <table>
             <?php
                 $imgs = scandir("./img", SCANDIR_SORT_ASCENDING);
+                $i = 0;
+
                 foreach( $imgs as $img ) {
                     if( $img == "." || $img == ".." ) continue;
 
@@ -20,13 +22,21 @@
                     } elseif (substr($img,-4)=="jpeg") {
                         $name = substr($img, 0, -5);
                     }
-
+                    if( $i == 0 ) {
+                        echo "<tr>";
+                    }
                     echo "<td>";
                     echo "<div>";
                     echo "<a href='profile/$name.html'>$name</a>";
                     echo "<a href='profile/$name.html'><img src='img/$img' class='float' alt='$name'></a>";
                     echo "</div>";
-                    echo "</td>";
+                    echo "</td>";   
+                    if( $i == 3 ) {
+                        echo "</tr>";
+                        $i = 0;
+                    } else {
+                        $i++;
+                    }             
                 }
             ?>
         </table>
