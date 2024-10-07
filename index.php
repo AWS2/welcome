@@ -10,7 +10,7 @@
             <h1>PROJECTE WELCOME 1</h1>
             
             <table>
-
+                
             <?php
 
                 $contador = 0;
