@@ -11,7 +11,7 @@
         <h1>Welcome</h1>
     </header>
 
-    <div class="gallery">
+    <div class="container">
         <ul class="image-list">
             <?php
             $imgs = scandir("./img", SCANDIR_SORT_ASCENDING);
