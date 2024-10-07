@@ -24,7 +24,7 @@
                     echo "<td>";
                     echo "<div>";
                     echo "<a href='profile/$name.html'>$name</a>";
-                    echo "<a href='profile/$name.html'><img src='img/$img' class='float'></a>";
+                    echo "<a href='profile/$name.html'><img src='img/$img' class='float' alt='$name'></a>";
                     echo "</div>";
                     echo "</td>";
                 }
