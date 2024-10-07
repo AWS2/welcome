@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,6 @@
         <h1>Welcome - sergiofdce</h1>
 
         <div id=TablaCSS>
-        <ul>
             <?php
             $imgs = scandir("./img", SCANDIR_SORT_ASCENDING);
 
@@ -46,8 +45,7 @@
             echo "</table>";
             ?>
 
-        </ul>
-        </div>
+</div>
     
 </body>
 </html>
