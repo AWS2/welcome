@@ -36,7 +36,7 @@
 
             // Crear una nueva fila después de cada 4 imágenes
             $count++;
-            if ($count % 4 == 0) {
+            if ($count % 3 == 0) {
                 echo "</tr><tr>";
              }
         }
