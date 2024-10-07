@@ -6,8 +6,9 @@
     <title>Alumnes AWS2</title>
     <link rel="stylesheet" href="index.css">
 </head>
-    
 
+<body>
+    
 <div>
         <h1>Projecte Welcome 1 - Erik Pinto</h1>
         <div class="main-container">
