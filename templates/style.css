@@ -1,4 +1,4 @@
-/* Estilos globales */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f8ff; /* Fondo de un color suave */
@@ -10,9 +10,9 @@ body {
     align-items: center;
 }
 
-/* Cabecera */
+
 .title {
-    background-color: #ff6347; /* Fondo de cabecera con color vibrante */
+    background-color: #ff6347; 
     width: 100%;
     padding: 20px 0;
     text-align: center;
@@ -28,13 +28,13 @@ body {
     text-transform: uppercase;
 }
 
-/* Contenedor de la tabla */
+
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
-/* Tabla personalizada */
+
 .custom-table {
     width: 100%;
     border-collapse: collapse;
@@ -52,30 +52,29 @@ body {
     vertical-align: top;
 }
 
-/* Imágenes uniformes */
 .image {
     width: 100%;
-    height: 200px; /* Forzar a que todas las imágenes tengan la misma altura */
-    object-fit: cover; /* Asegura que las imágenes se adapten al tamaño sin deformarse */
+    height: 200px; 
+    object-fit: cover; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
 }
 
-/* Nombre de la imagen */
+
 .image-name {
     font-weight: bold;
     margin-bottom: 10px;
     color: #555;
 }
 
-/* Botón personalizado */
+
 .custom-button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 1em;
     color: white;
-    background-color: #ff6347; /* Cambiado a un azul más suave */
+    background-color: #ff6347; 
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -85,7 +84,6 @@ body {
     background-color: #4169e1;
 }
 
-/* Estilos del pie de página */
 footer {
     padding-top: 20px;
     text-align: right;
