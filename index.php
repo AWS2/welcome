@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
-</body>
-</html>
-<body>
         <h1>Projecte Welcome 1</h1>
         <ul>
         <?php
@@ -36,3 +32,4 @@
     ?>
     </ul>
 </body>
+</html>
