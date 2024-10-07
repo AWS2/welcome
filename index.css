@@ -2,3 +2,15 @@
 {
 float: left; 
 }
+table{
+    background-color: blue;
+    margin: 0 15%;
+
+}
+td{
+    background-color: aqua;
+    border: 1px, solid;
+    
+    padding: 7px ,10%;
+    
+}
