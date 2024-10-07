@@ -26,7 +26,7 @@
         }
         echo "<td>\n";
         echo "<a href='profile/$name.html'>";
-        echo "<img src='img/$img' width='130'></a>\n<a>";
+        echo "<img src='img/$img' width='130' alt='FotoPerfil'></a>\n<a>";
         echo "<a href='profile/$name.html'>";
         echo $name."</a>\n";
         echo "</td>\n\n";
