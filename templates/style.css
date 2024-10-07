@@ -77,7 +77,7 @@ body {
     background-color: #ff6347; 
     border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    
 }
 
 .custom-button:hover {
