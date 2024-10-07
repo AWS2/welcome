@@ -19,6 +19,7 @@ h1 {
     text-align: center;
     font-size: 70px;
     color: #fff;
+    padding: 20px;
 }
 
 ul {
@@ -30,7 +31,7 @@ ul {
     margin: auto;
     width: 690px;
     background: rgb(148,187,233);
-    background: linear-gradient(312deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 39%, rgba(200,174,238,1) 100%); 
+    background: linear-gradient(312deg, rgb(212, 148, 230) 0%, rgb(223, 162, 189) 39%, rgb(186, 161, 221) 100%); 
     border-radius: 20px;
 }
 
@@ -51,10 +52,12 @@ ul a img {
 ul a p {
     height: 20px;
     text-align: center;
-    background-color: rgb(199, 199, 199);
+    background-color: #fff;
     border-radius: 20px;
 }
 
 ul a p:hover {
     background-color: rgb(155, 122, 155);
+    color: white;
+    font-weight: bold;
 }
