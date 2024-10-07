@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>Projecte Welcome 1</h1>
+        <h1>Projecte Welcome </h1>
 
         <table>
             <?php
