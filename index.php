@@ -22,7 +22,7 @@
                     }
                     echo "<td>";
                     echo "<a href='profile/$name.html'>";
-                    echo "<img src='img/$img' width='130'>";
+                    echo "<img src='img/$img' width='130' alt='$name'>";
                     echo $name."</a>";
                     echo "</td>";
                 }
