@@ -1,4 +1,60 @@
-.float 
-{
-float: left; 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ADD8E6;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 1 1 calc(33% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.image-box {
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 150px; 
+}
+
+.image-box img {
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: cover; 
+}
+
+.text-box {
+    background: #f0f0f0; 
+    border-radius: 5px;
+    padding: 10px; 
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    display: block; 
+    text-align: center; 
+}
+
+.link:hover {
+    background: #e0e0e0; 
 }
