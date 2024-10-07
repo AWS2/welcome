@@ -1,4 +1,50 @@
-.float 
-{
-float: left; 
+.float {
+    float: left;
+    margin: 10px;
+}
+
+
+div {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #555;
+    color: white;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+tr {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+td {
+    width: 15%;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+    background-color: white;
+}
+
+td img {
+    width: 80px;
+    height: auto;
+}
+
+td a {
+    color: black;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+h1 {
+    text-align: center;
 }
