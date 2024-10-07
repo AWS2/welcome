@@ -33,7 +33,7 @@
 
                 echo "<tr>";
                 // Columna 1: Imagen
-                echo "<td><img src='img/$img' width='130' alt='imagen'></td>";
+                echo "<td><img src='img/$img' width='130' alt='Imagen de Perfil'></td>";
                 // Columna 2: Enlace
                 echo "<td><a href='profile/$name.html'>$name</a></td>";
                 
