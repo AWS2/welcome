@@ -39,7 +39,8 @@
         echo "<a href='profile/$name.html'>";
 
         //muestra la imagen correspondiente, con un ancho de 130 píxeles, proveniente del directorio 'img'
-        echo "<img src='img/$img' width='130'>";
+        
+        echo "<img src='img/$img' width='130' alt='Imagen avatar'>";
 
         //salto de línea para mostrar el nombre debajo de la foto
         echo "<br>";
