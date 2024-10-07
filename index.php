@@ -18,10 +18,6 @@
                 $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
                 foreach( $imgs as $img ) {
 
-                    if ($contador == 0){
-                        echo "<tr>";
-                    }
-
                     if( $img=="." || $img==".." )
                         continue;
                     if( substr($img,-3)=="jpg" or substr($img,-3)=="png"){
@@ -30,8 +26,12 @@
                         $name = substr($img,0,-5);
                     }
 
+                    if ($contador == 0){
+                        echo "<tr>";
+                    }
+
                     echo "<td>";
-                    echo "<a href='profile/$name.html'><img src='img/$img' width='130'><br>$name</a>";
+                    echo "<a href='profile/$name.html'><img src='img/$img' alt='imagen de usuario de $name'><br>$name</a>";
                     echo "</td>";
 
                     $contador += 1;
@@ -42,7 +42,7 @@
                     }
                 }
 
-                if ($contador != 5 && $contador != 0) {
+                if ($contador != 0) {
                     echo "</tr>";
                 }
             
