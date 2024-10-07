@@ -41,8 +41,9 @@ h1 {
 
 }
 img {
-    width: 250px;
-    height: 150px;
+    width: 75%;
+    height: 75%;
+    
     border-radius: 100px;
 
 }
