@@ -35,7 +35,7 @@
                 // Columna 1: Imagen
                 echo "<td><img src='img/$img' width='130'></td>";
                 // Columna 2: Enlace
-                echo "<td><a href='profile/$name.html'>$name</a></td>";
+                echo "<td><a href='profile/$name.html' alt='imagen'>$name</a></td>";
                 
                 echo "</tr>";
                 // echo "<a href='profile/$name.html'>";
