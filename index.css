@@ -1,5 +1,5 @@
 body{
-    background-color: #F0F2F1;
+    background-color: #FCF3E4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -15,7 +15,8 @@ h1{
 }
 
 .perfilIndex{
-    background-color: #C7D9DF;
+    color:#FFF9FF;
+    background-color: #aacce1;
     border-radius: 20px;
     width: 200px;
     padding: 20px;

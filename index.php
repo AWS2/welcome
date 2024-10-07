@@ -15,6 +15,9 @@
 
     <?php
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
+
+        echo "<div class='contenedorIndex'>";
+
         
         foreach( $imgs as $img ) {
 
@@ -26,7 +29,6 @@
                 $name = substr($img,0,-5);
             }
             
-            echo "<div class='contenedorIndex'>";
 
                 echo "<div class='perfilIndex'>";
 
@@ -44,9 +46,11 @@
 
                 echo "</div>";
             
-            echo "</div>";
 
         }
+
+        echo "</div>";
+
     ?>
     
 </body>
