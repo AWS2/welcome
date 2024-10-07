@@ -23,6 +23,10 @@ body.dark-mode a {
     color: #ffffff;
 }
 
+body.dark-mode p {
+    color: #ffffff;
+}
+
 header {
     background-color: #f2f2f2;
     padding: 1rem;
