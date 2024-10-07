@@ -19,7 +19,7 @@
 		$imgs = scandir("./img", SCANDIR_SORT_ASCENDING);
 		$i = 0;
 
-		echo "<table>";
+		echo "<table>\n";
 		foreach ($imgs as $img) {
 			if ($img == "." || $img == "..")
 				continue;
@@ -30,41 +30,54 @@
 			}
 
 			if ($i == 0) {
-				echo "<tr>";
+				echo "<tr>\n";
 			}
 
-			echo "<td>";
-			echo "<a href='profile/$name.html'>";
-			echo "<img src='img/$img' alt='Imagen de $name'><br>";
-			echo "<p>$name</p>";
-			echo "</a>";
-			echo "</td>";
+			echo "<td id='$name'>
+					<img src='img/$img' alt='Imagen de $name'>
+					<p>$name</p>
+				</td>\n";
 
 			if ($i == 3) {
 				$i = 0;
-				echo "</tr>";
+				echo "</tr>\n";
 			} else {
 				$i++;
 			}
 		}
-		echo "</table>";
+		if ($i != 0) {
+			echo "</tr>\n";
+		}
+		echo "</table>\n";
 		?>
 	</main>
 	<footer>
-		<p><cite>Lista de Perfiles</cite> creado por Iván Díaz Sánchez. Curso 2024-2025</p>
+		<p><cite>Lista de Perfiles</cite> creada por Iván Díaz Sánchez. Curso 2024-2025</p>
 	</footer>
 
 	<script type="text/javascript">
-		const darkModeToggle = document.getElementById('dark-mode-toggle');
-		const body = document.body;
+		document.addEventListener("DOMContentLoaded", function() {
+			const darkModeToggle = document.getElementById('dark-mode-toggle');
+			const body = document.body;
 
-		darkModeToggle.addEventListener('click', () => {
-			body.classList.toggle('dark-mode');
-			if(darkModeToggle.innerHTML == "Cambiar a Modo Oscuro"){
-				darkModeToggle.innerHTML = "Cambiar a Modo Claro";
-			}else{
-				darkModeToggle.innerHTML = "Cambiar a Modo Oscuro";
+			darkModeToggle.addEventListener('click', () => {
+				body.classList.toggle('dark-mode');
+				if (darkModeToggle.innerHTML == "Cambiar a Modo Oscuro") {
+					darkModeToggle.innerHTML = "Cambiar a Modo Claro";
+				} else {
+					darkModeToggle.innerHTML = "Cambiar a Modo Oscuro";
+				}
+			});
+
+
+			const cells = document.getElementsByTagName("td");
+			for (cell of cells) {
+				cell.addEventListener("click", function(event) {
+					window.location.href = "profile/" + event.currentTarget.id + ".html";
+				});
 			}
+
+
 		});
 	</script>
 </body>
