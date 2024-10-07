@@ -1,4 +1,67 @@
-.float 
-{
-float: left; 
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
 }
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.image-list {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.image-item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image-item:hover {
+    transform: translateY(-5px);
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.image-name {
+    display: block;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
