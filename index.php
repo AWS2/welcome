@@ -15,7 +15,7 @@
             $imgs = scandir("./img", SCANDIR_SORT_ASCENDING);
 
             // Crear tabla
-            echo "<table border='1'>";
+            echo "<table>";
 
             echo "<tr>";
             echo "<td> Imagen </td>";
