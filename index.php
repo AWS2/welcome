@@ -25,7 +25,7 @@
             echo "<div class='item-container'>";
             echo "<a href='profile/$name.html'>";
             echo "<img src='img/$img' alt='$name'>";
-            echo "<h3>$name</h3>";
+            echo "<h3 class='break'>$name</h3>";
             echo "</a>";
             echo "</div>";
         }
