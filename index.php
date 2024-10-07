@@ -9,7 +9,7 @@
     
 
 <div>
-        <h1>Projecte Welcome 1</h1>
+        <h1>Projecte Welcome 1 - Erik Pinto</h1>
         <div class="main-container">
         <?php
         $imgs = scandir("./img", SCANDIR_SORT_ASCENDING);
