@@ -1,4 +1,36 @@
-.float 
-{
-float: left; 
+body{
+    background-color: #F0F2F1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenedorIndex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.perfilIndex{
+    background-color: #C7D9DF;
+    border-radius: 20px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.perfilIndex .fotoIndex{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.imgIndex {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
 }
