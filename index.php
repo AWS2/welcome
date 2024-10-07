@@ -23,7 +23,7 @@
             
             if (isset($name)){
                 echo "<a href='profile/$name.html'>";
-                echo "<img src='img/$img' width='130' alt=Foto_de_perfil_de_$name>";
+                echo "<img src='img/$img' width='130' alt='Foto de perfil de $name'>";
                 echo "<p>".$name."</p></a>";
             }
         }
