@@ -1,6 +1,7 @@
-body{
-    background-color:rgb(108, 8, 190);
+body {
+    background: radial-gradient(circle, black, rgb(108, 8, 190));
 }
+
 
 h1{
     font-family: sans-serif;
