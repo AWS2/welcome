@@ -30,7 +30,7 @@ h1 {
 
 .item {
     background-color: grey;
-    border-radius: 10px;
+    border-radius: 50px;
     margin: 20px 80px;
     padding: 2%;
     width: 20%;
@@ -43,6 +43,8 @@ h1 {
 img {
     width: 250px;
     height: 150px;
+    border-radius: 100px;
+
 }
 
 a {
