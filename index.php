@@ -45,7 +45,6 @@
             }
             echo "</table>";
             ?>
-            </il>
 
         </ul>
         </div>
