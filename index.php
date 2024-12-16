@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-    <h1>˚ʚ ❀ ɞ˚ Projecte Welcome 1 - Mar Mèlich ˚ʚ ❀ ɞ˚</h1>
+    <h1>˚ʚ ❀ ɞ˚ Projecte Welcome 1 - Mmoha</h1>
 
     <table>
     <?php
