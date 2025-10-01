@@ -1,7 +1,32 @@
 <body>
-        <h1>Projecte Welcome  1</h1>
-        <ul>
-        <?php
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 4 Columnas iguales para todo */
+            gap: 20px; /* Espacio entre las tarjetas de imagen y nombre */
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover; /* Para que se vean proporcionalmente */
+            border-radius: 8px;
+        }
+    </style>
+    <h1>Projecte Welcome  1</h1>
+    <div class="grid">
+    <?php
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
         foreach( $imgs as $img ) {
             if( $img=="." || $img==".." )
@@ -10,13 +35,18 @@
                 $name = substr($img,0,-4);
             }else if (substr($img,-4)=="jpeg") {
                 $name = substr($img,0,-5);
+            } else {
+                continue;
             }
-            echo "<a href='profile/$name.html'>";
-            echo "<img src='img/$img' width='130'>";
-            echo $name."</a>";
-            echo "<div></div>";
 
+            // Tarjeta de imagen y nombres
+            echo "<div class='card'>";
+                echo "<a href='profile/$name.html'>";
+                echo "<img src='img/$img' width='130'>";
+                echo "<h3>$name</h3";
+                echo "</a>";
+            echo "</div>";
         }
     ?>
-    </il>
+    </div>
 </body>
