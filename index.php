@@ -7,21 +7,28 @@
             padding: 20px;
         }
         .card {
-            background: white;
+            background: lightgrey;
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             padding: 10px;
             text-align: center;
             transition: transform 0.2s ease;
+
         }
         .card:hover {
             transform: scale(1.05);
         }
         .card img {
-            width: 100%;
-            height: 150px;
+            width: 80%;
+            height: 300px;
             object-fit: cover; /* Para que se vean proporcionalmente */
             border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: darkblue;
+            margin: 5px, 5px, 5px, 5px;
+            font-size: 50px;
         }
     </style>
     <h1>Projecte Welcome  1</h1>
