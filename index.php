@@ -2,8 +2,8 @@
     <style>
         .grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr); /* 4 Columnas iguales para todo */
-            gap: 20px; /* Espacio entre las tarjetas de imagen y nombre */
+            grid-template-columns: repeat(4, 1fr); /* 4 Columnas */
+            gap: 20px; /* Espacio entre las tarjetas */
             padding: 20px;
         }
         .card {
