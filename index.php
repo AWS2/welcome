@@ -1,7 +1,7 @@
 <?php
 
 echo "<!DOCTYPE html>";
-echo "<html>";
+echo "<html lang='ES' >";
 echo "<head>
         <meta charset='UTF-8'>
         <title>Project Welcome - Hector</title>
@@ -58,11 +58,11 @@ foreach ($imgs as $img) {
         continue;
     }
 
-    echo "<div class='photo'>";
-    echo "<a href='profile/$name.html'>";
-    echo "<img src='img/$img' alt='$name'>";
-    echo "<span>$name</span></a>";
-    echo "</div>";
+    echo "<div class='photo'> \n";
+    echo "<a href='profile/$name.html'> \n";
+    echo "<img src='img/$img' alt='$name'> \n";
+    echo "<span>$name</span></a> \n";
+    echo "</div>\n";
 }
 
 echo "</div>";
