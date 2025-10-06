@@ -85,7 +85,7 @@
                         echo "<img src='{$imgSrc}' alt='Foto de {$safeName}' loading='lazy'>";
                         echo $safeName;
                         echo "</a>";
-                        echo "</li>";
+                        echo "</li>\n";
                     }
                 }
             ?>
