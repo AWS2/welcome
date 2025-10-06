@@ -62,7 +62,7 @@
                 echo "<img src='img/$img'>";
                 echo "<h3>$name</h3>";
                 echo "</a>";
-            echo "</div>";
+            echo "</div>\n";
         }
     ?>
     </div>
