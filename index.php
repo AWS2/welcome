@@ -1,5 +1,5 @@
 <body>
-    <h1>Projecte Welcome 1</h1>
+    <h1>Projecte Welcome Miguel Ángel López</h1>
     <ul>
         <?php
         $imgs = scandir("./img", SCANDIR_SORT_ASCENDING);
@@ -16,6 +16,7 @@
                 echo " $name";
                 echo "</a>";
                 echo "</li>";
+                echo "<br>";
             }
         }
         ?>
