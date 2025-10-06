@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,7 @@
             grid-template-columns: repeat(4, 1fr); /* 4 Columnas */
             gap: 20px; /* Espacio entre las tarjetas */
             padding: 20px;
+            align-items: stretch;
         }
         .card {
             background: lightgrey;
@@ -18,16 +19,18 @@
             padding: 10px;
             text-align: center;
             transition: transform 0.2s ease;
+            width: 90%;
 
         }
         .card:hover {
             transform: scale(1.05);
         }
         .card img {
-            width: 80%;
+            width: 100%;
             height: 300px;
             object-fit: cover; /* Para que se vean proporcionalmente */
             border-radius: 8px;
+            display: flex;
         }
         h1 {
             text-align: center;
@@ -38,7 +41,7 @@
     </style>
 </head>
 <body>
-    <h1>Projecte Welcome  1</h1>
+    <h1>Projecte Welcome  1 - Biel Marín Gonzàlez</h1>
     <div class="grid">
     <?php
         $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
