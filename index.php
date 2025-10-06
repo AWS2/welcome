@@ -59,8 +59,8 @@
             // Tarjeta de imagen y nombres
             echo "<div class='card'>";
                 echo "<a href='profile/$name.html'>";
-                echo "<img src='img/$img' width='130'>";
-                echo "<h3>$name</h3";
+                echo "<img src='img/$img'>";
+                echo "<h3>$name</h3>";
                 echo "</a>";
             echo "</div>";
         }
