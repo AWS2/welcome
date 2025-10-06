@@ -1,4 +1,9 @@
-<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome 25/26</title>
     <style>
         .grid {
             display: grid;
@@ -31,6 +36,8 @@
             font-size: 50px;
         }
     </style>
+</head>
+<body>
     <h1>Projecte Welcome  1</h1>
     <div class="grid">
     <?php
@@ -57,3 +64,4 @@
     ?>
     </div>
 </body>
+</html>
