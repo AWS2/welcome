@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Projecte Welcome Miguel Ángel López</title>
     <style>
-        /*Para todo le ponemos el estilo arial o sans-serif, fondo blanco "gastado", 0 de margen, 20 px de padding, lo hacemos flotante y todo justificado al centro.*/ 
+        /* El cuerpo de la pagina */
         body {
             font-family: Arial, sans-serif;
             background: #f4f4f4;
@@ -14,19 +14,19 @@
             display: flex;
             justify-content: center;
         }
-        /*Añadimos max-width de 800px para no pasarse en tamaño el container, el fondo directamente blanco, otro padding en su interior de 20px y 8px de redondeado en los bordes.*/
+        /* el div de todo */
         .profileContainer {
             max-width: 800px;
             background: white;
             padding: 20px;
             border-radius: 8px;
         }
-        /*Alinemaos el titulo al centro y le ponemos un color oscuro tirando a gris */
+        /* Titulo */
         h1 {
             text-align: center;
             color: #333;
         }
-        /* */
+        /* La lista donde estan todas las imagenes y enlaces */
         ul {
             list-style: none;
             padding: 0;
@@ -35,6 +35,7 @@
             gap: 20px;
             justify-content: center;
         }
+        /* Donde se encuentra la imagen y el texto con el enlace */
         li {
             background: #fafafa;
             border: 1px solid #ddd;
@@ -42,8 +43,8 @@
             width: 150px;
             text-align: center;
             padding: 10px;
-            transition: box-shadow 0.3s ease;
         }
+        /* las imagenes */
         img {
             max-width: 100%;
             border-radius: 6px;
@@ -51,13 +52,16 @@
             display: block;
             margin: 0 auto 10px;
         }
+        /* Los enlaces */
         a {
             text-decoration: none;
             color: #007BFF;
             font-weight: bold;
             display: block;
         }
+        /* Los enlaces cuando esta el raton encima */
         a:hover {
+            color: #0c66c7ff;
             text-decoration: underline;
         }
     </style>
