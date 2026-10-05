@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projecte Welcome 1</title>
     <style>
-        body 
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
         div { 
             display: flex; 
             justify-items: space-between; 
