@@ -4,29 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projecte Welcome 1</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        div { 
-            display: flex; 
-            justify-items: space-between; 
-            align-items: center;
-            margin: 16px;
-            gap: 16px;
-        }
-        img {
-            border: 2px solid black;
-            width: 130px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
 <h1>Projecte Welcome 1</h1>
-<ul>
+<table>
 <?php
     $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
+    $columns = 8;
+    $column = 0;
     foreach( $imgs as $img ) {
         if ($img == "." || $img == "..")
             continue;
@@ -35,16 +21,25 @@
         } else if (substr($img,-4) == "jpeg") {
             $name = substr($img,0,-5);
         }
-        echo "<div>\n";
+
+        
+        if ($column % $columns == 0)
+            echo "<tr>";
+        echo "<td>\n";
+        echo "<div class='profile'>\n";
         echo "  <img src='img/$img'>\n";
         echo "  <a href='profile/$name.html'>\n";
         echo "    ".$name."\n";
         echo "  </a>\n";
-        echo "</div>\n\n";
-
+        echo "</div>\n";
+        echo "</td>\n";
+        if ($column % $columns == 0) {
+            echo "</tr>";
+        }
+        $column++;
     }
 ?>
-</ul>
+</table>
 
 </body>
 </html>

@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+}
+h1 {
+    text-align: center;
+}
+.profile { 
+    display: flex; 
+    justify-items: space-between; 
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td {
+    border: 2px solid black;
+}
+img {
+    border: 2px solid black;
+    max-width: 130px;
+}
