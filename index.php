@@ -33,7 +33,7 @@
         echo "  </a>\n";
         echo "</div>\n";
         echo "</td>\n";
-        if ($column % $columns == 7) {
+        if ($column % $columns == $columns - 1) {
             echo "</tr>";
         }
         $column++;
