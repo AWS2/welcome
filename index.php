@@ -37,18 +37,18 @@
     <p>Llistat d'alumnes del Cicle formatiu de grau superior de Desenvolupament d'aplicacions Web de l'institut Esteve Terradas i Illa.</p>
     <ul>
         <?php
-        $imgs = scandir("./img",SCANDIR_SORT_ASCENDING);
-        foreach( $imgs as $img ) {
-            if( $img=="." || $img==".." )
+        $profiles = scandir("./profile",SCANDIR_SORT_ASCENDING);
+        foreach( $profiles as $profile ) {
+            if( $profile=="." || $profile==".." )
                 continue;
-            if( substr($img,-3)=="jpg" or substr($img,-3)=="png"){
-                $name = substr($img,0,-4);
-            }else if (substr($img,-4)=="jpeg") {
-                $name = substr($img,0,-5);
+            if( substr($profile,-3)=="htm"){
+                $name = substr($profile,0,-4);
+            }else if (substr($profile,-4)=="html") {
+                $name = substr($profile,0,-5);
             }
             echo "<li>\n";
             echo "\t<a href='profile/$name.html'>\n";
-            echo "\t<img src='img/$img' width='130' alt='$name'>\n";
+            echo "\t<img src='img/$name.jpg' width='130' alt='$name'>\n";
             echo "\t<span>".$name."</span></a>\n";
             echo "</li>\n";
         }
